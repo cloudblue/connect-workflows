@@ -1,0 +1,48 @@
+{
+    "name": "Fulfillment Request",
+    "default_image": "default.png",
+    "statuses": {
+        "Approved": {
+            "image": "approved.png",
+            "width": "17.6",
+            "height": "28.3",
+            "left": "81.0",
+            "top": "30.0"
+        },
+        "Draft": {
+            "image": "draft.png",
+            "width": "16.7",
+            "height": "30.2",
+            "left": "16.6",
+            "top": "30.5"
+        },
+        "Failed": {
+            "image": "failed.png",
+            "width": "17.6",
+            "height": "26.9",
+            "left": "81.1",
+            "top": "59.9"
+        },
+        "Inquiring": {
+            "image": "inquiring.png",
+            "width": "17.6",
+            "height": "29.2",
+            "left": "41.3",
+            "top": "29.8"
+        },
+        "Pending": {
+            "image": "pending.png",
+            "width": "17.2",
+            "height": "28.9",
+            "left": "61.5",
+            "top": "29.8"
+        },
+        "Tiers Setup": {
+            "image": "tiers-setup.png",
+            "width": "20.4",
+            "height": "23.2",
+            "left": "27.8",
+            "top": "61.5"
+        }
+    }
+}
