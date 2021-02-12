@@ -2,7 +2,7 @@
 
 Structured repository of Connect modules, objects and their statuses.
 
-[!workflow](https://github.com/cloudblue/connect-workflows/blob/main/subscriptions-fulfillment-request/approved.png?raw=true)
+![workflow](https://github.com/cloudblue/connect-workflows/blob/main/subscriptions-fulfillment-request/approved.png?raw=true)
 
 All of the modules and corresponding objects are listed in the workflows.json.
 
