@@ -1,0 +1,47 @@
+{
+    "name": "Request",
+    "default_image": "default.png",
+    "readme": "README.md",
+    "statuses": {
+        "Draft": {
+            "image": "draft.png",
+            "readme": "draft.md",
+            "width": "14.7",
+            "height": "24.9",
+            "left": "17.0",
+            "top": "25.1"
+        },
+        "Reviewing": {
+            "image": "reviewing.png",
+            "readme": "reviewing.md",
+            "width": "19.0",
+            "height": "25.4",
+            "left": "36.2",
+            "top": "24.5"
+        },
+        "Deploying": {
+            "image": "deploying.png",
+            "readme": "deploying.md",
+            "width": "19.0",
+            "height": "25.6",
+            "left": "58.2",
+            "top": "24.4"
+        },
+        "Completed": {
+            "image": "completed.png",
+            "readme": "completed.md",
+            "width": "18.6",
+            "height": "26.6",
+            "left": "80.4",
+            "top": "23.8"
+        },
+        "Cancelled": {
+            "image": "cancelled.png",
+            "readme": "cancelled.md",
+            "width": "18.9",
+            "height": "25.2",
+            "left": "80.4",
+            "top": "52.1"
+        }
+    }
+}

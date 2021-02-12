@@ -34,7 +34,10 @@
         },
         "Listings": {
             "description": "Monitor and process the queue of listing requests from your partners with the Listings Management module.",
-            "icon": "star"
+            "icon": "star",
+            "objects": [
+                "listings-request/object.json"
+            ]
         },
         "Marketplaces": {
             "description": "Define and control assignment of Hubs and Accounts to the Marketplaces with the Marketplaces Management module.",
