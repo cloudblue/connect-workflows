@@ -1,9 +1,11 @@
 {
     "name": "Fulfillment Request",
     "default_image": "default.png",
+    "readme": "README.md",
     "statuses": {
         "Approved": {
             "image": "approved.png",
+            "readme": "approved.md",
             "width": "17.6",
             "height": "28.3",
             "left": "81.0",
@@ -11,6 +13,7 @@
         },
         "Draft": {
             "image": "draft.png",
+            "readme": "draft.md",
             "width": "16.7",
             "height": "30.2",
             "left": "16.6",
@@ -18,6 +21,7 @@
         },
         "Failed": {
             "image": "failed.png",
+            "readme": "failed.md",
             "width": "17.6",
             "height": "26.9",
             "left": "81.1",
@@ -25,6 +29,7 @@
         },
         "Inquiring": {
             "image": "inquiring.png",
+            "readme": "inquiring.md",
             "width": "17.6",
             "height": "29.2",
             "left": "41.3",
@@ -32,6 +37,7 @@
         },
         "Pending": {
             "image": "pending.png",
+            "readme": "pending.md",
             "width": "17.2",
             "height": "28.9",
             "left": "61.5",
@@ -39,6 +45,7 @@
         },
         "Tiers Setup": {
             "image": "tiers-setup.png",
+            "readme": "tiers-setup.md",
             "width": "20.4",
             "height": "23.2",
             "left": "27.8",

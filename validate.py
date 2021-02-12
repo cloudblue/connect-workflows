@@ -70,7 +70,7 @@ def get_material_icon_names():
 def validate_object(obj_file):
     
     working_dir = os.path.split(obj_file)[0]
-    print(working_dir)
+    print(' ' * 8 + working_dir)
 
     with open(obj_file) as f:
         data = json.load(f)
@@ -83,11 +83,21 @@ def validate_object(obj_file):
 
     default_image = PIL.Image.open( os.path.join(working_dir, default_image_file) )
 
+    # validate that object readme file exists
+    object_readme_file = data['readme']
+    if not os.path.exists( os.path.join(working_dir, object_readme_file) ):
+        error('Object readme file not found')
+
     validation_html = ''
 
     # validate each status
     for status_name in data['statuses']:
         status = data['statuses'][status_name]
+
+        # validate that status readme file exists
+        status_readme_file = status['readme']
+        if not os.path.exists( os.path.join(working_dir, status_readme_file) ):
+            error('Status readme file not found :' + status_name )
 
         image = status['image']
         if not os.path.exists( os.path.join(working_dir, image) ):
@@ -115,7 +125,7 @@ def validate_object(obj_file):
         if top < 0 or top > 100:
             error('invalid top: ' + top)
 
-        validation_html += '<a class="area" style="left:{LEFT_PX}px; top:{TOP_PX}px; height:{HEIGHT_PX}px; width:{WIDTH_PX}px;" href="#">{AREA_NAME}</a>\n'.format(
+        validation_html += '<a class="area" style="left:{LEFT_PX}px; top:{TOP_PX}px; height:{HEIGHT_PX}px; width:{WIDTH_PX}px;" href="#{AREA_NAME}">{AREA_NAME}</a>\n'.format(
             LEFT_PX = int(left / 100.0 * img_width),
             TOP_PX = int(top / 100.0 * img_height),
             HEIGHT_PX = int(height / 100.0 * img_height),
@@ -124,7 +134,7 @@ def validate_object(obj_file):
         )
 
     validation_html += '<img src="{IMAGE_FILE}" width="{IMAGE_WIDTH}">\n'.format(
-        IMAGE_FILE = image,
+        IMAGE_FILE = default_image_file,
         IMAGE_WIDTH = img_width
         )
 
