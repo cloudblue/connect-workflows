@@ -12,7 +12,7 @@ areas_validation_html = '''
 <style>
 
 a {
-  color: white;
+  color: green;
 }
 
 .area {
@@ -35,10 +35,13 @@ a {
     <!-- 
         <a class="area" style="left:0px; top: 0px; height:100px; width:320px;" href="">area 1</a>
         <a class="area" style="left:320px; top: 0px; height:50px; width:320px;" href="#">area 2</a>
+        ...
         <img src="default.png" width="1000">
     -->
-    VALIDATION_HTML_GOES_HERE
+    IMAGEMAP_HTML_GOES_HERE
 </div>
+
+OBJECT_DESCRIPTION_GOES_HERE
 
 </body>
 </html>
@@ -84,12 +87,22 @@ def validate_object(obj_file):
 
     default_image = PIL.Image.open( os.path.join(working_dir, default_image_file) )
 
-    # validate that object readme file exists
+    imagemap_html = ''
+    validation_html = areas_validation_html
+    
+    # validate and render object readme
     object_readme_file = data['readme']
     if not os.path.exists( os.path.join(working_dir, object_readme_file) ):
         error('Object readme file not found')
 
-    validation_html = ''
+    with open(os.path.join(working_dir, object_readme_file), 'r') as m:
+        description_html = markdown.markdown(m.read())
+
+    validation_html = validation_html.replace( 'OBJECT_DESCRIPTION_GOES_HERE', description_html )
+
+    output_dir = os.path.join(working_dir, 'output')
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
     # validate each status
     for status_name in data['statuses']:
@@ -102,7 +115,7 @@ def validate_object(obj_file):
 
         # render markdown html
         from_markdown = os.path.join(working_dir, status_readme_file)
-        to_html = os.path.splitext(from_markdown)[0] + '.html'
+        to_html = os.path.join(output_dir, os.path.splitext(status_readme_file)[0] + '.html')
         markdown.markdownFromFile(
             input=from_markdown,
             output=to_html,
@@ -139,7 +152,7 @@ def validate_object(obj_file):
         validation_width = img_width / 2.0
         validation_height = img_height / 2.0
 
-        validation_html += '<a class="area" style="left:{LEFT_PX}px; top:{TOP_PX}px; height:{HEIGHT_PX}px; width:{WIDTH_PX}px;" href="{README_FILE}">{AREA_NAME}</a>\n'.format(
+        imagemap_html += '<a class="area" style="left:{LEFT_PX}px; top:{TOP_PX}px; height:{HEIGHT_PX}px; width:{WIDTH_PX}px;" href="{README_FILE}">{AREA_NAME}</a>\n'.format(
             LEFT_PX = int(left / 100.0 * validation_width),
             TOP_PX = int(top / 100.0 * validation_height),
             HEIGHT_PX = int(height / 100.0 * validation_height),
@@ -148,15 +161,14 @@ def validate_object(obj_file):
             README_FILE = os.path.splitext(status_readme_file)[0] + '.html'
         )
 
-    validation_html += '<img src="{IMAGE_FILE}" width="{IMAGE_WIDTH}">\n'.format(
-        IMAGE_FILE = default_image_file,
+    imagemap_html += '<img src="{IMAGE_FILE}" width="{IMAGE_WIDTH}">\n'.format(
+        IMAGE_FILE = '../' + default_image_file,
         IMAGE_WIDTH = validation_width
         )
 
-    with open( os.path.join(working_dir, 'validation.html'), "w") as validation_out:
-        validation_out.write(
-            areas_validation_html.replace( 'VALIDATION_HTML_GOES_HERE', validation_html )
-            )
+    validation_html = validation_html.replace( 'IMAGEMAP_HTML_GOES_HERE', imagemap_html )
+    with open( os.path.join(output_dir, 'index.html'), "w") as validation_out:
+        validation_out.write(validation_html)
 
 
 def main():
