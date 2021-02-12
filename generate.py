@@ -3,6 +3,7 @@
 import os
 import json
 import requests
+import markdown
 import PIL.Image
 
 areas_validation_html = '''
@@ -10,13 +11,13 @@ areas_validation_html = '''
 <head>
 <style>
 
-a:link {
+a {
   color: white;
 }
 
 .area {
     display:block;
-    opacity:0;
+    opacity:0.1;
     position:absolute;
     background-color: blue;
     text-align: center;
@@ -32,7 +33,7 @@ a:link {
 
 <div class="image">
     <!-- 
-        <a class="area" style="left:0px; top: 0px; height:100px; width:320px;" href="#">area 1</a>
+        <a class="area" style="left:0px; top: 0px; height:100px; width:320px;" href="">area 1</a>
         <a class="area" style="left:320px; top: 0px; height:50px; width:320px;" href="#">area 2</a>
         <img src="default.png" width="1000">
     -->
@@ -99,14 +100,24 @@ def validate_object(obj_file):
         if not os.path.exists( os.path.join(working_dir, status_readme_file) ):
             error('Status readme file not found :' + status_name )
 
+        # render markdown html
+        from_markdown = os.path.join(working_dir, status_readme_file)
+        to_html = os.path.splitext(from_markdown)[0] + '.html'
+        markdown.markdownFromFile(
+            input=from_markdown,
+            output=to_html,
+            encoding='utf8',
+        )
+
+        # validate that image exists
         image = status['image']
         if not os.path.exists( os.path.join(working_dir, image) ):
             error('image not found: ' + image)
 
+        # get image size
         status_image = PIL.Image.open( os.path.join(working_dir, image) )
         if status_image.size != default_image.size:
             error('Different image sizes wihin the same object')
-
         img_width, img_height = status_image.size
 
         width = float(status['width'])
@@ -125,17 +136,21 @@ def validate_object(obj_file):
         if top < 0 or top > 100:
             error('invalid top: ' + top)
 
-        validation_html += '<a class="area" style="left:{LEFT_PX}px; top:{TOP_PX}px; height:{HEIGHT_PX}px; width:{WIDTH_PX}px;" href="#{AREA_NAME}">{AREA_NAME}</a>\n'.format(
-            LEFT_PX = int(left / 100.0 * img_width),
-            TOP_PX = int(top / 100.0 * img_height),
-            HEIGHT_PX = int(height / 100.0 * img_height),
-            WIDTH_PX = int(width / 100.0 * img_width),
-            AREA_NAME = status_name
+        validation_width = img_width / 2.0
+        validation_height = img_height / 2.0
+
+        validation_html += '<a class="area" style="left:{LEFT_PX}px; top:{TOP_PX}px; height:{HEIGHT_PX}px; width:{WIDTH_PX}px;" href="{README_FILE}">{AREA_NAME}</a>\n'.format(
+            LEFT_PX = int(left / 100.0 * validation_width),
+            TOP_PX = int(top / 100.0 * validation_height),
+            HEIGHT_PX = int(height / 100.0 * validation_height),
+            WIDTH_PX = int(width / 100.0 * validation_width),
+            AREA_NAME = status_name,
+            README_FILE = os.path.splitext(status_readme_file)[0] + '.html'
         )
 
     validation_html += '<img src="{IMAGE_FILE}" width="{IMAGE_WIDTH}">\n'.format(
         IMAGE_FILE = default_image_file,
-        IMAGE_WIDTH = img_width
+        IMAGE_WIDTH = validation_width
         )
 
     with open( os.path.join(working_dir, 'validation.html'), "w") as validation_out:
