@@ -71,6 +71,99 @@ def get_material_icon_names():
     return ret
 
 
+def validate_transition(transition, known_statuses, output_dir, working_dir):
+
+    _from = transition["from"]
+    _to = transition["to"]
+    _image = transition["image"]
+    _readme = transition["readme"]
+
+    if _from not in ['Delete']:
+        if _from not in known_statuses:
+            error('unnknown from status used in transtion: ' + _from )
+
+    if _to not in ['Delete']:
+        if _to not in known_statuses:
+            error('unnknown to status used in transtion: ' + _to )
+
+    # validate that transition readme file exists
+    if not os.path.exists( os.path.join(working_dir, _readme) ):
+        error('Readme file not found for the transition: ' + _from + ' - ' + _to )
+
+    # render markdown html
+    from_markdown = os.path.join(working_dir, _readme)
+    to_html = os.path.join(output_dir, os.path.splitext(_readme)[0] + '.html')
+    markdown.markdownFromFile(
+        input=from_markdown,
+        output=to_html,
+        encoding='utf8',
+    )
+
+    # validate that transition image file exists
+    if not os.path.exists( os.path.join(working_dir, _image) ):
+        error('Image file for the transition not found: ' + _image )
+
+
+def validate_status(status_name, data, output_dir, working_dir, default_image):
+    
+    # validate that status readme file exists
+    status_readme_file = data['readme']
+    if not os.path.exists( os.path.join(working_dir, status_readme_file) ):
+        error('Status readme file not found :' + status_name )
+
+    # render markdown html
+    from_markdown = os.path.join(working_dir, status_readme_file)
+    to_html = os.path.join(output_dir, os.path.splitext(status_readme_file)[0] + '.html')
+    markdown.markdownFromFile(
+        input=from_markdown,
+        output=to_html,
+        encoding='utf8',
+    )
+
+    # validate that image exists
+    image = data['image']
+    if not os.path.exists( os.path.join(working_dir, image) ):
+        error('image not found: ' + image)
+
+    # get image size
+    status_image = PIL.Image.open( os.path.join(working_dir, image) )
+    img_width, img_height = status_image.size
+
+    # make sure all images within the object have the same size    
+    if status_image.size != default_image.size:
+        error('Different image sizes wihin the same object')
+
+    width = float(data['width'])
+    if width < 0 or width > 100:
+        error('invalid width: ' + width)
+
+    height = float(data['height'])
+    if height < 0 or height > 100:
+        error('invalid height: ' + height)
+
+    left = float(data['left'])
+    if left < 0 or left > 100:
+        error('invalid left: ' + left)
+
+    top = float(data['top'])
+    if top < 0 or top > 100:
+        error('invalid top: ' + top)
+
+    validation_width = img_width / 2.0
+    validation_height = img_height / 2.0
+
+    imagemap_html_line = '<a class="area" style="left:{LEFT_PX}px; top:{TOP_PX}px; height:{HEIGHT_PX}px; width:{WIDTH_PX}px;" href="{README_FILE}">{AREA_NAME}</a>\n'.format(
+        LEFT_PX = int(left / 100.0 * validation_width),
+        TOP_PX = int(top / 100.0 * validation_height),
+        HEIGHT_PX = int(height / 100.0 * validation_height),
+        WIDTH_PX = int(width / 100.0 * validation_width),
+        AREA_NAME = status_name,
+        README_FILE = os.path.splitext(status_readme_file)[0] + '.html'
+    )
+
+    return imagemap_html_line
+    
+
 def validate_object(obj_file):
     
     working_dir = os.path.split(obj_file)[0]
@@ -87,8 +180,9 @@ def validate_object(obj_file):
 
     default_image = PIL.Image.open( os.path.join(working_dir, default_image_file) )
 
-    imagemap_html = ''
-    validation_html = areas_validation_html
+    img_width, img_height = default_image.size
+    validation_width = img_width / 2.0
+    validation_height = img_height / 2.0
     
     # validate and render object readme
     object_readme_file = data['readme']
@@ -98,75 +192,32 @@ def validate_object(obj_file):
     with open(os.path.join(working_dir, object_readme_file), 'r') as m:
         description_html = markdown.markdown(m.read())
 
-    validation_html = validation_html.replace( 'OBJECT_DESCRIPTION_GOES_HERE', description_html )
-
     output_dir = os.path.join(working_dir, 'output')
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
+    imagemap_html = ''
+    known_statuses = []
+
     # validate each status
     for status_name in data['statuses']:
+        known_statuses.append(status_name)
         status = data['statuses'][status_name]
+        imagemap_html += validate_status(status_name, status, output_dir, working_dir, default_image)
 
-        # validate that status readme file exists
-        status_readme_file = status['readme']
-        if not os.path.exists( os.path.join(working_dir, status_readme_file) ):
-            error('Status readme file not found :' + status_name )
-
-        # render markdown html
-        from_markdown = os.path.join(working_dir, status_readme_file)
-        to_html = os.path.join(output_dir, os.path.splitext(status_readme_file)[0] + '.html')
-        markdown.markdownFromFile(
-            input=from_markdown,
-            output=to_html,
-            encoding='utf8',
-        )
-
-        # validate that image exists
-        image = status['image']
-        if not os.path.exists( os.path.join(working_dir, image) ):
-            error('image not found: ' + image)
-
-        # get image size
-        status_image = PIL.Image.open( os.path.join(working_dir, image) )
-        if status_image.size != default_image.size:
-            error('Different image sizes wihin the same object')
-        img_width, img_height = status_image.size
-
-        width = float(status['width'])
-        if width < 0 or width > 100:
-            error('invalid width: ' + width)
-
-        height = float(status['height'])
-        if height < 0 or height > 100:
-            error('invalid height: ' + height)
-
-        left = float(status['left'])
-        if left < 0 or left > 100:
-            error('invalid left: ' + left)
-
-        top = float(status['top'])
-        if top < 0 or top > 100:
-            error('invalid top: ' + top)
-
-        validation_width = img_width / 2.0
-        validation_height = img_height / 2.0
-
-        imagemap_html += '<a class="area" style="left:{LEFT_PX}px; top:{TOP_PX}px; height:{HEIGHT_PX}px; width:{WIDTH_PX}px;" href="{README_FILE}">{AREA_NAME}</a>\n'.format(
-            LEFT_PX = int(left / 100.0 * validation_width),
-            TOP_PX = int(top / 100.0 * validation_height),
-            HEIGHT_PX = int(height / 100.0 * validation_height),
-            WIDTH_PX = int(width / 100.0 * validation_width),
-            AREA_NAME = status_name,
-            README_FILE = os.path.splitext(status_readme_file)[0] + '.html'
-        )
+    # validate each transition
+    for transition in data['transitions']:
+        validate_transition(transition, known_statuses, output_dir, working_dir)
 
     imagemap_html += '<img src="{IMAGE_FILE}" width="{IMAGE_WIDTH}">\n'.format(
         IMAGE_FILE = '../' + default_image_file,
         IMAGE_WIDTH = validation_width
         )
 
+    validation_html = areas_validation_html
+    validation_html = validation_html.replace( 'OBJECT_DESCRIPTION_GOES_HERE', description_html )
     validation_html = validation_html.replace( 'IMAGEMAP_HTML_GOES_HERE', imagemap_html )
+
     with open( os.path.join(output_dir, 'index.html'), "w") as validation_out:
         validation_out.write(validation_html)
 

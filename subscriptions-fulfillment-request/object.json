@@ -3,53 +3,91 @@
     "default_image": "default.png",
     "readme": "README.md",
     "statuses": {
-        "Approved": {
-            "image": "approved.png",
-            "readme": "approved.md",
-            "width": "17.6",
-            "height": "28.3",
-            "left": "81.0",
-            "top": "30.0"
-        },
         "Draft": {
-            "image": "draft.png",
-            "readme": "draft.md",
-            "width": "16.7",
-            "height": "30.2",
-            "left": "16.6",
-            "top": "30.5"
-        },
-        "Failed": {
-            "image": "failed.png",
-            "readme": "failed.md",
-            "width": "17.6",
-            "height": "26.9",
-            "left": "81.1",
-            "top": "59.9"
-        },
-        "Inquiring": {
-            "image": "inquiring.png",
-            "readme": "inquiring.md",
-            "width": "17.6",
-            "height": "29.2",
-            "left": "41.3",
-            "top": "29.8"
+            "image": "s-draft.png",
+            "readme": "s-draft.md",
+            "width": "12.5",
+            "height": "22.6",
+            "left": "9.9",
+            "top": "77.1"
         },
         "Pending": {
-            "image": "pending.png",
-            "readme": "pending.md",
-            "width": "17.2",
-            "height": "28.9",
-            "left": "61.5",
-            "top": "29.8"
+            "image": "s-pending.png",
+            "readme": "s-pending.md",
+            "width": "16",
+            "height": "23.7",
+            "left": "42.6",
+            "top": "35.9"
+        },
+        "Inquiring": {
+            "image": "s-inquiring.png",
+            "readme": "s-inquiring.md",
+            "width": "16",
+            "height": "21.0",
+            "left": "42.2",
+            "top": "1.3"
         },
         "Tiers Setup": {
-            "image": "tiers-setup.png",
-            "readme": "tiers-setup.md",
-            "width": "20.4",
-            "height": "23.2",
-            "left": "27.8",
-            "top": "61.5"
+            "image": "s-tiers-setup.png",
+            "readme": "s-tiers-setup.md",
+            "width": "21.0",
+            "height": "21.8",
+            "left": "40.1",
+            "top": "77.1"
+        },
+        "Approved": {
+            "image": "s-approved.png",
+            "readme": "s-approved.md",
+            "width": "18.4",
+            "height": "24.0",
+            "left": "82",
+            "top": "35.8"
+        },
+        "Failed": {
+            "image": "s-failed.png",
+            "readme": "s-failed.md",
+            "width": "18.0",
+            "height": "23.5",
+            "left": "82",
+            "top": "75.3"
         }
-    }
+    },
+    "transitions": [
+        {
+            "from": "Draft",
+            "to": "Delete",
+            "image": "t-draft-delete.png",
+            "readme": "t-draft-delete.md"
+        },
+        {
+            "from": "Draft",
+            "to": "Pending",
+            "image": "t-draft-pending.png",
+            "readme": "t-draft-pending.md"
+        },
+        {
+            "from": "Inquiring",
+            "to": "Pending",
+            "image": "t-inquiring-pending.png",
+            "readme": "t-inquiring-pending.md"
+        },
+        {
+            "from": "Pending",
+            "to": "Approved",
+            "image": "t-pending-approved.png",
+            "readme": "t-pending-approved.md"
+        },
+        {
+            "from": "Pending",
+            "to": "Failed",
+            "image": "t-pending-failed.png",
+            "readme": "t-pending-failed.md"
+        },
+        {
+            "from": "Pending",
+            "to": "Inquiring",
+            "image": "t-pending-inquiring.png",
+            "readme": "t-pending-inquiring.md"
+        }
+    ]
 }
