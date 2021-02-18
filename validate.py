@@ -136,7 +136,7 @@ def main():
 
     print('validating modules...')
 
-    with open('./workflows.json') as f:
+    with open('./modules.json') as f:
         data = json.load(f)
 
     counter = 1
