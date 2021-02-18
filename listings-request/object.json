@@ -1,49 +1,71 @@
 {
     "name": "Request",
-    "default_image": "default.png",
-    "readme": "README.md",
-    "statuses": {
-        "Draft": {
-            "image": "s-draft.png",
-            "readme": "s-draft.md",
-            "width": "14.7",
-            "height": "24.9",
-            "left": "17.0",
-            "top": "25.1"
+    "image": "object.png",
+    "readme": "object.md",
+    "statuses": [
+        {
+            "id": "s-a-draft",
+            "name": "Draft"
         },
-        "Reviewing": {
-            "image": "s-reviewing.png",
-            "readme": "s-reviewing.md",
-            "width": "19.0",
-            "height": "25.4",
-            "left": "36.2",
-            "top": "24.5"
+        {
+            "id": "s-b-reviewing",
+            "name": "Reviewing"
         },
-        "Deploying": {
-            "image": "s-deploying.png",
-            "readme": "s-deploying.md",
-            "width": "19.0",
-            "height": "25.6",
-            "left": "58.2",
-            "top": "24.4"
+        {
+            "id": "s-c-deploying",
+            "name": "Deploying"
         },
-        "Completed": {
-            "image": "s-completed.png",
-            "readme": "s-completed.md",
-            "width": "18.6",
-            "height": "26.6",
-            "left": "80.4",
-            "top": "23.8"
+        {
+            "id": "s-d-completed",
+            "name": "Completed"
         },
-        "Cancelled": {
-            "image": "s-cancelled.png",
-            "readme": "s-cancelled.md",
-            "width": "18.9",
-            "height": "25.2",
-            "left": "80.4",
-            "top": "52.1"
+        {
+            "id": "s-e-cancelled",
+            "name": "Cancelled"
         }
-    },
+    ],
     "transitions": [
+        {
+            "id": "t-1-new-draft",
+            "from": "New",
+            "to": "Draft",
+            "name": "1. Vendor starts populating data"
+        },
+        {
+            "id": "t-2-draft-deleted",
+            "from": "Draft",
+            "to": "Deleted",
+            "name": "2. Vendor deletes request before submitting to the Distributor"
+        },
+        {
+            "id": "t-3-draft-reviewing",
+            "from": "Draft",
+            "to": "Reviewing",
+            "name": "3. Vendor submits request to the Distributor"
+        },
+        {
+            "id": "t-4-reviewing-deploying",
+            "from": "Reviewing",
+            "to": "Deploying",
+            "name": "4. Distributor approves and proceeds to the deployment"
+        },
+        {
+            "id": "t-5-deploying-completed",
+            "from": "Deploying",
+            "to": "Completed",
+            "name": "5. Distributor completes all operational activities"
+        },
+        {
+            "id": "t-6-deploying-cancelled",
+            "from": "Deploying",
+            "to": "Cancelled",
+            "name": "6. Distributor rejects to proceed with the deployment"
+        },
+        {
+            "id": "t-7-reviewing-cancelled",
+            "from": "Reviewing",
+            "to": "Cancelled",
+            "name": "7. Distributor rejects to proceed with the request"
+        }
     ]
 }

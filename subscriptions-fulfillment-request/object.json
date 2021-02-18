@@ -1,93 +1,104 @@
 {
     "name": "Fulfillment Request",
-    "default_image": "default.png",
-    "readme": "README.md",
-    "statuses": {
-        "Draft": {
-            "image": "s-draft.png",
-            "readme": "s-draft.md",
-            "width": "12.5",
-            "height": "22.6",
-            "left": "9.9",
-            "top": "77.1"
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-draft",
+            "name": "Draft"
         },
-        "Pending": {
-            "image": "s-pending.png",
-            "readme": "s-pending.md",
-            "width": "16",
-            "height": "23.7",
-            "left": "42.6",
-            "top": "35.9"
+        {
+            "id": "s-b-pending",
+            "name": "Pending"
         },
-        "Inquiring": {
-            "image": "s-inquiring.png",
-            "readme": "s-inquiring.md",
-            "width": "16",
-            "height": "21.0",
-            "left": "42.2",
-            "top": "1.3"
+        {
+            "id": "s-c-tiers-setup",
+            "name": "Tiers Setup"
         },
-        "Tiers Setup": {
-            "image": "s-tiers-setup.png",
-            "readme": "s-tiers-setup.md",
-            "width": "21.0",
-            "height": "21.8",
-            "left": "40.1",
-            "top": "77.1"
+        {
+            "id": "s-d-inquiring",
+            "name": "Inquiring"
         },
-        "Approved": {
-            "image": "s-approved.png",
-            "readme": "s-approved.md",
-            "width": "18.4",
-            "height": "24.0",
-            "left": "82",
-            "top": "35.8"
+        {
+            "id": "s-e-approved",
+            "name": "Approved"
         },
-        "Failed": {
-            "image": "s-failed.png",
-            "readme": "s-failed.md",
-            "width": "18.0",
-            "height": "23.5",
-            "left": "82",
-            "top": "75.3"
+        {
+            "id": "s-f-failed",
+            "name": "Failed"
         }
-    },
+    ],
     "transitions": [
         {
-            "from": "Draft",
-            "to": "Delete",
-            "image": "t-draft-delete.png",
-            "readme": "t-draft-delete.md"
+            "id": "t-1-new-pending",
+            "from": "New",
+            "to": "Pending",
+            "name": "1. Buyer creates fulfillment request (provisioning)"
         },
         {
+            "id": "t-2-new-draft",
+            "from": "New",
+            "to": "Draft",
+            "name": "2. Buyer creates draft request"
+        },
+        {
+            "id": "t-3-draft-pending",
             "from": "Draft",
             "to": "Pending",
-            "image": "t-draft-pending.png",
-            "readme": "t-draft-pending.md"
+            "name": "3. Buyer decides to provision a draft"
         },
         {
-            "from": "Inquiring",
-            "to": "Pending",
-            "image": "t-inquiring-pending.png",
-            "readme": "t-inquiring-pending.md"
+            "id": "t-4-draft-deleted",
+            "from": "Draft",
+            "to": "Deleted",
+            "name": "4. Garbage Collection"
         },
         {
+            "id": "t-5-pending-tiers-setup",
             "from": "Pending",
-            "to": "Approved",
-            "image": "t-pending-approved.png",
-            "readme": "t-pending-approved.md"
+            "to": "Tiers Setup",
+            "name": "5. System waits for TC Request to complete"
         },
         {
-            "from": "Pending",
+            "id": "t-6-tiers-setup-failed",
+            "from": "Tiers Setup",
             "to": "Failed",
-            "image": "t-pending-failed.png",
-            "readme": "t-pending-failed.md"
+            "name": "6. TC Request has been failed"
         },
         {
+            "id": "t-7-tiers-setup-pending",
+            "from": "Tiers Setup",
+            "to": "Pending",
+            "name": "7. TC Request has been successfully completed"
+        },
+        {
+            "id": "t-8-pending-inquiring",
             "from": "Pending",
             "to": "Inquiring",
-            "image": "t-pending-inquiring.png",
-            "readme": "t-pending-inquiring.md"
+            "name": "8. System asks for the missing required parameters"
+        },
+        {
+            "id": "t-9-pending-inquiring",
+            "from": "Pending",
+            "to": "Inquiring",
+            "name": "9. Vendor asks for parameters"
+        },
+        {
+            "id": "t-10-inquiring-pending",
+            "from": "Inquiring",
+            "to": "Pending",
+            "name": "10. Customer submits required data"
+        },
+        {
+            "id": "t-11-pending-inquiring",
+            "from": "Pending",
+            "to": "Inquiring",
+            "name": "11. Vendor successfully completes the request"
+        },
+        {
+            "id": "t-12-pending-failed",
+            "from": "Pending",
+            "to": "Failed",
+            "name": "12. Vendor irreversibly fails the request"
         }
     ]
 }
