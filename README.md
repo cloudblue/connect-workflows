@@ -1,4 +1,4 @@
-# Connect Platform Workflows
+# CloudBlue Connect Platform Workflows Repository
 
 Documentation repository of Connect modules, objects, statuses and transitions between them.
 
