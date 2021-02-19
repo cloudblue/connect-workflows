@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+</style>
+<meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type='text/javascript' src='http://davidlynch.org/projects/maphilight/jquery.maphilight.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.map').maphilight({ alwaysOn: true });
+            // uncomment this line for normal hover highlighting
+            // $('.map').maphilight();
+        });   
+    </script>
+</head>
+<body>
+
+<!-- Edit with https://summerstyle.github.io/summer/ below -->
+
+<img class="map" src="object.png" alt="" usemap="#map" />
+<map name="map">
+    <area shape="rect" coords="393, 475, 565, 685" href="#s-a-draft" />
+    <area shape="rect" coords="856, 455, 1161, 701" href="#s-b-reviewing" />
+    <area shape="rect" coords="1176, 60, 1459, 287" href="#s-c-deploying" />
+    <area shape="rect" coords="1671, 49, 1936, 292" href="#s-d-completed" />
+    <area shape="rect" coords="1637, 801, 1965, 1063" href="#s-e-cancelled" />
+    
+    <area shape="rect" coords="181, 495, 349, 550" href="#t-1-new-draft" />
+    <area shape="rect" coords="314, 750, 644, 821" href="#t-2-draft-deleted" />
+    <area shape="rect" coords="595, 482, 846, 554" href="#t-3-draft-reviewing" />
+    <area shape="rect" coords="860, 326, 1143, 400" href="#t-4-reviewing-deploying" />
+    <area shape="rect" coords="1465, 89, 1663, 149" href="#t-5-deploying-completed" />
+    <area shape="rect" coords="1165, 323, 1475, 400" href="#t-6-deploying-cancelled" />
+    <area shape="rect" coords="868, 747, 1137, 826" href="#t-7-reviewing-cancelled" />
+</map>
+
+<!-- Edit with https://summerstyle.github.io/summer/ above -->
+
+</body>
+</html>

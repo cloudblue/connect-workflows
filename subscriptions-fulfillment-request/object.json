@@ -1,55 +1,104 @@
 {
     "name": "Fulfillment Request",
-    "default_image": "default.png",
-    "readme": "README.md",
-    "statuses": {
-        "Approved": {
-            "image": "approved.png",
-            "readme": "approved.md",
-            "width": "17.6",
-            "height": "28.3",
-            "left": "81.0",
-            "top": "30.0"
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-draft",
+            "name": "Draft"
         },
-        "Draft": {
-            "image": "draft.png",
-            "readme": "draft.md",
-            "width": "16.7",
-            "height": "30.2",
-            "left": "16.6",
-            "top": "30.5"
+        {
+            "id": "s-b-pending",
+            "name": "Pending"
         },
-        "Failed": {
-            "image": "failed.png",
-            "readme": "failed.md",
-            "width": "17.6",
-            "height": "26.9",
-            "left": "81.1",
-            "top": "59.9"
+        {
+            "id": "s-c-tiers-setup",
+            "name": "Tiers Setup"
         },
-        "Inquiring": {
-            "image": "inquiring.png",
-            "readme": "inquiring.md",
-            "width": "17.6",
-            "height": "29.2",
-            "left": "41.3",
-            "top": "29.8"
+        {
+            "id": "s-d-inquiring",
+            "name": "Inquiring"
         },
-        "Pending": {
-            "image": "pending.png",
-            "readme": "pending.md",
-            "width": "17.2",
-            "height": "28.9",
-            "left": "61.5",
-            "top": "29.8"
+        {
+            "id": "s-e-approved",
+            "name": "Approved"
         },
-        "Tiers Setup": {
-            "image": "tiers-setup.png",
-            "readme": "tiers-setup.md",
-            "width": "20.4",
-            "height": "23.2",
-            "left": "27.8",
-            "top": "61.5"
+        {
+            "id": "s-f-failed",
+            "name": "Failed"
         }
-    }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-pending",
+            "from": "New",
+            "to": "Pending",
+            "name": "1. Buyer creates fulfillment request (provisioning)"
+        },
+        {
+            "id": "t-2-new-draft",
+            "from": "New",
+            "to": "Draft",
+            "name": "2. Buyer creates draft request"
+        },
+        {
+            "id": "t-3-draft-pending",
+            "from": "Draft",
+            "to": "Pending",
+            "name": "3. Buyer decides to provision a draft"
+        },
+        {
+            "id": "t-4-draft-deleted",
+            "from": "Draft",
+            "to": "Deleted",
+            "name": "4. Garbage Collection"
+        },
+        {
+            "id": "t-5-pending-tiers-setup",
+            "from": "Pending",
+            "to": "Tiers Setup",
+            "name": "5. System waits for TC Request to complete"
+        },
+        {
+            "id": "t-6-tiers-setup-failed",
+            "from": "Tiers Setup",
+            "to": "Failed",
+            "name": "6. TC Request has been failed"
+        },
+        {
+            "id": "t-7-tiers-setup-pending",
+            "from": "Tiers Setup",
+            "to": "Pending",
+            "name": "7. TC Request has been successfully completed"
+        },
+        {
+            "id": "t-8-pending-inquiring",
+            "from": "Pending",
+            "to": "Inquiring",
+            "name": "8. System asks for the missing required parameters"
+        },
+        {
+            "id": "t-9-pending-inquiring",
+            "from": "Pending",
+            "to": "Inquiring",
+            "name": "9. Vendor asks for parameters"
+        },
+        {
+            "id": "t-10-inquiring-pending",
+            "from": "Inquiring",
+            "to": "Pending",
+            "name": "10. Customer submits required data"
+        },
+        {
+            "id": "t-11-pending-inquiring",
+            "from": "Pending",
+            "to": "Inquiring",
+            "name": "11. Vendor successfully completes the request"
+        },
+        {
+            "id": "t-12-pending-failed",
+            "from": "Pending",
+            "to": "Failed",
+            "name": "12. Vendor irreversibly fails the request"
+        }
+    ]
 }
