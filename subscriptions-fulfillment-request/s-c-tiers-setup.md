@@ -1,6 +1,6 @@
 # Tiers Setup Request Status
 ## Description
-The tiers setup fulfillment request status indicates that this fulfillment request requires configuration of tier (reseller and customer) accounts. Tier configuration can be successfully completed or failed and transferred to corresponding state.
+The tiers setup fulfillment request status indicates that this fulfillment request requires configuration of tier accounts. Tier configuration can be successfully completed or failed and transferred to corresponding state. Refer to the [Connect community page](https://connect.cloudblue.com/community/modules/tier-config/) to learn more about tier configuration. 
 ## Subscription status
 Fulfillment requests with the *tiers setup* status are interconnected with the following Subscription status:
 **Processing**

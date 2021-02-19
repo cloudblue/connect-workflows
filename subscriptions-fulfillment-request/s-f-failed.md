@@ -10,5 +10,5 @@ A fulfillment request can be transferred to the **Failed** state in case this re
 * [Pending](s-b-pending.html)
 * [Tiers Setup](s-c-tiers-setup.html)
 ## Associated midway states
-[Tier Configuration Failure](t-6-tiers-setup-failed)
-[Pending Request Rejection](t-12-pending-failed)
+* [Tier Configuration Failure](t-6-tiers-setup-failed)
+* [Pending Request Rejection](t-12-pending-failed)

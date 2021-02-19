@@ -1,6 +1,6 @@
 # Draft Request Status
 ## Description
-The draft fulfillment request status indicates that this fulfillent request is not complete and not submitted to a Vendor. Buyers create draft requests in case further subscription information will be specified or edited later. Thereafter, byuers can convert this draft to a pending fulfillment request or delete this draft request.
+The draft fulfillment request status indicates that this fulfillent request is not complete and not submitted to a Vendor. Buyers create draft requests in case further subscription information will be specified or edited. Thereafter, byuers can convert this draft to a pending fulfillment request or delete this draft by cancelling a subscription request.
 ## Prerequisites
 A listed product and an active distribution contract are required to create a draft request.
 ## Transferable statuses

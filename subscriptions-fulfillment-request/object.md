@@ -2,7 +2,7 @@
 ## Description
 Fulfillment requests (or Subscription requests) represent product orders that are originated from Provider’s commerce systemd and sent to Vendors. To process fulfillment requests, Vendors require information not only relative to their product, but also about the customer, supply chain, marketplaces, etc. Therefore, the Connect platform stores and provides all required data to process fullfillment requests.
 Fulfillment requests are interconnected with Subscriptions, and these requests are stored within the Subscriptions module. Thus, for instance, a purchase request create a subscription, while a cancel request terminate it. However, **Fulfillment requests should not be confused with Subscriptions** as they represent different objects within the Connect platform.
-## Request Statuses
+## Request statuses
 The list below displays available statuses for fulfillment requests on the CloudBlue Connect platform. Select a status from the provided diagram or click on any of the following contextual links to access detailed status information:
 * [Draft](s-a-draft.html)
 * [Pending](s-b-pending.html)
@@ -10,7 +10,7 @@ The list below displays available statuses for fulfillment requests on the Cloud
 * [Inquiring](s-d-inquiring.html)
 * [Approved](s-e-approved.html)
 * [Failed](s-f-failed.html)
-## Midway States
+## Midway states
 Choose a midway state from the provided diagram or click on any of the following contextual links to access midway state information:
 * [Pending Request Creation](t-1-new-pending.html)
 * [Draft Request Creation](t-2-new-draft.html)
