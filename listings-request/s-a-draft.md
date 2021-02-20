@@ -1,33 +1,11 @@
-Lorem markdownum foribus pontus, ut medii in solas ungues. Obstiterit erat
-languentique fistula ornate animam lactentem duorum ordine potentem norint lilia
-qui.
-
-    certificate(-5, 437038);
-    if (telecommunications_resolution - 5 - bridgeLeak) {
-        surface = chip_domain_down.cps(2, wpa, 18 + text);
-        rtf_base_download(tablet, 4, mouse_processor_dial(raid, character,
-                odbc_template_mask));
-        touchscreenEsportsBar += freeware_dvi;
-    } else {
-        symbolic_backlink_service(dtdPad - printerTCard, nui);
-        payload = vga;
-    }
-    bootData(joystickGraphic + open.sql_wins(offline, 1, ssl_pipeline));
-    biometrics_play_crossplatform += barebones_post(null_hard, bus.frequency(
-            wheelQuery), 1);
-
-Arva est Calydona saevitiae per ferro ministri Aetnen damnatus *latrare plenaque
-accipe* inpia in iacit. Imagine imagine, est, et ara Caesareo *non cretus*
-rependatur caro, unam dumque famulosne foramen, sub lapsum? Ager contrahitur
-clam: collem rector pectora nimiumque lunares Amphitryoniadae quamquam de campos
-consorte nihil.
-
-- Qui decorum frustra ubi abibo in imis
-- Putri ignarus inter
-- Deum silvis Picus planxerunt di summa qui
-- Talia se ingentia confinia
-- Rectorque sed classe postquam diduxit illa virgo
-
-Indignis viscera Canentis: verba cadunt tristia securim deorum. Unam indiciumque
-cura, tantum, concha nidos, sumpsisse tecta penatibus omnia exhalari regione
-clamor deinde idonea?
+# Draft Request Status
+## Description
+The draft listing request status indicates that this listing request is not complete and not submitted to Distributors for a review. Once Vendors provide all required data, this draft converts to *Reviewing* listing request. Otherwise, Vendors cancel their listing request creation and this draft is deleted.   
+## Prerequisites
+A published product and an active distribution contract are required to create a listing request.
+## Transferable statuses
+Once a Vendor submits a listing request to a Provider, this draft listing request is assigned to the [Reviewing](s-b-reviewing.html) status.
+## Associated midway states
+* [Draft Request Creation](t-1-new-draft.html)
+* [Draft Request Removal](t-2-draft-deleted.html)
+* [Draft to Reviewing Request Convertion](t-3-draft-reviewing.html)
