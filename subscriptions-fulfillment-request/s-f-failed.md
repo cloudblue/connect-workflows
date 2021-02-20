@@ -1,36 +1,14 @@
-**Lorem markdownum Hyrie** inritaturque, concubitus moratus; Ityn natus aquas
-ante, ipse tolerare perfidiae, demisit. Mali litore det
-[guttae](http://verbis.org/aequoreos) inplet utque exit non dolusque remige ad
-nymphis sic mens fulva quem vincla.
+# Failed Request Status 
+## Description
+The failed fulfillment request status is displayed in case a fulfillment request created by a buyer was rejected by a Vendor. Furthermore, this status is displayed in case the tiers configuration is failed. Note that the failed request status is a teminal state, meaning **failed fulfillment requests could not be restored**. Therefore, it is recommended to reject such requests only in case of an unrecoverable error.
+## Subscription status
+Failed subscription requests are interconnected with the following Subscription status:
+**Terminated**
+## Prerequisites
+A fulfillment request can be transferred to the **Failed** state in case this request is assigned to one of the following statuses: 
 
-Tollere [ratis](http://et-turbata.net/retemptantem) et per abstulit potest
-praeterque dant terrae mutua quaeritur parente si cretus **errat convertit
-quoniamque** modo? Pictas erat, superesse, quoque, carus suspenderat **quaeque
-ante** mori, mea *tua* aequor ab, quam. Partem vestro dixit! Pallet nec
-obscuraque fetus ab paucis, videtur ardore vocalis serpunt. Monstri Diti fama
-porrexit retinet arce Anaxareten mensis omen invocat.
-
-- In iungunt tincta fuisset
-- Imago dum ruborem aliquam et feret totque
-- Excipit Sol
-- Eat aetas
-- Silentia cui invita sed viva fulmen ingens
-- Verbaque centum murum
-
-Dixit quam atris tunc indignata nodosa haesit pariterque Thebae est: *Finis
-tenet*. Rimas iuvat nondum artes modo sanguis ad bracchia parantem. Illa oculos,
-est auctor sede et maior vidit eadem oscula fata gravitate sibi fovit effluat
-has!
-
-Meas sententia flavum nam illo Dumque. Dum sed perdideris plenum restituit
-pinxit latuitque pondere nati. Fugiens agit nymphis manus. Quam est draconum
-**pontum si Sparte** argumenta tempora gaude ingratasque haec formae erat advena
-hunc dolor parentes protexi vigilans. Paravi cum stravit abstulit quo **hoc ad
-subruit** Burin movere tecto quodque in rigido recurvatis venatum.
-
-> Nisi eadem Cinyras tellus, et temporis gratare iniqui cuspis rapior sopor!
-> Captam vias quae iam: dicere e quibus quantum foret; genitus. Cacumen nunc sed
-> [properare versat amictus](http://sola-festis.org/argolicasmentem.php) hunc
-> et, oculis non starent, hunc, nil, et. Latus heu populi saecula erat omen si
-> pars sollertia appellare visus. Contrarius artus tam ubi serisque artus,
-> protinus ira nympha aratro, iniquae membra [parabat](http://www.flammae.io/).
+* [Pending](s-b-pending.html)
+* [Tiers Setup](s-c-tiers-setup.html)
+## Associated midway states
+* [Tier Configuration Failure](t-6-tiers-setup-failed)
+* [Pending Request Rejection](t-12-pending-failed)

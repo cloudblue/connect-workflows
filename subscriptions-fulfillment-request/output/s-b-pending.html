@@ -1,0 +1,30 @@
+<h1>Pending Request Status</h1>
+<h2>Description</h2>
+<p>The pending fulfillment request status represents a transient state assigned to a request when product fulfillment is pending. Vendors can approve or reject pending request. Furthermore, Vendors or the system can ask customer to fill out specified product parameters within this state. In case tiers setup is required, the system will transfer this request to the corresponding state.</p>
+<h2>Subscription status</h2>
+<p>Pending fulfillment requests are interconnected with the following Subscription status:
+<strong>Processing</strong></p>
+<h2>Prerequisites</h2>
+<p>A listed product and active distribution contract are required to create a pending fulfillment request. Fulfillment requests can also get the <em>pending</em> status from the following states:</p>
+<ul>
+<li><a href="s-a-draft.html">Draft</a></li>
+<li><a href="s-c-tiers-setup.html">Tiers Setup</a></li>
+<li><a href="s-d-inquiring.html">Inquiring</a></li>
+</ul>
+<h2>Transferable statuses</h2>
+<p>In case any parameter data is required, a pending request can be switched to the <a href="s-d-inquiring.html">Inquiring</a>) state.
+If tier configuration is required, a request can get the <a href="s-c-tiers-setup.html">Tiers Setup</a> status.
+In case of on an error, a Vendor can reject a fulfillment request and assign the <a href="s-f-failed.html">Failed</a> status to this request.
+Once a Vendor appoves a fulfillment request, this request transfers to the <a href="s-e-approved.html">Approved</a> state.</p>
+<h2>Associated midway states</h2>
+<ul>
+<li><a href="t-1-new-pending.html">Pending Request Creation</a></li>
+<li><a href="t-3-draft-pending.html">Draft to Pending Convertion</a></li>
+<li><a href="t-5-pending-tiers-setup.html">Pending to Tiers Setup Convertion</a></li>
+<li><a href="t7-tiers-setup-pending.html">Completed Tiers Configuration</a></li>
+<li><a href="t8-pending-inquiring.html">System Parameters Inquiry</a></li>
+<li><a href="t9-pending-inquiring.html">Vendor Parameters Inquiry</a></li>
+<li><a href="t10-inquiring-pending.html">Inquiring Data Provision</a></li>
+<li><a href="t11-pending-approved.html">Pending Request Approval</a></li>
+<li><a href="t-12-pending-failed">Pending Request Rejection</a></li>
+</ul>

@@ -1,21 +1,7 @@
-Lorem markdownum ostendit manibus novas: gemino qui, hoc vinctoque, prima dubio
-tantae, sanguine! Rependis invitas ceras nec procul, cum nepotis dixit Stygiis
-ventos frondes vesci: ferro et expulsa celeberrima; superi. Curae et **coetus**
-ordine; mihi vale locus, cornum nulla multa *conciperet*. Comas crescit liquidum
-maledicere sextae temerasse et illa recolligat iram. Donata imitamina vestem
-unco tam viris qui sequenti quae?
-
-1. Didicit tenderet opus siccis
-2. Argumenta ventis
-3. Amatas cupido mollibus inferior
-
-Vires nuntia *me* loqui habet inde planus mihi videt lenisque transit, litoreo
-modo, cornua, ne coniunx. Taurum praestantior Talia. Deum manu silices *Aonios*
-procul: age gemini retenta pectora quem quae adfuit *mansit fraterni*; aetheriae
-venientem et.
-
-1. Pallante raro est moenibus Maeonios agilis
-2. Adducere Thracia bibisset
-3. Resque omni movit Aesonis tibi concursibus temeraria
-4. Potestis ignes
-5. Cunctaque omnia
+# Draft Request Creation
+## Description
+This midway state indicates that a buyer generates a new draft fulfillment request. These requests are created in case further subscription information will be specified or edited. Thereafter, this byuer can convert this draft to a pending fulfillment request or delete this draft by cancelling a subscription request.
+## Prerequisites
+A listed product and an active distribution contract are required to generate a new draft request.
+## Operation results
+A new fulfillment request with the [Draft](s-a-draft.html) status is created as a result of this operation.
