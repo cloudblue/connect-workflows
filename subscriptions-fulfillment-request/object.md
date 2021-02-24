@@ -15,7 +15,7 @@ Choose a transition from the provided diagram or click on any of the following c
 * [Pending Request Creation](t-1-new-pending.html)
 * [Draft Request Creation](t-2-new-draft.html)
 * [Draft to Pending Convertion](t-3-draft-pending.html)
-* [Draft Request Removal][t-4-draft-deleted.html]
+* [Draft Request Removal](t-4-draft-deleted.html)
 * [Pending to Tiers Setup Convertion](t-5-pending-tiers-setup.html)
 * [Tier Configuration Failure](t-6-tiers-setup-failed.html)
 * [Completed Tiers Configuration](t7-tiers-setup-pending.html)
