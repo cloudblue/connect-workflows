@@ -11,18 +11,18 @@ The list below displays available statuses for fulfillment requests on the Cloud
 * [Approved](s-e-approved.html)
 * [Failed](s-f-failed.html)
 ## Transitions
-Choose a midway state from the provided diagram or click on any of the following contextual links to access midway state information:
+Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 * [Pending Request Creation](t-1-new-pending.html)
 * [Draft Request Creation](t-2-new-draft.html)
 * [Draft to Pending Convertion](t-3-draft-pending.html)
-* [Draft Request Removal][t-4-draft-deleted]
+* [Draft Request Removal][t-4-draft-deleted.html]
 * [Pending to Tiers Setup Convertion](t-5-pending-tiers-setup.html)
-* [Tier Configuration Failure](t-6-tiers-setup-failed)
+* [Tier Configuration Failure](t-6-tiers-setup-failed.html)
 * [Completed Tiers Configuration](t7-tiers-setup-pending.html)
 * [System Parameters Inquiry](t8-pending-inquiring.html)
 * [Vendor Parameters Inquiry](t9-pending-inquiring.html)
 * [Inquiring Data Provision](t10-inquiring-pending.html)
 * [Pending Request Approval](t11-pending-approved.html)
-* [Pending Request Rejection](t-12-pending-failed)
+* [Pending Request Rejection](t-12-pending-failed.html)
 ## Learn more
 Refer to the [Connect community page](https://connect.cloudblue.com/community/subscriptions) for more information.
