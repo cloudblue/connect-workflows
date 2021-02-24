@@ -10,6 +10,8 @@ The following list displays available statuses for listing requests on the Cloud
 * [Completed](s-d-completed.html)  
 * [Cancelled](s-e-cancelled.html)
 ## Transitions
+Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
+
 * [Draft Request Creation](t-1-new-draft.html)
 * [Draft Request Removal](t-2-draft-deleted.html)
 * [Draft to Reviewing Request Convertion](t-3-draft-reviewing.html)
