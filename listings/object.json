@@ -1,0 +1,60 @@
+{
+    "name": "Listings",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-notlisted",
+                "name": "Not Listed"
+            },
+            {
+                "id": "s-b-listed",
+                "name": "Listed"
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-notlisted",
+                "from": "New",
+                "to": "Not Listed",
+                "name": "1. Vendor submits a listing request"
+            },
+            {
+                "id": "t-2-notlisted-listed",
+                "from": "Not Listed",
+                "to": "Listed",
+                "name": "2. Distributor completes the listing request"
+            },
+            {
+                "id": "t-3-notlisted",
+                "from": "Not Listed",
+                "to": "Not Listed",
+                "name": "3. Distributor rejects the listing request"
+            },
+            {
+                "id": "t-4-termination-request",
+                "from": "Listed",
+                "to": "Listed",
+                "name": "4. Vendor sends a request to terminate the listing "
+            },
+            {
+                "id": "t-5-listing-termination",
+                "from": "Listed",
+                "to": "Not Listed",
+                "name": "5. Distributor completes the termination request"
+            },
+            {
+                "id": "t-6-update-request",
+                "from": "Listed",
+                "to": "Listed",
+                "name": "6. Vendor sends an update request"
+            },
+            {
+                "id": "t-7-listing-update",
+                "from": "Listed",
+                "to": "Listed",
+                "name": "7. Distributor completes the update request"
+            }
+        ]
+    }
+    
