@@ -4,12 +4,12 @@ Fulfillment requests (or Subscription requests) represent product orders that ar
 Fulfillment requests are interconnected with Subscriptions, and these requests are stored within the Subscriptions module. Thus, for instance, a purchase request create a subscription, while a cancel request terminate it. However, **Fulfillment requests should not be confused with Subscriptions** as they represent different objects within the Connect platform.
 ## Fulfillment request statuses
 The list below displays available statuses for fulfillment requests on the CloudBlue Connect platform. Select a status from the provided diagram or click on any of the following contextual links to access detailed status information:
-A. [Draft](s-a-draft.html)
-B. [Pending](s-b-pending.html)
-C. [Tiers Setup](s-c-tiers-setup.html)
-D. [Inquiring](s-d-inquiring.html)
-E. [Approved](s-e-approved.html)
-F. [Failed](s-f-failed.html)
+* A. [Draft](s-a-draft.html)
+* B. [Pending](s-b-pending.html)
+* C. [Tiers Setup](s-c-tiers-setup.html)
+* D. [Inquiring](s-d-inquiring.html)
+* E. [Approved](s-e-approved.html)
+* F. [Failed](s-f-failed.html)
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 1. [Pending Request Creation](t-1-new-pending.html)
