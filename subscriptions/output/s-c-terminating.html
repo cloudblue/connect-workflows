@@ -1,0 +1,15 @@
+<h1>Terminating Status</h1>
+<h2>Description</h2>
+<p>This subscription status is displayed in case a buyer created a request to cancel a subscription. These requests can be also emulated from Vendor or Distributor portals. 
+Once Vendors approve this cancellation request, a terminating subscription is transferred to the <em>Terminated</em> state.
+In case Vendors reject this request, the subscription returns to the <em>Active</em> state and the request gets the <em>Failed</em> status.</p>
+<h2>Prerequisites</h2>
+<p>A subscription in the <a href="s-b-active.html">Active</a> state and a cancel request.</p>
+<h2>Transferable statuses</h2>
+<p>In case a cancel request is apporived, the system assigns the <a href="s-d-teminated.html">Terminated</a> status to a terminating subscription. 
+If this request is rejected, the system assigns the <a href="s-b-active.html">Active</a>.</p>
+<h2>Associated transitions</h2>
+<ul>
+<li><a href="t-4-active-terminating.html">Subscription Cancellation</a></li>
+<li><a href="t-5-terminating-terminated.html">Cancellation Approval</a></li>
+</ul>
