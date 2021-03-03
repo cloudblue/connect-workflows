@@ -1,29 +1,15 @@
-Lorem markdownum foribus pontus, ut medii in solas ungues. Obstiterit erat
-languentique fistula ornate animam lactentem duorum ordine potentem norint lilia
-qui.
+# Draft Request Status
+## Description
+The draft fulfillment request status indicates that this fulfillent request is not complete and not submitted to a Vendor. Buyers create draft requests in case further subscription information will be specified or edited. Thereafter, byuers can convert this draft to a pending fulfillment request or delete this draft by cancelling a subscription request.
+## Prerequisites
+A listed product and an active distribution contract are required to create a draft request.
+## Transferable statuses
+The draft request can be transferred to one of the following statuses:
 
-    certificate(-5, 437038);
-    if (telecommunications_resolution - 5 - bridgeLeak) {
-        surface = chip_domain_down.cps(2, wpa, 18 + text);
-        rtf_base_download(tablet, 4, mouse_processor_dial(raid, character,
-                odbc_template_mask));
-        touchscreenEsportsBar += freeware_dvi;
-    } else {
-        symbolic_backlink_service(dtdPad - printerTCard, nui);
-        payload = vga;
-    }
-    bootData(joystickGraphic + open.sql_wins(offline, 1, ssl_pipeline));
-    biometrics_play_crossplatform += barebones_post(null_hard, bus.frequency(
-            wheelQuery), 1);
-
-Arva est Calydona saevitiae per ferro ministri Aetnen damnatus *latrare plenaque
-accipe* inpia in iacit. Imagine imagine, est, et ara Caesareo *non cretus*
-rependatur caro, unam dumque famulosne foramen, sub lapsum? Ager contrahitur
-clam: collem rector pectora nimiumque lunares Amphitryoniadae quamquam de campos
-consorte nihil.
-
-- Qui decorum frustra ubi abibo in imis
-- Putri ignarus inter
-- Deum silvis Picus planxerunt di summa qui
-- Talia se ingentia confinia
-- Rectorque sed classe postquam diduxit illa virgo
+* [Tiers Setup](s-c-tiers-setup.html)
+* [Inquiring](s-d-inquiring.html)
+* [Pending](s-b-pending.html)
+## Associated transitions
+* [New draft creation](t-2-new-draft.html)
+* [Draft to Pending Request Convertion](t-3-draft-pending.html)
+* [Draft Request Removal](t-4-draft-deleted.html)

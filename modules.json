@@ -80,7 +80,10 @@
         },
         "Subscriptions": {
             "description": "Review, test, and manage subscriptions of products with the Subscriptions Management module.",
-            "icon": "autorenew"
+            "icon": "autorenew",
+            "objects": [
+                "subscriptions/object.json"
+            ]
         },
         "Subscription Requests": {
             "description": "Review, test, and manage subscriptions of products with the Subscriptions Management module.",
