@@ -1,0 +1,55 @@
+{
+    "name": "Reports",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-pending",
+                "name": "Pending"
+            },
+            {
+                "id": "s-b-deploying",
+                "name": "Deploying"
+            },
+            {
+                "id": "s-c-ready",
+                "name": "Ready"
+            },
+            {
+                "id": "s-d-failed",
+                "name": "Failed"
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-pending",
+                "from": "New",
+                "to": "Pending",
+                "name": "1. Export Request Creation"
+            },
+            {
+                "id": "t-2-pen-deploying",
+                "from": "Pending",
+                "to": "Deploying",
+                "name": "2. New Report Deployment"
+            },
+            {
+                "id": "t-3-dep-ready",
+                "from": "Deploying",
+                "to": "Ready",
+                "name": "3. Report Creation Success"
+            },
+            {
+                "id": "t-4-dep-failed",
+                "from": "Deploying",
+                "to": "Failed",
+                "name": "4. Report Creation Failure"
+            },
+            {
+                "id": "t-5-ready-remove",
+                "from": "Ready",
+                "to": "Processing",
+                "name": "5. Report Removal"
+            }
+        ]
+    }
