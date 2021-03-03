@@ -1,0 +1,105 @@
+{
+    "name": "Subscriptions",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-processing",
+                "name": "Processing"
+            },
+            {
+                "id": "s-b-active",
+                "name": "Active"
+            },
+            {
+                "id": "s-c-terminating",
+                "name": "Terminating"
+            },
+            {
+                "id": "s-d-teminated",
+                "name": "Terminated"
+            },
+            {
+                "id": "s-e-suspended",
+                "name": "Suspended"
+            },
+            {
+                "id": "s-f-draft",
+                "name": "Draft"
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-subscription",
+                "from": "New",
+                "to": "Processing",
+                "name": "1. Subscription Creation"
+            },
+            {
+                "id": "t-2-pro-active",
+                "from": "Processing",
+                "to": "Active",
+                "name": "2. Subscription Approval"
+            },
+            {
+                "id": "t-3-pro-terminated",
+                "from": "Processing",
+                "to": "Terminated",
+                "name": "3. Subscription Rejection"
+            },
+            {
+                "id": "t-4-active-terminating",
+                "from": "Active",
+                "to": "Terminating",
+                "name": "4. Subscription Cancellation"
+            },
+            {
+                "id": "t-5-terminating-terminated",
+                "from": "Terminating",
+                "to": "Terminated",
+                "name": "5. Cancellation Approval"
+            },
+            {
+                "id": "t-6-change-request",
+                "from": "Active",
+                "to": "Active",
+                "name": "6. Change Request Creation"
+            },
+            {
+                "id": "t-7-change-approval",
+                "from": "Active",
+                "to": "Active",
+                "name": "7. Change Request Approval"
+            },
+            {
+                "id": "t-8-suspend",
+                "from": "Active",
+                "to": "Suspended",
+                "name": "8. Subscription Suspension"
+            },
+            {
+                "id": "t-9-resume",
+                "from": "Suspended",
+                "to": "Active",
+                "name": "9. Subscription Resumption"
+            },
+            {
+                "id": "t-10-draft",
+                "from": "New",
+                "to": "Draft",
+                "name": "10. Draft Creation"
+            },
+            {
+                "id": "t-11-draft-removal",
+                "from": "Draft",
+                "to": "Deleted",
+                "name": "11. Draft Removal"
+            },
+            {
+                "id": "t-12-draft-processing",
+                "from": "Draft",
+                "to": "Processing",
+                "name": "12. Draft to Processing Convertion"
+            }
+        ]
+    }
