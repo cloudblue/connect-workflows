@@ -1,0 +1,24 @@
+<h1>Processing Status</h1>
+<h2>Description</h2>
+<p>This status indicates that a pending fulfillment request is created and Vendors are processing created subscription. 
+Once Vendors approve the fulfillment request, the system activates this subscription and assigns corresponding status to it. In case Vendors reject the fulfillment request, the system assigns the <em>Terminated</em> status to the subscription. If Vendors transfer this fulfillment request to the <em>Inquiring</em> or <em>Tier Setup</em> state, this subscription remains in the <em>Processing</em> state. 
+Furthermore, it is possible to create a draft subscription and transfer it to the <em>Processing</em> state in case the corresponding capability is enabled. </p>
+<h2>Fulfillment Requests</h2>
+<p>The processing subscriptions are interconnected with fulfillment requests in the following states:</p>
+<ul>
+<li><strong>Inquiring</strong></li>
+<li><strong>Tier Setup</strong></li>
+<li><strong>Pending</strong></li>
+</ul>
+<h2>Prerequisites</h2>
+<p>A listed product and an active distribution contract are required to create a pending request and a processing subscription.</p>
+<h2>Transferable statuses</h2>
+<p>In case a fulfillment request is approved, the system assigns the <a href="s-b-active.html">Active</a> status to a processing subscription.
+If a fulfillment request is rejected, the system assigns the <a href="s-d-teminated.html">Terminated</a> status.</p>
+<h2>Associated transitions</h2>
+<ul>
+<li><a href="t-1-new-subscription.html">Subscription Creation</a></li>
+<li><a href="t-2-pro-active.html">Subscription Approval</a></li>
+<li><a href="t-3-pro-terminated.html">Subscription Rejection</a></li>
+<li><a href="t-12-draft-processing.html">Draft to Processing Convertion</a></li>
+</ul>
