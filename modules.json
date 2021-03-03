@@ -33,6 +33,13 @@
             "icon": "device_hub"
         },
         "Listings": {
+            "description": "Manage your product listing via this object.",
+            "icon": "star",
+            "objects": [
+                "listings/object.json"
+            ]
+        },
+        "Listing Requests": {
             "description": "Monitor and process the queue of listing requests from your partners with the Listings Management module.",
             "icon": "star",
             "objects": [
@@ -72,6 +79,13 @@
             "icon": "recent_actors"
         },
         "Subscriptions": {
+            "description": "Review, test, and manage subscriptions of products with the Subscriptions Management module.",
+            "icon": "autorenew",
+            "objects": [
+                "subscriptions/object.json"
+            ]
+        },
+        "Subscription Requests": {
             "description": "Review, test, and manage subscriptions of products with the Subscriptions Management module.",
             "icon": "autorenew",
             "objects": [
