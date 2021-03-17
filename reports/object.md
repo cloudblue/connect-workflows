@@ -1,7 +1,7 @@
 # Reports
 ## Overview
 Reports represent instances that have data exported from the CloudBlue Connect platform. Reports can be especially useful to extract required data and import it to external systems for further processing, such as billing or reconciliation operations.
-Currently, only fulfillment request data is available for exporting. Navigate to the **Subscriptions** module and proceed to the **Fulfillment** section to locate your available fulfillment requests. Use provided filters to exclude or include required fulfillment requests. Thereafter, create an export request by clicking the vertical ellipsis (**⋮**) button. Thus, your report will be available from the **Reports** module (in case the report creation is successful). Note that the system generates report files in the *XLSX* format.
+Note that the system generates report files in the *XLSX* format.
 ## Report Statuses
 The following list displays available report statuses on the Connect platform. Select a status from the provided diagram or click on a contextual link below to display detailed status information:
 
