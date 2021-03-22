@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+</style>
+<meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type='text/javascript' src='http://davidlynch.org/projects/maphilight/jquery.maphilight.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.map').maphilight({ alwaysOn: true });
+            // uncomment this line for normal hover highlighting
+            // $('.map').maphilight();
+        });   
+    </script>
+</head>
+<body>
+
+<!-- Edit with https://summerstyle.github.io/summer/ below -->
+
+<img class="map" src="object.png" alt="" usemap="#map" />
+<map name="map">
+    <area shape="rect" coords="1248, 766, 1506, 964" href="s-e-terminated" />
+    <area shape="rect" coords="990, 746, 1183, 860" href="t-4-pen-rejected" />
+    <area shape="rect" coords="1221, 4, 1576, 210" href="s-d-rejected" />
+    <area shape="rect" coords="1374, 239, 1572, 315" href="t-5-act-terminated" />
+    <area shape="rect" coords="1263, 331, 1499, 566" href="s-c-active" />
+    <area shape="rect" coords="993, 334, 1221, 460" href="t-3-pen-active" />
+    <area shape="rect" coords="763, 334, 960, 551" href="s-b-pending" />
+    <area shape="rect" coords="579, 340, 756, 452" href="t-2-enr-pending" />
+    <area shape="rect" coords="318, 342, 573, 552" href="s-a-enrolling" />
+    <area shape="rect" coords="16, 344, 298, 494" href="t-1-new-enrolling" />
+    <area shape="rect" coords="566, 148, 758, 276" href="t-6-pen-enrolling" />
+</map>
+</map>
+
+<!-- Edit with https://summerstyle.github.io/summer/ above -->
+
+</body>
+</html>

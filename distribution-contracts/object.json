@@ -1,0 +1,65 @@
+{
+    "name": "Distribution Contracts",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-enrolling",
+                "name": "Enrolling"
+            },
+            {
+                "id": "s-b-pending",
+                "name": "Pending"
+            },
+            {
+                "id": "s-c-active",
+                "name": "Active"
+            },
+            {
+                "id": "s-d-rejected",
+                "name": "Rejected"
+            },
+            {
+                "id": "s-e-terminated",
+                "name": "Terminated"
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-enrolling",
+                "from": "New",
+                "to": "Enrolling",
+                "name": "1. Contract Enrolling"
+            },
+            {
+                "id": "t-2-enr-pending",
+                "from": "Enrolling",
+                "to": "Pending",
+                "name": "2. Enrolling to Pending Conversion"
+            },
+            {
+                "id": "t-3-pen-active",
+                "from": "Pending",
+                "to": "Active",
+                "name": "3. Contract Activation"
+            },
+            {
+                "id": "t-4-pen-rejected",
+                "from": "Pending",
+                "to": "Rejected",
+                "name": "4. Contract Rejection"
+            },
+            {
+                "id": "t-5-act-terminated",
+                "from": "Listed",
+                "to": "Not Listed",
+                "name": "5. Contract Termination"
+            },
+            {
+                "id": "t-6-pen-enrolling",
+                "from": "Pending",
+                "to": "Enrolling",
+                "name": "6. Data Refinement"
+            }
+        ]
+    }
