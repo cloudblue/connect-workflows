@@ -4,4 +4,4 @@ This transition indicates that the system transfers an *enrolling* distribution 
 ## Prerequisites
 A distribution contract with the [Enrolling](s-a-enrolled.html) status.
 ## Operation results
-A distribution contract with the [Pending](s-b-enrolled.html) status.
+A distribution contract with the [Pending](s-b-pending.html) status.
