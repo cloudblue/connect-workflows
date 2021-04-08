@@ -1,0 +1,55 @@
+{
+    "name": "Program Contracts",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-pending",
+                "name": "Pending"
+            },
+            {
+                "id": "s-b-active",
+                "name": "Active"
+            },
+            {
+                "id": "s-c-rejected",
+                "name": "Rejected"
+            },
+            {
+                "id": "s-d-terminated",
+                "name": "Terminated"
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-pending",
+                "from": "New",
+                "to": "Pending",
+                "name": "1. Contract Creation"
+            },
+            {
+                "id": "t-2-pend-active",
+                "from": "Pending",
+                "to": "Active",
+                "name": "2. Contract Activation"
+            },
+            {
+                "id": "t-3-pend-rejected",
+                "from": "Pending",
+                "to": "Rejected",
+                "name": "3. Contract Rejection"
+            },
+            {
+                "id": "t-4-pend-deleted",
+                "from": "Pending",
+                "to": "Deleted",
+                "name": "4. Contract Removal"
+            },
+            {
+                "id": "t-5-act-terminated",
+                "from": "Active",
+                "to": "Terminated",
+                "name": "6. Contract Termination"
+            }
+        ]
+    }
