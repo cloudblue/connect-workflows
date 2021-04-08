@@ -5,8 +5,8 @@ Vendors should enroll a distribution agreement to create and enroll a distributi
 Furthermore, Distributors can refine provided data and transfer the pending contract back to the *Enrolling* state. Distributors can also terminate activated contracts.
 In case the **Auto Accept** option from the **distribution agreement details screen** is enabled, the state flow of distribution contracts is different. Namely, Vendors don't need to enroll automatically generated distribution contracts and Distributors are not required to approve or reject these contracts. However, Distributors can still terminate the active contracts.
 
-## Listing Statuses
-The following list displays available listing statuses on the CloudBlue Connect platform. Select a status from the provided diagram or click on a contextual link below to display detailed status information:
+## Contract Statuses
+The following list displays available distribution contract statuses on the CloudBlue Connect platform. Select a status from the provided diagram or click on a contextual link below to display detailed status information:
 
 * A. [Enrolling](s-a-enrolling.html)
 * B. [Pending](s-b-pending.html)
