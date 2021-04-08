@@ -1,6 +1,6 @@
 # Terminated Status 
 ## Description
-Distributors can terminate an active distribution contract by clkicking on the **Terminate** button from the **distribution contract details** screen. Therefore, the system assigns the *Terminated* status to this contract. 
+Distributors can terminate an active distribution contract by clicking on the **Terminate** button from the **distribution contract details** screen. Therefore, the system assigns the *Terminated* status to this contract. 
 Note that no further action with this terminated distribution contract is required or available.
 ## Prerequisites
 A distribution contract with the [Active](s-c-active.html) status.
