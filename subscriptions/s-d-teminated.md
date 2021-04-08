@@ -2,7 +2,7 @@
 ## Description
 The *Terminated* subscription status is displayed in case a Vendor rejects a fulfillment request. Therefore, this request is failed and an associated subscription is terminated.
 Terminated subscription status can also indicate that a Vendor approved a cancel request. Buyers create such requests in case they want to cancel their subscription. Furthermore, cancel requests could be created from the Distributor or Vendor portals.
-Note that the *Terminated* status represent a terminal state. No further actions with this subscriptions are required or available. 
+Note that the *Terminated* status represents a terminal state. No further actions with this subscriptions are required or available. 
 ## Fulfillment Requests
 Terminated subscriptions are interconnected with fulfillment request in the following state:
 **Failed**
