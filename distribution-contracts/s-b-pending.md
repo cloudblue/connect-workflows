@@ -6,7 +6,9 @@ Note that Distributors can also ask Vendors to complete a custom form once again
 A distribution contract with the [Enrolling](s-a-enrolled.html) status.
 ## Transferable statuses
 Once a Distributor approves a distribution contract, the system transfers it to the [Active](s-c-active.html) state.
+
 If a Distributor rejects a distribution contract, the system assigns the [Rejected](s-d-rejected.html) status to this contract.
+
 In case a Distributor clicks **Refine Data** from a pending distribution contract, the system transfers it back to the [Enrolling](s-a-enrolled.html) state.
 ## Associated transitions
 * [Enrolling to Pending Contract Conversion](t-2-enr-pending.html)
