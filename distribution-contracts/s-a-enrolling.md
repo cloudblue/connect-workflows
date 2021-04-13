@@ -6,7 +6,7 @@ Note that Distributors can also ask Vendors to complete the submitted form once 
 ## Prerequisites 
 A distribution agreement that is created by Distributors and enrolled by Vendors.
 ## Transferable statuses
-Once the distribution contract enrolling operation is processed, the system changes the contract status to [Pending](s-b-pending.html).
+Once the distribution contract enrolling operation is completed, the system changes the contract status to [Pending](s-b-pending.html).
 ## Associated transitions
 * [Contract Enrollment](t-1-new-enrolling.html)
 * [Enrolling to Pending Conversion](t-2-enr-pending.html)
