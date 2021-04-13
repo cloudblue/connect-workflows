@@ -1,0 +1,49 @@
+{
+    "name": "Tier Account Requests",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-pending",
+                "name": "Pending"
+            },
+            {
+                "id": "s-b-unsupported",
+                "name": "Unsupported"
+            },
+            {
+                "id": "s-c-accepted",
+                "name": "Accepted"
+            },
+            {
+                "id": "s-d-ignored",
+                "name": "Ignored"
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-pending",
+                "from": "New",
+                "to": "Pending",
+                "name": "1. Pending Request Creation"
+            },
+            {
+                "id": "t-2-new-unsupported",
+                "from": "New",
+                "to": "Unsupported",
+                "name": "2. Unsupported Request Creation"
+            },
+            {
+                "id": "t-3-pen-accepted",
+                "from": "Pending",
+                "to": "Active",
+                "name": "3. Request Acceptance"
+            },
+            {
+                "id": "t-4-pen-ignored",
+                "from": "Pending",
+                "to": "Ignored",
+                "name": "4. Request Ignore"
+            }
+        ]
+    }
