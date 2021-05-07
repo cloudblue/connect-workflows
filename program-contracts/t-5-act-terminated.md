@@ -4,4 +4,4 @@ This transition indicates that a Distributor terminates an active program contra
 ## Prerequisites
 A program contract in the [Active](s-b-active.html) state.
 ## Operation results
-A pogram contract with the [Terminated](s-d-terminated.html) status.
+A program contract with the [Terminated](s-d-terminated.html) status.
