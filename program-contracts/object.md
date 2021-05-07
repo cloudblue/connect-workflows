@@ -1,7 +1,7 @@
 # Program Contracts
 ## Overview
 Distributors and Vendors sign their program contracts to set business partnerships through the CloudBlue Connect platform. Before creating a program contract, a Distributor must ensure that an associated program agreement is created. Alternatively, Distributors can generate program agreement and program contracts while creating a Vendor-type Partner account.
-Once a new program contract is created by a Distributors, the system assigns it to the *Pending* state until it is signed and *activated* by a Vendor. Distributors can delete a pending program contract. Thus, the system removes the deleted contract from the database. Distributors can also terminate active contracts. In contrast, Connect stores *terminated* contracts and enables users to view the contract data.
+Once a new program contract is created by a Distributor, the system assigns it to the *Pending* state until it is signed and *activated* by a Vendor. Distributors can delete a pending program contract. Thus, the system removes the deleted contract from the database. Distributors can also terminate active contracts. In contrast, Connect stores *terminated* contracts and enables users to view the contract data.
 ## Contract Statuses
 The following list displays available program contract statuses on the CloudBlue Connect platform. Select a status from the provided diagram or click on a contextual link below to display detailed status information:
 
