@@ -89,9 +89,9 @@
             "name": "10. Customer submits required data"
         },
         {
-            "id": "t-11-pending-inquiring",
+            "id": "t-11-pending-approved",
             "from": "Pending",
-            "to": "Inquiring",
+            "to": "Approved",
             "name": "11. Vendor successfully completes the request"
         },
         {
