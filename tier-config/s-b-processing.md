@@ -11,3 +11,4 @@ Once Vendors appoves a tier request, its corresponding tier configuration is ass
 * [Draft Config Validation](t-3-draft-processing.html)
 * [Config Activation](t-5-pro-active.html)
 * [Config Update](t-6-act-processing.html)
+* 
