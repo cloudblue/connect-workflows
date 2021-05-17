@@ -1,0 +1,56 @@
+{
+    "name": "Tier Configs",
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-draft",
+            "name": "Draft"
+        },
+        {
+            "id": "s-b-processing",
+            "name": "Pending"
+        },
+        {
+            "id": "s-c-active",
+            "name": "Active"
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-processing",
+            "from": "New",
+            "to": "Processing",
+            "name": "1. New Config Creation"
+        },
+        {
+            "id": "t-2-new-draft",
+            "from": "New",
+            "to": "Draft",
+            "name": "2. Draft Creation"
+        },
+        {
+            "id": "t-3-draft-processing",
+            "from": "Draft",
+            "to": "Processing",
+            "name": "3. Draft Validation"
+        },
+        {
+            "id": "t-4-draft-deleted",
+            "from": "Draft",
+            "to": "Deleted",
+            "name": "4. Draft Removal"
+        },
+        {
+            "id": "t-5-pro-active",
+            "from": "Processing",
+            "to": "Active",
+            "name": "5. Config Activation"
+        },
+        {
+            "id": "t-6-act-processing",
+            "from": "Active",
+            "to": "Processing",
+            "name": "6. Config Update"
+        }
+    ]
+}
