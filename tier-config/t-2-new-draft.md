@@ -4,4 +4,4 @@ This transition indicates that a new draft tier configuration instance is genera
 ## Prerequisites
 Enabled **Dynamic Validation – Tier Config Request – Draft** capability, any **Tier-scope** parameter, and new subscriptions are required to generate draft tier configs.
 ## Operation results
-A new tier configuration inctance with the [Draft](s-a-draft.html) status.
+A new tier configuration instance with the [Draft](s-a-draft.html) status.
