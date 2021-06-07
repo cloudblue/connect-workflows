@@ -1,6 +1,6 @@
 # Draft Request Creation
 ## Description
-This transition indicates that a buyer generates a new draft fulfillment request. These requests are created in case further subscription information will be specified or edited. Thereafter, this byuer can convert this draft to a pending fulfillment request or delete this draft by cancelling a subscription request.
+This transition indicates that the system generates a new draft fulfillment request. Distributors can validate this draft and assign it to *Pending* state or delete this draft and remove a subscription request.
 ## Prerequisites
 A listed product and an active distribution contract are required to generate a new draft request.
 ## Operation results
