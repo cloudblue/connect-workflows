@@ -2,7 +2,7 @@
 ## Description
 The system assigns the *Draft* state to a new fulfillment request in case the dynamic validation capability is enabled. Therefore, the Connect platform enables its users to implement the real-time validation of tier configuration requests. Once a tier request is successfully validated, the system can transfer this request to the *Pending* status. Otherwise, this draft request is deleted.
 ## Prerequisites
-The enabled **Dynamic Validation fo Draft Request** product capability is required.
+The enabled **Dynamic Validation of Draft Request** product capability is required.
 ## Transferable statuses
 The draft request can be transferred to one of the following statuses:
 
