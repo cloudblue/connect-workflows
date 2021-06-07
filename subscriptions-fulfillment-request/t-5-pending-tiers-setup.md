@@ -4,4 +4,4 @@ This transition indicates that tiers setup is required for your pending request.
 ## Prerequisites
 A fulfillment request with the [Pending](s-b-pending.html) status is required.
 ## Operation results
-A fulfillment request with the [Tiers Setup](s-c-tiers-setup.html) status is created as a result of this operation.
+A fulfillment request in the [Tiers Setup](s-c-tiers-setup.html) state.
