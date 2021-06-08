@@ -11,4 +11,5 @@ In case a tiers request is rejected, this request is assigned to the [Failed](s-
 * [Completing Tier Setup](t-8-tier-pending.html)
 * [New Tier Setup Request](t-10-new-tiers.html)
 * [Draft to Tier Setup Transition](t-12-draft-tiers.html)
-* [Tier Setup Request Rejection](t-16-tier-failed.html) 
+* [Tier Setup Request Rejection](t-16-tier-failed.html)
+* 
