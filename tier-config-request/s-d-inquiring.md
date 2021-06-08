@@ -20,4 +20,3 @@ Once all required parameter data is submitted to tier requests, the system assig
 * [Tier Setup to Inquiring Transition](t-7-tier-inquiring.html) 
 * [Draft to Inquiring Transition](t-11-draft-inquiring.html) 
 * [Inquiring Request Rejection](t-13-inq-failed.html)
-* 
