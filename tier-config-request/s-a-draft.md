@@ -16,4 +16,3 @@ Draft requests can be deleted or transferred to one of the following statuses:
 * [Draft Validation](t-4-draft-pending.html)
 * [Draft to Inquiring Transition](t-11-draft-inquiring.html) 
 * [Draft to Tier Setup Transition](t-12-draft-tiers.html)
-* 
