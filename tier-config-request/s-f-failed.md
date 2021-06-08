@@ -11,3 +11,4 @@ A tier request can be transferred to the **Failed** state in case this request i
 * [Tier Setup Request Rejection](t-16-tier-failed.html) 
 * [Pending Request Rejection](t-12-pending-failed)
 * [Inquiring Request Rejection](t-13-inq-failed.html)
+* 
