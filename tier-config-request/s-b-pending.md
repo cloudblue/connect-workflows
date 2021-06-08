@@ -20,4 +20,3 @@ Once a Vendor appoves a tier request, this request transfers to the [Approved](s
 * [Completing Tier Setup](t-8-tier-pending.html)
 * [Request Approval](t-14-pend-approved.html)
 * [Pending Request Rejection](t-15-pend-failed.html)
-* 
