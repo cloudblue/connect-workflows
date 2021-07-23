@@ -6,8 +6,8 @@ However, Resellers can also reject a pending service contract. Thus, the system 
 ## Prerequisites
 A service agreement is required to create a new service contract with the [Pending](s-a-pending.html) status.
 ## Transferable statuses
-In case a Reseller signed service a contract, the system transfers it to the [Active](s-b-active.html) state.
-If a Reseller rejected a contract, the system assigns the [Rejected](s-c-rejected.html) status to this contract.
+In case a Reseller signes a contract, the system transfers it to the [Active](s-b-active.html) state.
+If a Reseller rejects a contract, the system assigns the [Rejected](s-c-rejected.html) status to this contract.
 ## Associated transitions
 * [Contract Creation](t-1-new-pending.html)
 * [Contract Activation](t-2-pend-active.html)
