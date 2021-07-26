@@ -8,3 +8,4 @@ Once your partner successfully activates the invitation link and their Connect a
 ## Associated transitions
 * [Partner Invitation](t-1-new-invited.html)
 * [Invitation Link Activation](t-3-inv-active.html)
+* 
