@@ -1,0 +1,60 @@
+{
+    "name": "Cases",
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-pending",
+            "name": "Pending"
+        },
+        {
+            "id": "s-b-inquiring",
+            "name": "Inquiring"
+        },
+        {
+            "id": "s-c-resolved",
+            "name": "Resolved"
+        },
+        {
+            "id": "s-d-closed",
+            "name": "Closed"
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-pending",
+            "from": "New",
+            "to": "Pending",
+            "name": "1. New Case Creation"
+        },
+        {
+            "id": "t-2-pend-inquiring",
+            "from": "Pending",
+            "to": "Inquiring",
+            "name": "2. Data Inquiry"
+        },
+        {
+            "id": "t-3-inq-pending",
+            "from": "Inquiring",
+            "to": "Pending",
+            "name": "3. Required Data is Submitted"
+        },
+        {
+            "id": "t-4-pend-resolved",
+            "from": "Pending",
+            "to": "Resolved",
+            "name": "4. Case Resolution"
+        },
+        {
+            "id": "t-5-res-closed",
+            "from": "Resolved",
+            "to": "Closed",
+            "name": "5. Case Closure"
+        },
+        {
+            "id": "t-6-res-pending",
+            "from": "Resolved",
+            "to": "Pending",
+            "name": "6. Case Reopening"
+        }
+    ]
+}
