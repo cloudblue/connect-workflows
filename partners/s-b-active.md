@@ -11,4 +11,3 @@ In case program or service contracts of your partners are terminated, the system
 ## Associated transitions
 * [Invitation Link Activation](t-3-inv-active.html)
 * [Contract Termination](t-4-act-removed.html)
-* 
