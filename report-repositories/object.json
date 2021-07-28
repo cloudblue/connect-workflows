@@ -1,0 +1,56 @@
+{
+    "name": "Report Repositories",
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-configuring",
+            "name": "Configuring"
+        },
+        {
+            "id": "s-b-ready",
+            "name": "Ready"
+        },
+        {
+            "id": "s-c-failed",
+            "name": "Failed"
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-configuring",
+            "from": "New",
+            "to": "Configuring",
+            "name": "1. New Repository Object Creation"
+        },
+        {
+            "id": "t-2-conf-ready",
+            "from": "Configuring",
+            "to": "Ready",
+            "name": "2. Successful Repository Configuration"
+        },
+        {
+            "id": "t-3-conf-failed",
+            "from": "Configuring",
+            "to": "Failed",
+            "name": "3. Repository Processing Failure"
+        },
+        {
+            "id": "t-4-fail-configuring",
+            "from": "Failed",
+            "to": "Configuring",
+            "name": "4. Repository Details Edit"
+        },
+        {
+            "id": "t-5-fail-deleted",
+            "from": "Failed",
+            "to": "Deleted",
+            "name": "5. Repository Removal"
+        },
+        {
+            "id": "t-6-ready-configuring",
+            "from": "Ready",
+            "to": "Configuring",
+            "name": "6. Repository Update"
+        }
+    ]
+}
