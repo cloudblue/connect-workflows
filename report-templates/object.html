@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+</style>
+<meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type='text/javascript' src='http://davidlynch.org/projects/maphilight/jquery.maphilight.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.map').maphilight({ alwaysOn: true });
+            // uncomment this line for normal hover highlighting
+            // $('.map').maphilight();
+        });   
+    </script>
+</head>
+<body>
+
+<!-- Edit with https://summerstyle.github.io/summer/ below -->
+
+<img class="map" src="object.png" alt="" usemap="#map" />
+<map name="map">
+    <area shape="rect" coords="685, 720, 901, 823" href="t-3-disabled-enabled" />
+    <area shape="rect" coords="431, 2, 616, 107" href="t-6-blocked-deleted" />
+    <area shape="rect" coords="652, 4, 951, 228" href="s-c-blocked" />
+    <area shape="rect" coords="915, 451, 1172, 682" href="s-b-disabled" />
+    <area shape="rect" coords="402, 442, 663, 684" href="s-a-enabled" />
+    <area shape="rect" coords="606, 296, 761, 413" href="t-5-blocked-enabled" />
+    <area shape="rect" coords="815, 297, 983, 412" href="t-4-enabled-disabled-blocked" />
+    <area shape="rect" coords="710, 471, 880, 566" href="t-2-enabled-disabled" />
+    <area shape="rect" coords="193, 464, 380, 560" href="t-1-new-enabled" />
+</map>
+</map>
+
+<!-- Edit with https://summerstyle.github.io/summer/ above -->
+
+</body>
+</html>
