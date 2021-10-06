@@ -1,9 +1,6 @@
 # Pending Request Status
 ## Description
 The pending fulfillment request status represents a transient state assigned to a request when product fulfillment is pending. Vendors can approve or reject pending request. Furthermore, Vendors or the system can ask customer to fill out specified product parameters within this state. In case tiers setup is required, the system will transfer this request to the corresponding state.
-## Subscription status
-Pending fulfillment requests are interconnected with the following Subscription status:
-**Processing**
 ## Prerequisites
 A listed product and active distribution contract are required to create a pending fulfillment request. Fulfillment requests can also get the *pending* status from the following states:
 
