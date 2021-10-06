@@ -10,6 +10,6 @@ The draft request can be transferred to one of the following statuses:
 * [Inquiring](s-d-inquiring.html)
 * [Pending](s-b-pending.html)
 ## Associated transitions
-* [New Draft Creation](t-2-new-draft.html)
+* [Draft Request Creation](t-2-new-draft.html)
 * [Draft to Pending Request Convertion](t-3-draft-pending.html)
 * [Draft Request Removal](t-4-draft-deleted.html)
