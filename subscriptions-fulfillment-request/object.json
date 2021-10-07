@@ -25,6 +25,18 @@
         {
             "id": "s-f-failed",
             "name": "Failed"
+        },
+        {
+            "id": "s-g-scheduled",
+            "name": "Scheduled"
+        },
+        {
+            "id": "s-h-revoking",
+            "name": "Revoking"
+        },
+        {
+            "id": "s-i-revoked",
+            "name": "Revoked"
         }
     ],
     "transitions": [
@@ -92,13 +104,37 @@
             "id": "t-11-pending-approved",
             "from": "Pending",
             "to": "Approved",
-            "name": "11. Vendor successfully completes the request"
+            "name": "11. Vendor successfully completes Request"
         },
         {
             "id": "t-12-pending-failed",
             "from": "Pending",
             "to": "Failed",
-            "name": "12. Vendor irreversibly fails the request"
+            "name": "12. Vendor irreversibly fails Request"
+        },
+        {
+            "id": "t-13-pending-scheduled",
+            "from": "Pending",
+            "to": "Scheduled",
+            "name": "13. Vendor schedules request"
+        },
+        {
+            "id": "t-14-scheduled-pending",
+            "from": "Scheduled",
+            "to": "Pending",
+            "name": "14. Request returns to Pending state"
+        },
+        {
+            "id": "t-15-scheduled-revoking",
+            "from": "Scheduled",
+            "to": "Revoking",
+            "name": "15. Distributor/Reseller revoked Request"
+        },
+        {
+            "id": "t-16-revoked-revoked",
+            "from": "Revoking",
+            "to": "Revoked",
+            "name": "16. Vendor confirms revocation"
         }
     ]
 }
