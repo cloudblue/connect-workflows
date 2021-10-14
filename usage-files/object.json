@@ -1,0 +1,117 @@
+{
+    "name": "Usage Files",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-draft",
+                "name": "Draft"
+            },
+            {
+                "id": "s-b-uploading",
+                "name": "Uploading"
+            },
+            {
+                "id": "s-c-processing",
+                "name": "Processing"
+            },
+            {
+                "id": "s-d-invalid",
+                "name": "Invalid"
+            },
+            {
+                "id": "s-e-ready",
+                "name": "Ready"
+            },
+            {
+                "id": "s-f-pending",
+                "name": "Pending"
+            },
+            {
+                "id": "s-g-rejected",
+                "name": "Rejected"
+            },
+            {
+                "id": "s-h-accepted",
+                "name": "Accepted"
+            },
+            {
+                "id": "s-i-closed",
+                "name": "Closed"
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-draft",
+                "from": "New",
+                "to": "Draft",
+                "name": "1. Usage File Creation"
+            },
+            {
+                "id": "t-2-draft-uploading",
+                "from": "Draft",
+                "to": "Uploading",
+                "name": "2. Usage File Uploading"
+            },
+            {
+                "id": "t-3-upl-processing",
+                "from": "Uploading",
+                "to": "Processing",
+                "name": "3. Usage File Processing"
+            },
+            {
+                "id": "t-4-pro-invalid",
+                "from": "Processing",
+                "to": "Invalid",
+                "name": "4. Processing Failure"
+            },
+            {
+                "id": "t-5-inv-uploading",
+                "from": "Invalid",
+                "to": "Uploading",
+                "name": "5. Invalid File Reuploading"
+            },
+            {
+                "id": "t-6-pro-ready",
+                "from": "Processing",
+                "to": "Ready",
+                "name": "6. File is Processed"
+            },
+            {
+                "id": "t-7-ready-uploading",
+                "from": "Ready",
+                "to": "Uploading",
+                "name": "7. Processed File Reuploading"
+            },
+            {
+                "id": "t-8-ready-pending",
+                "from": "Ready",
+                "to": "Pending",
+                "name": "8. File is Submitted"
+            },
+            {
+                "id": "t-9-pend-rejected",
+                "from": "Pending",
+                "to": "Rejected",
+                "name": "9. Pending File Rejection"
+            },
+            {
+                "id": "t-10-reject-uploading",
+                "from": "Rejected",
+                "to": "Uploading",
+                "name": "10. Rejected File Reuploading"
+            },
+            {
+                "id": "t-11-pend-accepted",
+                "from": "Pending",
+                "to": "Accepted",
+                "name": "11. Usage File Acceptance"
+            },
+            {
+                "id": "t-12-accept-closed",
+                "from": "Accepted",
+                "to": "Closed",
+                "name": "12. Usage File Closure"
+            }
+        ]
+    }
