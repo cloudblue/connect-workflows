@@ -1,6 +1,6 @@
 # Reviewing Request Status
 ## Description
-The reviewing listing request status indicates that Vendors sent their listing request to Distributors for a review. Thereafter, Distributors can approve this listing request and initiate the product deployment procedure. Otherwise, Distributors reject to proceed with this deployment and this listing request transfers to the *Cancelled* state.
+The Reviewing listing request status indicates that Vendors sent their listing request to Distributors for a review. Thereafter, Distributors can approve this listing request and consequently activate product listing, update listing information or delete listing. Otherwise, Distributors or Resellers can and this listing request transfers to the *Cancelled* state.
 ## Listing status
 Reviewing listing requests are interconnected with the following Listing status:
 **Not Listed**
