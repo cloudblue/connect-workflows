@@ -1,9 +1,6 @@
 # Deploying Request Status
 ## Description
 The Deploying listing request status is displayed in case a Distributor/ Resellers marked this listing request as Deploying. Therefore, Distributors or Resellers make all required preparations to deploy a product to their marketplace, update. Otherwise, Distributors/ Resellers reject the request, the system transfers the request object to the *Cancelled* state.
-## Listing status
-Deploying listing requests are interconnected with the following Listing status:
-**Not Listed**
 ## Prerequisites
 A listing requests in the [Reviewing](reviewing.html) state.
 ## Transferable statuses
