@@ -1,8 +1,8 @@
 # Not Listed Status 
 ## Description
-The **Not Listed** state indicates that a specified listing is not activated. 
-Once a Vendor creates a listing request and it is not completed by Distributors, this listing provides the **Not Listed** status. In case Distributors deploy a product and mark this listing request as *Completed*, the system assigns the **Listed** status to the listing. Otherwise, Distributors reject the request and the listing will remain in the **Not Listed** state. 
-Furthermore, Vendors can create a request to terminate activated listing. Therafter, Distributors can complete this request and transfer this listing to the **Not Listed** state. 
+The *Not Listed* state indicates that a specified listing is not activated. Once Vendors create a listing request and it is not completed by Distributors or Resellers, its listing object displays the Not Listed status. In case Distributors/ Resellers deploy a product and mark the provided listing request as Completed, the system transfers the listing object to the *Listed* status to the listing.
+
+Note that Distributors or Resellers reject the request and the listing will remain in the *Not Listed* state. Furthermore, Vendors can create a request to terminate activated listing. Thereafter, Distributors can complete this request and transfer this listing to the *Not Listed* state. 
 ## Listing Requests
 Listings in this state are interconnected with one of the following Listing Request statuses:
 
