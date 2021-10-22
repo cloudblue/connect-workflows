@@ -1,6 +1,7 @@
 # Listing Requests
 ## Overview
-A listing request represents a Vendor’s formal request to list a product on a specified marketplace. Listing requests contain product specifications, associated price lists, and included product offers. These requests are initiated by Vendors and sent to Distributors. Thereafter, Distributors can complete listing requests or reject them. Listing requests are interconnected with Listings and these requests are stored within the Listigns module. However, **listing requests should not be confused with listings** as they represent different objects within the Connect platform. 
+A *listing request* object represents a formal request to list a product on a specified marketplace. Listing requests contain product specifications, associated price lists, and included product offers. 
+The system allows Vendors to generate listing requests of the following types: *create* (requests to list a new product), *update* (requests to update listing data), or delete (requests to delist a product from the marketplace). Consequently, all listing requests should be processed by Distributors/ Resellers.
 ## Listing request statuses
 The following list displays available statuses for listing requests on the CloudBlue Connect platform. Select a status from the provided diagram or click on a contextual link below to display detailed status information:
 
