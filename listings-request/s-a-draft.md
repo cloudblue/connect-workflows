@@ -2,7 +2,7 @@
 ## Description
 The Draft listing request status indicates that this listing request is not complete and not submitted to Distributors/ Resellers for a review.
 
-Once Vendors provide all required data, this draft converts to Reviewing listing request. Otherwise, Vendors cancel their listing request creation and this draft is deleted.  
+Once Vendors provide all required data, this draft converts to Reviewing listing request. Otherwise, Vendors can cancel their listing request creation and this draft is deleted.  
 ## Prerequisites
 A published product and an active distribution contract are required to create a listing request.
 ## Transferable statuses
