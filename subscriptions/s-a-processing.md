@@ -4,13 +4,6 @@ This status indicates that a pending fulfillment request is created and Vendors 
 Once Vendors approve the fulfillment request, the system activates this subscription and assigns corresponding status to it. In case Vendors reject the fulfillment request, the system assigns the *Terminated* status to the subscription. If Vendors transfer this fulfillment request to the *Inquiring* or *Tier Setup* state, this subscription remains in the *Processing* state. 
 Furthermore, it is possible to create a draft subscription and transfer it to the *Processing* state in case the corresponding capability is enabled. 
 
-## Fulfillment Requests
-The processing subscriptions are interconnected with fulfillment requests in the following states:
-
-* **Inquiring**
-* **Tier Setup**
-* **Pending**
-
 ## Prerequisites 
 A listed product and an active distribution contract are required to create a pending request and a processing subscription.
 ## Transferable statuses
