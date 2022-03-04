@@ -1,7 +1,7 @@
 # Subscriptions
 ## Overview
-Subscriptions represent instances of a product that are provisioned for customers. Subscriptions contain various purchase or product data, such as purchased items of a specified product, originators of this subscription, reseller information, product parameters, and other information.
-Subscriptions are interconnected with *Fulfillment requests* (also called *Subscription requests*). Thus, for instance, a purchase fulfillment request create a subscription, while a cancel request terminate it. However, **Fulfillment requests should not be confused with Subscriptions** as they represent different objects within the Connect platform.
+A subscription on the Connect platform is an object that represents what your customers actually purchased (e.g., physical goods) or subscribed to (e.g., software as a service licenses). Moreover, subscriptions store product activation data and inquired information that can be specified during the Ordering phase or Fulfillment phase. Provided subscription data is interconnected with the provided product configuration and fulfillment requests on the Connect platform. Thus, for instance, a purchase fulfillment request creates a subscription, while a cancel request terminates it.
+Note that subscriptions can also be used for billing consolidation operations. Therefore, this provides business partners with a systematic way to consolidate billing data for each product arrangement.
 ## Susbcription Statuses
 The following list displays available subscription statuses on the Connect platform. Select a status from the provided diagram or click on a contextual link below to display detailed status information:
 
