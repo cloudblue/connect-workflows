@@ -1,8 +1,10 @@
 # Draft Request Status
 ## Description
-The draft fulfillment request status indicates that this fulfillent request is not complete and not submitted to a Vendor. Buyers create draft requests in case further subscription information will be specified or edited. Thereafter, byuers can convert this draft to a pending fulfillment request or delete this draft by cancelling a subscription request.
+The Draft request status represent an optional state that is available in case the dynamic validation capability of this request type is enabled. Draft requests and their corresponding draft subscription objects can be used for pre-provisioning validation. 
+Once the draft fulfillment request is successfully validated, the system automatically transfers the request to the Pending state. If your validated request requires tier configuration or specifying parameter data, the system automatically transfers this request to corresponding statuses. 
+In case a generated draft request is not correct or no longer relevant, the system allows removing such requests.
 ## Prerequisites
-A listed product and an active distribution contract are required to create a draft request.
+Switch the **Dynamic Validation** capability on to enable the real-time validation of your selected request type.
 ## Transferable statuses
 The draft request can be transferred to one of the following statuses:
 

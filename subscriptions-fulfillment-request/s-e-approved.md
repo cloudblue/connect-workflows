@@ -1,10 +1,8 @@
 # Approved Request Status
 ## Description
-The approved fulfillment request status indicates that a Vendor successfully approved this request. Note that approved status represent a terminal state, meaning no further action with this request is required.
-## Subscription status
-Approved fulfillment requests are interconnected with the following Subscription status:
-**Active**
+Once Vendors successfully approve a processing fulfillment request, the system assigns the Approved to this request. Therefore, the system performs requested operations with your subscription object depending on your request type. For example, in case a purchase request is approved, the system activates your subscription object. However, once a cancel request is approved, the system terminates your subscription.
+Approved requests on the CloudBlue Connect platform ensure that only correct and relevant information is processed. Further actions with active requests are not required.
 ## Prerequisites
-A fulfillment request with the [Pending](pending.html) status.
-## Associated transitions
-[Pending Request Approval](t11-pending-approved.html)
+A fulfillment request with the [Pending](s-b-pending.html) status.
+## Associated transition
+[Pending Request Approval](t-11-pending-approved.html)
