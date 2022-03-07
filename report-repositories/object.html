@@ -1,0 +1,36 @@
+<html>
+<head>
+<style>
+</style>
+<meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type='text/javascript' src='http://davidlynch.org/projects/maphilight/jquery.maphilight.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.map').maphilight({ alwaysOn: true });
+            // uncomment this line for normal hover highlighting
+            // $('.map').maphilight();
+        });   
+    </script>
+</head>
+<body>
+
+<!-- Edit with https://summerstyle.github.io/summer/ below -->
+
+<img class="map" src="object.png" alt="" usemap="#map" />
+<map name="map">
+    <area shape="rect" coords="842, 1700, 1496, 2194" href="s-c-failed" />
+    <area shape="rect" coords="1590, 1736, 1938, 1943" href="t-5-fail-deleted" />
+    <area shape="rect" coords="1234, 1247, 1590, 1463" href="t-4-fail-configuring" />
+    <area shape="rect" coords="729, 1245, 1097, 1471" href="t-3-conf-failed" />
+    <area shape="rect" coords="1532, 4, 2040, 195" href="t-6-ready-configuring" />
+    <area shape="rect" coords="2105, 477, 2658, 957" href="s-b-ready" />
+    <area shape="rect" coords="1614, 480, 1953, 716" href="t-2-conf-ready" />
+    <area shape="rect" coords="827, 479, 1538, 981" href="s-a-configuring" />
+    <area shape="rect" coords="338, 484, 761, 728" href="t-1-new-configuring" />
+</map>
+
+<!-- Edit with https://summerstyle.github.io/summer/ above -->
+
+</body>
+</html>
