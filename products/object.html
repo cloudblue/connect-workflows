@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+</style>
+<meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type='text/javascript' src='http://davidlynch.org/projects/maphilight/jquery.maphilight.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.map').maphilight({ alwaysOn: true });
+            // uncomment this line for normal hover highlighting
+            // $('.map').maphilight();
+        });   
+    </script>
+</head>
+<body>
+
+<!-- Edit with https://summerstyle.github.io/summer/ below -->
+
+<img class="map" src="object.png" alt="" usemap="#map" />
+<map name="map">
+    <area shape="rect" coords="255, 471, 602, 682" href="t-3-draft-del" />
+    <area shape="rect" coords="1128, 5, 1382, 117" href="t-5-end-pub" />
+    <area shape="rect" coords="1398, 185, 1719, 412" href="s-c-endsale" />
+    <area shape="rect" coords="1128, 192, 1376, 310" href="t-4-pub-end" />
+    <area shape="rect" coords="803, 175, 1096, 407" href="s-b-published" />
+    <area shape="rect" coords="569, 180, 776, 308" href="t-2-draft-pub" />
+    <area shape="rect" coords="315, 160, 544, 395" href="s-a-draft" />
+    <area shape="rect" coords="25, 203, 292, 352" href="t-1-new-draft" />
+</map>
+
+<!-- Edit with https://summerstyle.github.io/summer/ above -->
+
+</body>
+</html>
