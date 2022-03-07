@@ -275,7 +275,7 @@
             }
         },
         {
-            "id": "t-16-revoked-revoked",
+            "id": "t-16-revoking-revoked",
             "from": "Revoking",
             "to": "Revoked",
             "name": "16. Vendor confirms revocation",
