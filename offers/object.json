@@ -1,0 +1,63 @@
+{
+    "name": "Offers",
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-private",
+            "name": "Private"
+        },
+        {
+            "id": "s-b-ready",
+            "name": "Ready"
+        },
+        {
+            "id": "s-c-active",
+            "name": "Listed"
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-private",
+            "from": "New",
+            "to": "Private",
+            "name": "1. Offer Instance Creation"
+        },
+        {
+            "id": "t-2-priv-ready",
+            "from": "Private",
+            "to": "Ready",
+            "name": "2. Public Version Creation"
+        },
+        {
+            "id": "t-3-ready-listed",
+            "from": "Ready",
+            "to": "Listed",
+            "name": "3. Adding Offer to Listing"
+        },
+        {
+            "id": "t-4-listed-ready",
+            "from": "Draft",
+            "to": "Deleted",
+            "name": "4. Offer Delisting"
+        },
+        {
+            "id": "t-5-priv-deleted",
+            "from": "Processing",
+            "to": "Active",
+            "name": "5. Private Offer Removal"
+        },
+        {
+            "id": "t-6-ready-deleted",
+            "from": "Active",
+            "to": "Processing",
+            "name": "6. Ready Offer Instance Removal"
+        },
+        {
+            "id": "t-7-ready-private",
+            "from": "Ready",
+            "to": "Private",
+            "name": "7. Ready Offer Instance Removal"
+        }
+        
+    ]
+}
