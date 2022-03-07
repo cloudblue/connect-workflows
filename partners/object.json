@@ -1,0 +1,40 @@
+{
+    "name": "Partners",
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-invited",
+            "name": "Invited"
+        },
+        {
+            "id": "s-b-active",
+            "name": "Active"
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-invited",
+            "from": "New",
+            "to": "Invited",
+            "name": "1. Partner Invitation"
+        },
+        {
+            "id": "t-2-new-active",
+            "from": "New",
+            "to": "Active",
+            "name": "2. Partner Account Creation"
+        },
+        {
+            "id": "t-3-inv-active",
+            "from": "Invited",
+            "to": "Active",
+            "name": "3. Invitation Link Activation"
+        },
+        {
+            "id": "t-4-act-removed",
+            "from": "Active",
+            "to": "Removed",
+            "name": "4. Contract Termination"
+        }
+    ]
+}
