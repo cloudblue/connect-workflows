@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+</style>
+<meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type='text/javascript' src='http://davidlynch.org/projects/maphilight/jquery.maphilight.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.map').maphilight({ alwaysOn: true });
+            // uncomment this line for normal hover highlighting
+            // $('.map').maphilight();
+        });   
+    </script>
+</head>
+<body>
+
+<!-- Edit with https://summerstyle.github.io/summer/ below -->
+
+<img class="map" src="object.png" alt="" usemap="#map" />
+<map name="map">
+    <area shape="rect" coords="5260, 1015, 5784, 1551" href="s-g-closed" />
+    <area shape="rect" coords="4786, 1041, 5083, 1305" href="t-9-acc-closed" />
+    <area shape="rect" coords="4024, 1035, 4657, 1560" href="s-f-accepted" />
+    <area shape="rect" coords="3556, 1042, 3892, 1317" href="t-8-pend-accepted" />
+    <area shape="rect" coords="2889, 1039, 3472, 1557" href="s-d-pending" />
+    <area shape="rect" coords="2965, 96, 3379, 325" href="t-6-pend-rejected" />
+    <area shape="rect" coords="1729, 4, 2373, 475" href="s-e-rejected" />
+    <area shape="rect" coords="2413, 1047, 2860, 1306" href="t-5-val-pending" />
+    <area shape="rect" coords="1737, 1042, 2355, 1537" href="s-b-validated" />
+    <area shape="rect" coords="787, 88, 1211, 294" href="t-7-rej-uploaded" />
+    <area shape="rect" coords="673, 2016, 1333, 2529" href="s-c-invalid" />
+    <area shape="rect" coords="1041, 1672, 1408, 1876" href="t-3-upl-invalid" />
+    <area shape="rect" coords="534, 1672, 879, 1875" href="t-4-inv-uploaded" />
+    <area shape="rect" coords="1351, 1048, 1696, 1303" href="t-2-upl-validated" />
+    <area shape="rect" coords="658, 1042, 1311, 1522" href="s-a-uploaded" />
+    <area shape="rect" coords="312, 1068, 610, 1297" href="t-1-new-uploaded" />
+</map>
+
+<!-- Edit with https://summerstyle.github.io/summer/ above -->
+
+</body>
+</html>

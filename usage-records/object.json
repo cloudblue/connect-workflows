@@ -1,0 +1,91 @@
+{
+    "name": "Usage Records",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-uploaded",
+                "name": "Uploaded"
+            },
+            {
+                "id": "s-b-validated",
+                "name": "Validated"
+            },
+            {
+                "id": "s-c-invalid",
+                "name": "Invalid"
+            },
+            {
+                "id": "s-d-pending",
+                "name": "Pending"
+            },
+            {
+                "id": "s-e-rejected",
+                "name": "Rejected"
+            },
+            {
+                "id": "s-f-accepted",
+                "name": "Accepted"
+            },
+            {
+                "id": "s-g-closed",
+                "name": "Closed"
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-uploaded",
+                "from": "New",
+                "to": "Uploaded",
+                "name": "1. New Record Creation"
+            },
+            {
+                "id": "t-2-upl-validated",
+                "from": "Uploaded",
+                "to": "Validated",
+                "name": "2. Record Validation"
+            },
+            {
+                "id": "t-3-upl-invalid",
+                "from": "Uploaded",
+                "to": "Invalid",
+                "name": "3. Failed Record Processing"
+            },
+            {
+                "id": "t-4-inv-uploaded",
+                "from": "Invalid",
+                "to": "Uploading",
+                "name": "4. Record Reuploading"
+            },
+            {
+                "id": "t-5-val-pending",
+                "from": "Validated",
+                "to": "Pending",
+                "name": "5. Record is Submitted"
+            },
+            {
+                "id": "t-6-pend-rejected",
+                "from": "Pending",
+                "to": "Rejected",
+                "name": "6. Record is Rejected"
+            },
+            {
+                "id": "t-7-rej-uploaded",
+                "from": "Rejected",
+                "to": "Uploaded",
+                "name": "7. Rejected Record Reuploading"
+            },
+            {
+                "id": "t-8-pend-accepted",
+                "from": "Pending",
+                "to": "Accepted",
+                "name": "8. Record Acceptance"
+            },
+            {
+                "id": "t-9-acc-closed",
+                "from": "Accepted",
+                "to": "Closed",
+                "name": "9. Record Closure"
+            }
+        ]
+    }
