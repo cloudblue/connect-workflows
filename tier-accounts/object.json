@@ -1,0 +1,28 @@
+{
+    "name": "Tier Accounts",
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-active",
+            "name": "Active"
+        },
+        {
+            "id": "s-b-decom",
+            "name": "Decommissioned"
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-active",
+            "from": "New",
+            "to": "Active",
+            "name": "1. Tier Account Creation"
+        },
+        {
+            "id": "t-2-act-decom",
+            "from": "Active",
+            "to": "Decomissioned",
+            "name": "2. Tier Account Removal"
+        }
+    ]
+}
