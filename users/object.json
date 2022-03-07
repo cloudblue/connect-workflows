@@ -1,0 +1,50 @@
+{
+    "name": "Users",
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-invited",
+            "name": "Invited"
+        },
+        {
+            "id": "s-b-joined",
+            "name": "Joined"
+        },
+        {
+            "id": "s-c-expired",
+            "name": "Expired"
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-invited",
+            "from": "New",
+            "to": "Invited",
+            "name": "1. User Invitation"
+        },
+        {
+            "id": "t-2-inv-joined",
+            "from": "Invited",
+            "to": "Joined",
+            "name": "2. Invitation Activation"
+        },
+        {
+            "id": "t-3-inv-expired",
+            "from": "Invited",
+            "to": "Expired",
+            "name": "3. Invitation Revocation"
+        },
+        {
+            "id": "t-4-exp-invited",
+            "from": "Expired",
+            "to": "Invited",
+            "name": "4. Invitation Resent"
+        },
+        {
+            "id": "t-5-joined-deleted",
+            "from": "Joined",
+            "to": "Deleted",
+            "name": "5. User Removal"
+        }
+    ]
+}
