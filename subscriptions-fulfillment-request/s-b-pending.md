@@ -10,6 +10,7 @@ A listed product and active distribution contract are required to create a pendi
 * [Draft](s-a-draft.html)
 * [Tiers Setup](s-c-tiers-setup.html)
 * [Inquiring](s-d-inquiring.html)
+
 ## Transferable statuses
 In case any parameter data is required, a pending request can be switched to the [Inquiring](s-d-inquiring.html)) state.
 If tier configuration is required, a request can get the [Tiers Setup](s-c-tiers-setup.html) status.

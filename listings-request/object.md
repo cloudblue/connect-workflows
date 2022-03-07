@@ -9,6 +9,7 @@ The following list displays available statuses for listing requests on the Cloud
 * C. [Deploying](s-c-deploying.html)
 * D. [Completed](s-d-completed.html)  
 * E. [Cancelled](s-e-cancelled.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 
@@ -18,6 +19,7 @@ Choose a transition from the provided diagram or click on any of the following c
 4. [Reviewing Request Approval](t-4-reviewing-deploying.html)
 5. [Deployment Completion](t-5-deploying-completed.html)
 6. [Deployment Cancellation](t-6-deploying-cancelled.html)
-7. [Reviewing Request Rejection](t-7-reviewing-cancelled)
+7. [Reviewing Request Rejection](t-7-reviewing-cancelled.html)
+
 ## Learn more
 Refer to the [Connect community page](https://connect.cloudblue.com/community/modules/listings/) for more information.

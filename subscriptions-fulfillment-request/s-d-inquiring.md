@@ -9,6 +9,7 @@ A listed product and active distribution contract are required to create an inqu
 
 * [Draft](s-a-draft.html)
 * [Tiers Setup](s-c-tiers-setup.html)
+
 ## Transferable statuses
 Once all required parameter data is submitted, this fulfillment request is assigned to the [Pending](s-b-pending.html) status.
 ## Associated transitions

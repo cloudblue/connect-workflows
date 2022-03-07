@@ -1,30 +1,67 @@
 {
     "name": "Fulfillment Request",
     "image": "object.png",
+    "readme": "object.md",
     "statuses": [
         {
             "id": "s-a-draft",
-            "name": "Draft"
+            "name": "Draft",
+            "mapping": {
+                "left": "12.5%",
+                "top": "80.62%",
+                "width": "7.05%",
+                "height": "15.11%"
+            }
         },
         {
             "id": "s-b-pending",
-            "name": "Pending"
+            "name": "Pending",
+            "mapping": {
+                "left": "44.5%",
+                "top": "40.53%",
+                "width": "11%",
+                "height": "16.62%"
+            }
         },
         {
             "id": "s-c-tiers-setup",
-            "name": "Tiers Setup"
+            "name": "Tiers Setup",
+            "mapping": {
+                "left": "42%",
+                "top": "80.27%",
+                "width": "16.05%",
+                "height": "16.27%"
+            }
         },
         {
             "id": "s-d-inquiring",
-            "name": "Inquiring"
+            "name": "Inquiring",
+            "mapping": {
+                "left": "43.95%",
+                "top": "4.71%",
+                "width": "12.15%",
+                "height": "16.18%"
+            }
         },
         {
             "id": "s-e-approved",
-            "name": "Approved"
+            "name": "Approved",
+            "mapping": {
+                "left": "83.35%",
+                "top": "40.27%",
+                "width": "13.1%",
+                "height": "16.53%"
+            }
         },
         {
             "id": "s-f-failed",
-            "name": "Failed"
+            "name": "Failed",
+            "mapping": {
+                "left": "85.75%",
+                "top": "80.18%",
+                "width": "8.25%",
+                "height": "15.64%"
+            }
         }
     ],
     "transitions": [
@@ -32,73 +69,145 @@
             "id": "t-1-new-pending",
             "from": "New",
             "to": "Pending",
-            "name": "1. Buyer creates fulfillment request (provisioning)"
+            "name": "1. Buyer creates fulfillment request (provisioning)",
+            "mapping": {
+                "left": "11.9%",
+                "top": "41.16%",
+                "width": "22.65%",
+                "height": "2.22%"
+            }
         },
         {
             "id": "t-2-new-draft",
             "from": "New",
             "to": "Draft",
-            "name": "2. Buyer creates draft request"
+            "name": "2. Buyer creates draft request",
+            "mapping": {
+                "left": "4.1%",
+                "top": "65.96%",
+                "width": "7.75%",
+                "height": "4.44%"
+            }
         },
         {
             "id": "t-3-draft-pending",
             "from": "Draft",
             "to": "Pending",
-            "name": "3. Buyer decides to provision a draft"
+            "name": "3. Buyer decides to provision a draft",
+            "mapping": {
+                "left": "21.6%",
+                "top": "65.96%",
+                "width": "9.05%",
+                "height": "4.36%"
+            }
         },
         {
             "id": "t-4-draft-deleted",
             "from": "Draft",
             "to": "Deleted",
-            "name": "4. Garbage Collection"
+            "name": "4. Garbage Collection",
+            "mapping": {
+                "left": "19.8%",
+                "top": "88.98%",
+                "width": "10.25%",
+                "height": "2.13%"
+            }
         },
         {
             "id": "t-5-pending-tiers-setup",
             "from": "Pending",
             "to": "Tiers Setup",
-            "name": "5. System waits for TC Request to complete"
+            "name": "5. System waits for TC Request to complete",
+            "mapping": {
+                "left": "52.65%",
+                "top": "65.96%",
+                "width": "10.7%",
+                "height": "4.36%"
+            }
         },
         {
             "id": "t-6-tiers-setup-failed",
             "from": "Tiers Setup",
             "to": "Failed",
-            "name": "6. TC Request has been failed"
+            "name": "6. TC Request has been failed",
+            "mapping": {
+                "left": "53.9%",
+                "top": "84.71%",
+                "width": "14.2%",
+                "height": "2.31%"
+            }
         },
         {
             "id": "t-7-tiers-setup-pending",
             "from": "Tiers Setup",
             "to": "Pending",
-            "name": "7. TC Request has been successfully completed"
+            "name": "7. TC Request has been successfully completed",
+            "mapping": {
+                "left": "36.15%",
+                "top": "65.96%",
+                "width": "11.4%",
+                "height": "4.44%"
+            }
         },
         {
             "id": "t-8-pending-inquiring",
             "from": "Pending",
             "to": "Inquiring",
-            "name": "8. System asks for the missing required parameters"
+            "name": "8. System asks for the missing required parameters",
+            "mapping": {
+                "left": "25.15%",
+                "top": "27.29%",
+                "width": "13.45%",
+                "height": "4.36%"
+            }
         },
         {
             "id": "t-9-pending-inquiring",
             "from": "Pending",
             "to": "Inquiring",
-            "name": "9. Vendor asks for parameters"
+            "name": "9. Vendor asks for parameters",
+            "mapping": {
+                "left": "46.4%",
+                "top": "27.29%",
+                "width": "7.15%",
+                "height": "4.44%"
+            }
         },
         {
             "id": "t-10-inquiring-pending",
             "from": "Inquiring",
             "to": "Pending",
-            "name": "10. Customer submits required data"
+            "name": "10. Customer submits required data",
+            "mapping": {
+                "left": "62.9%",
+                "top": "27.29%",
+                "width": "10.25%",
+                "height": "4.27%"
+            }
         },
         {
-            "id": "t-11-pending-inquiring",
+            "id": "t-11-pending-approved",
             "from": "Pending",
-            "to": "Inquiring",
-            "name": "11. Vendor successfully completes the request"
+            "to": "Approved",
+            "name": "11. Vendor successfully completes the request",
+            "mapping": {
+                "left": "53.9%",
+                "top": "41.24%",
+                "width": "21.6%",
+                "height": "2.04%"
+            }
         },
         {
             "id": "t-12-pending-failed",
             "from": "Pending",
             "to": "Failed",
-            "name": "12. Vendor irreversibly fails the request"
+            "name": "12. Vendor irreversibly fails the request",
+            "mapping": {
+                "left": "53.95%",
+                "top": "49.33%",
+                "width": "18.1%",
+                "height": "2.22%"
+            }
         }
     ]
 }

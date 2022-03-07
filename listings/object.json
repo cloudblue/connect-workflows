@@ -2,59 +2,113 @@
     "name": "Listings",
     "image": "object.png",
     "readme": "object.md",
-        "statuses": [
-            {
-                "id": "s-a-notlisted",
-                "name": "Not Listed"
-            },
-            {
-                "id": "s-b-listed",
-                "name": "Listed"
+    "statuses": [
+        {
+            "id": "s-a-notlisted",
+            "name": "Not Listed",
+            "mapping": {
+                "left": "25.16%",
+                "top": "23.57%",
+                "width": "26.24%",
+                "height": "27.82%"
             }
-        ],
-        "transitions": [
-            {
-                "id": "t-1-new-notlisted",
-                "from": "New",
-                "to": "Not Listed",
-                "name": "1. Vendor submits a listing request"
-            },
-            {
-                "id": "t-2-notlisted-listed",
-                "from": "Not Listed",
-                "to": "Listed",
-                "name": "2. Distributor completes the listing request"
-            },
-            {
-                "id": "t-3-notlisted",
-                "from": "Not Listed",
-                "to": "Not Listed",
-                "name": "3. Distributor rejects the listing request"
-            },
-            {
-                "id": "t-4-termination-request",
-                "from": "Listed",
-                "to": "Listed",
-                "name": "4. Vendor sends a request to terminate the listing "
-            },
-            {
-                "id": "t-5-listing-termination",
-                "from": "Listed",
-                "to": "Not Listed",
-                "name": "5. Distributor completes the termination request"
-            },
-            {
-                "id": "t-6-update-request",
-                "from": "Listed",
-                "to": "Listed",
-                "name": "6. Vendor sends an update request"
-            },
-            {
-                "id": "t-7-listing-update",
-                "from": "Listed",
-                "to": "Listed",
-                "name": "7. Distributor completes the update request"
+        },
+        {
+            "id": "s-b-listed",
+            "name": "Listed",
+            "mapping": {
+                "left": "77.47%",
+                "top": "23.57%",
+                "width": "15.75%",
+                "height": "27.82%"
             }
-        ]
-    }
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-notlisted",
+            "from": "New",
+            "to": "Not Listed",
+            "name": "1. Vendor submits a listing request",
+            "mapping": {
+                "left": "11.04%",
+                "top": "24.3%",
+                "width": "15.66%",
+                "height": "8.05%"
+            }
+        },
+        {
+            "id": "t-2-notlisted-listed",
+            "from": "Not Listed",
+            "to": "Listed",
+            "name": "2. Distributor completes the listing request",
+            "mapping": {
+                "left": "50.23%",
+                "top": "24.45%",
+                "width": "20.63%",
+                "height": "8.05%"
+            }
+        },
+        {
+            "id": "t-3-notlisted",
+            "from": "Not Listed",
+            "to": "Not Listed",
+            "name": "3. Distributor rejects the listing request",
+            "mapping": {
+                "left": "27.24%",
+                "top": "65.59%",
+                "width": "20.63%",
+                "height": "8.05%"
+            }
+        },
+        {
+            "id": "t-4-termination-request",
+            "from": "Listed",
+            "to": "Listed",
+            "name": "4. Vendor sends a request to terminate the listing ",
+            "mapping": {
+                "left": "72.85%",
+                "top": "1.76%",
+                "width": "24.89%",
+                "height": "8.05%"
+            }
+        },
+        {
+            "id": "t-5-listing-termination",
+            "from": "Listed",
+            "to": "Not Listed",
+            "name": "5. Distributor completes the termination request",
+            "mapping": {
+                "left": "25.79%",
+                "top": "1.32%",
+                "width": "23.62%",
+                "height": "8.05%"
+            }
+        },
+        {
+            "id": "t-6-update-request",
+            "from": "Listed",
+            "to": "Listed",
+            "name": "6. Vendor sends an update request",
+            "mapping": {
+                "left": "59.46%",
+                "top": "65.74%",
+                "width": "17.01%",
+                "height": "8.05%"
+            }
+        },
+        {
+            "id": "t-7-listing-update",
+            "from": "Listed",
+            "to": "Listed",
+            "name": "7. Distributor completes the update request",
+            "mapping": {
+                "left": "73.57%",
+                "top": "89.9%",
+                "width": "23.35%",
+                "height": "8.05%"
+            }
+        }
+    ]
+}
     

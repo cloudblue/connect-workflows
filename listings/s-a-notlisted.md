@@ -9,10 +9,12 @@ Listings in this state are interconnected with one of the following Listing Requ
 * **Reviewing**
 * **Deploying**
 * **Cancelled**
+
 ## Prerequisites 
 A submitted listing request is required for Connect to create a new listing with this status.
 ## Transferable statuses
 Once Distributors deploy a specified product and mark a provided listing request as *Completed*, the listing assigns to the [Listed](s-b-listed.html) status. 
+
 ## Associated transitions
 * [Listing Creation](t-1-new-notlisted.html)
 * [Listing Approval](t-2-notlisted-listed.html)
