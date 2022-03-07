@@ -1,0 +1,57 @@
+{
+    "name": "Report Templates",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-enabled",
+                "name": "Enabled"
+            },
+            {
+                "id": "s-b-disabled",
+                "name": "Disabled"
+            },
+            {
+                "id": "s-c-blocked",
+                "name": "Blocked"
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-enabled",
+                "from": "New",
+                "to": "Enabled",
+                "name": "1. New Template Addition"
+            },
+            {
+                "id": "t-2-enabled-disabled",
+                "from": "Enabled",
+                "to": "Disabled",
+                "name": "2. Template Concealment"
+            },
+            {
+                "id": "t-3-disabled-enabled",
+                "from": "Disabled",
+                "to": "Enabled",
+                "name": "3. Template Reactivation"
+            },
+            {
+                "id": "t-4-enabled-disabled-blocked",
+                "from": "Enabled or Disabled",
+                "to": "Blocked",
+                "name": "4. Template is Blocked"
+            },
+            {
+                "id": "t-6-blocked-enabled",
+                "from": "Blocked",
+                "to": "Enabled",
+                "name": "5. Template is Unblocked "
+            },
+            {
+                "id": "t-6-blocked-deleted",
+                "from": "Blocked",
+                "to": "Deleted",
+                "name": "6. Template Removal"
+            }
+        ]
+    }
