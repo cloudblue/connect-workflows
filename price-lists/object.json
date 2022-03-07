@@ -1,0 +1,68 @@
+{
+    "name": "Price Lists",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-draft",
+                "name": "Draft"
+            },
+            {
+                "id": "s-b-scheduled",
+                "name": "Scheduled"
+            },
+            {
+                "id": "s-c-active",
+                "name": "Active"
+            },
+            {
+                "id": "s-d-teminated",
+                "name": "Terminated"
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-draft",
+                "from": "New",
+                "to": "Draft",
+                "name": "1. Draft Creation"
+            },
+            {
+                "id": "t-2-draft-scheduled",
+                "from": "Draft",
+                "to": "Schedule",
+                "name": "2. Price List Schedule"
+            },
+            {
+                "id": "t-3-schedule-draft",
+                "from": "Scheduled",
+                "to": "Draft",
+                "name": "3. Schedule Cancellation"
+            },
+            {
+                "id": "t-4-schedule-active",
+                "from": "Scheduled",
+                "to": "Active",
+                "name": "4. Scheduled Pricing Activation "
+            },
+            {
+                "id": "t-5-draft-active",
+                "from": "Draft",
+                "to": "Active",
+                "name": "5. Draft Activation"
+            },
+            {
+                "id": "t-6-active-terminated",
+                "from": "Active",
+                "to": "Terminated",
+                "name": "6. Price List Termination"
+            },
+            {
+                "id": "t-7-draft-deleted",
+                "from": "Draft",
+                "to": "Deleted",
+                "name": "7. Draft Removal"
+            }
+        ]
+    }
+    
