@@ -5,19 +5,43 @@
         "statuses": [
             {
                 "id": "s-a-pending",
-                "name": "Pending"
+                "name": "Pending",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-b-unsupported",
-                "name": "Unsupported"
+                "name": "Unsupported",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-c-accepted",
-                "name": "Accepted"
+                "name": "Accepted",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-d-ignored",
-                "name": "Ignored"
+                "name": "Ignored",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ],
         "transitions": [
@@ -25,25 +49,49 @@
                 "id": "t-1-new-pending",
                 "from": "New",
                 "to": "Pending",
-                "name": "1. Pending Request Creation"
+                "name": "1. Pending Request Creation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-2-new-unsupported",
                 "from": "New",
                 "to": "Unsupported",
-                "name": "2. Unsupported Request Creation"
+                "name": "2. Unsupported Request Creation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-3-pen-accepted",
                 "from": "Pending",
                 "to": "Active",
-                "name": "3. Request Acceptance"
+                "name": "3. Request Acceptance",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-4-pen-ignored",
                 "from": "Pending",
                 "to": "Ignored",
-                "name": "4. Request Ignore"
+                "name": "4. Request Ignore",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ]
     }

@@ -5,31 +5,73 @@
         "statuses": [
             {
                 "id": "s-a-uploaded",
-                "name": "Uploaded"
+                "name": "Uploaded",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-b-validated",
-                "name": "Validated"
+                "name": "Validated",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-c-invalid",
-                "name": "Invalid"
+                "name": "Invalid",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-d-pending",
-                "name": "Pending"
+                "name": "Pending",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-e-rejected",
-                "name": "Rejected"
+                "name": "Rejected",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-f-accepted",
-                "name": "Accepted"
+                "name": "Accepted",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-g-closed",
-                "name": "Closed"
+                "name": "Closed",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ],
         "transitions": [
@@ -37,55 +79,109 @@
                 "id": "t-1-new-uploaded",
                 "from": "New",
                 "to": "Uploaded",
-                "name": "1. New Record Creation"
+                "name": "1. New Record Creation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-2-upl-validated",
                 "from": "Uploaded",
                 "to": "Validated",
-                "name": "2. Record Validation"
+                "name": "2. Record Validation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-3-upl-invalid",
                 "from": "Uploaded",
                 "to": "Invalid",
-                "name": "3. Failed Record Processing"
+                "name": "3. Failed Record Processing",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-4-inv-uploaded",
                 "from": "Invalid",
                 "to": "Uploading",
-                "name": "4. Record Reuploading"
+                "name": "4. Record Reuploading",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-5-val-pending",
                 "from": "Validated",
                 "to": "Pending",
-                "name": "5. Record is Submitted"
+                "name": "5. Record is Submitted",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-6-pend-rejected",
                 "from": "Pending",
                 "to": "Rejected",
-                "name": "6. Record is Rejected"
+                "name": "6. Record is Rejected",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-7-rej-uploaded",
                 "from": "Rejected",
                 "to": "Uploaded",
-                "name": "7. Rejected Record Reuploading"
+                "name": "7. Rejected Record Reuploading",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-8-pend-accepted",
                 "from": "Pending",
                 "to": "Accepted",
-                "name": "8. Record Acceptance"
+                "name": "8. Record Acceptance",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-9-acc-closed",
                 "from": "Accepted",
                 "to": "Closed",
-                "name": "9. Record Closure"
+                "name": "9. Record Closure",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ]
     }

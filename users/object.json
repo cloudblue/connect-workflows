@@ -4,15 +4,51 @@
     "statuses": [
         {
             "id": "s-a-invited",
-            "name": "Invited"
+            "name": "Invited",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
+            }
         },
         {
             "id": "s-b-joined",
-            "name": "Joined"
+            "name": "Joined",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
+            }
         },
         {
             "id": "s-c-expired",
-            "name": "Expired"
+            "name": "Expired",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
+            }
         }
     ],
     "transitions": [
@@ -20,31 +56,61 @@
             "id": "t-1-new-invited",
             "from": "New",
             "to": "Invited",
-            "name": "1. User Invitation"
+            "name": "1. User Invitation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-2-inv-joined",
             "from": "Invited",
             "to": "Joined",
-            "name": "2. Invitation Activation"
+            "name": "2. Invitation Activation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-3-inv-expired",
             "from": "Invited",
             "to": "Expired",
-            "name": "3. Invitation Revocation"
+            "name": "3. Invitation Revocation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-4-exp-invited",
             "from": "Expired",
             "to": "Invited",
-            "name": "4. Invitation Resent"
+            "name": "4. Invitation Resent",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-5-joined-deleted",
             "from": "Joined",
             "to": "Deleted",
-            "name": "5. User Removal"
+            "name": "5. User Removal",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ]
 }

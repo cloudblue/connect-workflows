@@ -4,11 +4,23 @@
     "statuses": [
         {
             "id": "s-a-enabled",
-            "name": "Enabled"
+            "name": "Enabled",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-b-disabled",
-            "name": "Disabled"
+            "name": "Disabled",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ],
     "transitions": [
@@ -16,31 +28,61 @@
             "id": "t-1-new-enabled",
             "from": "New",
             "to": "Enabled",
-            "name": "1. New Schedule Creation"
+            "name": "1. New Schedule Creation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-2-enabled-disabled",
             "from": "Enabled",
             "to": "Disabled",
-            "name": "2. Schedule Deactivation"
+            "name": "2. Schedule Deactivation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-3-disabled-enabled",
             "from": "Disabled",
             "to": "Enabled",
-            "name": "3. Schedule Reactivation"
+            "name": "3. Schedule Reactivation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-4-enabled-deleted",
             "from": "Enabled",
             "to": "Deleted",
-            "name": "4. Enabled Schedule Removal"
+            "name": "4. Enabled Schedule Removal",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-5-disabled-deleted",
             "from": "Disabled",
             "to": "Deleted",
-            "name": "5. Enabled Schedule Removal"
+            "name": "5. Enabled Schedule Removal",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ]
 }

@@ -5,19 +5,43 @@
         "statuses": [
             {
                 "id": "s-a-draft",
-                "name": "Draft"
+                "name": "Draft",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-b-scheduled",
-                "name": "Scheduled"
+                "name": "Scheduled",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-c-active",
-                "name": "Active"
+                "name": "Active",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-d-teminated",
-                "name": "Terminated"
+                "name": "Terminated",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ],
         "transitions": [
@@ -25,43 +49,85 @@
                 "id": "t-1-new-draft",
                 "from": "New",
                 "to": "Draft",
-                "name": "1. Draft Creation"
+                "name": "1. Draft Creation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-2-draft-scheduled",
                 "from": "Draft",
                 "to": "Schedule",
-                "name": "2. Price List Schedule"
+                "name": "2. Price List Schedule",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-3-schedule-draft",
                 "from": "Scheduled",
                 "to": "Draft",
-                "name": "3. Schedule Cancellation"
+                "name": "3. Schedule Cancellation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-4-schedule-active",
                 "from": "Scheduled",
                 "to": "Active",
-                "name": "4. Scheduled Pricing Activation "
+                "name": "4. Scheduled Pricing Activation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-5-draft-active",
                 "from": "Draft",
                 "to": "Active",
-                "name": "5. Draft Activation"
+                "name": "5. Draft Activation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-6-active-terminated",
                 "from": "Active",
                 "to": "Terminated",
-                "name": "6. Price List Termination"
+                "name": "6. Price List Termination",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-7-draft-deleted",
                 "from": "Draft",
                 "to": "Deleted",
-                "name": "7. Draft Removal"
+                "name": "7. Draft Removal",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ]
     }

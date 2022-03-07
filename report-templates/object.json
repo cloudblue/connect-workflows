@@ -5,15 +5,33 @@
         "statuses": [
             {
                 "id": "s-a-enabled",
-                "name": "Enabled"
+                "name": "Enabled",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-b-disabled",
-                "name": "Disabled"
+                "name": "Disabled",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-c-blocked",
-                "name": "Blocked"
+                "name": "Blocked",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ],
         "transitions": [
@@ -21,37 +39,73 @@
                 "id": "t-1-new-enabled",
                 "from": "New",
                 "to": "Enabled",
-                "name": "1. New Template Addition"
+                "name": "1. New Template Addition",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-2-enabled-disabled",
                 "from": "Enabled",
                 "to": "Disabled",
-                "name": "2. Template Concealment"
+                "name": "2. Template Concealment",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-3-disabled-enabled",
                 "from": "Disabled",
                 "to": "Enabled",
-                "name": "3. Template Reactivation"
+                "name": "3. Template Reactivation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-4-enabled-disabled-blocked",
                 "from": "Enabled or Disabled",
                 "to": "Blocked",
-                "name": "4. Template is Blocked"
+                "name": "4. Template is Blocked",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-6-blocked-enabled",
                 "from": "Blocked",
                 "to": "Enabled",
-                "name": "5. Template is Unblocked "
+                "name": "5. Template is Unblocked",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-6-blocked-deleted",
                 "from": "Blocked",
                 "to": "Deleted",
-                "name": "6. Template Removal"
+                "name": "6. Template Removal",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ]
     }

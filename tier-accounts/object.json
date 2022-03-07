@@ -4,11 +4,23 @@
     "statuses": [
         {
             "id": "s-a-active",
-            "name": "Active"
+            "name": "Active",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-b-decom",
-            "name": "Decommissioned"
+            "name": "Decommissioned",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ],
     "transitions": [
@@ -16,13 +28,25 @@
             "id": "t-1-new-active",
             "from": "New",
             "to": "Active",
-            "name": "1. Tier Account Creation"
+            "name": "1. Tier Account Creation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-2-act-decom",
             "from": "Active",
             "to": "Decomissioned",
-            "name": "2. Tier Account Removal"
+            "name": "2. Tier Account Removal",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ]
 }

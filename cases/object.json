@@ -4,19 +4,43 @@
     "statuses": [
         {
             "id": "s-a-pending",
-            "name": "Pending"
+            "name": "Pending",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-b-inquiring",
-            "name": "Inquiring"
+            "name": "Inquiring",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-c-resolved",
-            "name": "Resolved"
+            "name": "Resolved",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-d-closed",
-            "name": "Closed"
+            "name": "Closed",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ],
     "transitions": [
@@ -24,37 +48,73 @@
             "id": "t-1-new-pending",
             "from": "New",
             "to": "Pending",
-            "name": "1. New Case Creation"
+            "name": "1. New Case Creation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-2-pend-inquiring",
             "from": "Pending",
             "to": "Inquiring",
-            "name": "2. Data Inquiry"
+            "name": "2. Data Inquiry",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-3-inq-pending",
             "from": "Inquiring",
             "to": "Pending",
-            "name": "3. Required Data is Submitted"
+            "name": "3. Required Data is Submitted",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-4-pend-resolved",
             "from": "Pending",
             "to": "Resolved",
-            "name": "4. Case Resolution"
+            "name": "4. Case Resolution",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-5-res-closed",
             "from": "Resolved",
             "to": "Closed",
-            "name": "5. Case Closure"
+            "name": "5. Case Closure",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-6-res-pending",
             "from": "Resolved",
             "to": "Pending",
-            "name": "6. Case Reopening"
+            "name": "6. Case Reopening",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ]
 }

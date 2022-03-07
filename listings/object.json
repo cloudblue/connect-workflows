@@ -5,11 +5,23 @@
         "statuses": [
             {
                 "id": "s-a-notlisted",
-                "name": "Not Listed"
+                "name": "Not Listed",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-b-listed",
-                "name": "Listed"
+                "name": "Listed",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ],
         "transitions": [
@@ -17,43 +29,85 @@
                 "id": "t-1-new-notlisted",
                 "from": "New",
                 "to": "Not Listed",
-                "name": "1. Vendor submits a listing request"
+                "name": "1. Vendor submits a listing request",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-2-notlisted-listed",
                 "from": "Not Listed",
                 "to": "Listed",
-                "name": "2. Distributor completes the listing request"
+                "name": "2. Distributor completes the listing request",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-3-notlisted",
                 "from": "Not Listed",
                 "to": "Not Listed",
-                "name": "3. Distributor rejects the listing request"
+                "name": "3. Distributor rejects the listing request",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-4-termination-request",
                 "from": "Listed",
                 "to": "Listed",
-                "name": "4. Vendor sends a request to terminate the listing "
+                "name": "4. Vendor sends a request to terminate the listing",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-5-listing-termination",
                 "from": "Listed",
                 "to": "Not Listed",
-                "name": "5. Distributor completes the termination request"
+                "name": "5. Distributor completes the termination request",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-6-update-request",
                 "from": "Listed",
                 "to": "Listed",
-                "name": "6. Vendor sends an update request"
+                "name": "6. Vendor sends an update request",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-7-listing-update",
                 "from": "Listed",
                 "to": "Listed",
-                "name": "7. Distributor completes the update request"
+                "name": "7. Distributor completes the update request",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ]
     }

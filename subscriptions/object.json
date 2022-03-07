@@ -5,27 +5,63 @@
         "statuses": [
             {
                 "id": "s-a-processing",
-                "name": "Processing"
+                "name": "Processing",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-b-active",
-                "name": "Active"
+                "name": "Active",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-c-terminating",
-                "name": "Terminating"
+                "name": "Terminating",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-d-teminated",
-                "name": "Terminated"
+                "name": "Terminated",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-e-suspended",
-                "name": "Suspended"
+                "name": "Suspended",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "s-f-draft",
-                "name": "Draft"
+                "name": "Draft",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ],
         "transitions": [
@@ -33,73 +69,145 @@
                 "id": "t-1-new-subscription",
                 "from": "New",
                 "to": "Processing",
-                "name": "1. Subscription Creation"
+                "name": "1. Subscription Creation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-2-pro-active",
                 "from": "Processing",
                 "to": "Active",
-                "name": "2. Subscription Approval"
+                "name": "2. Subscription Approval",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-3-pro-terminated",
                 "from": "Processing",
                 "to": "Terminated",
-                "name": "3. Subscription Rejection"
+                "name": "3. Subscription Rejection",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-4-active-terminating",
                 "from": "Active",
                 "to": "Terminating",
-                "name": "4. Subscription Cancellation"
+                "name": "4. Subscription Cancellation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-5-terminating-terminated",
                 "from": "Terminating",
                 "to": "Terminated",
-                "name": "5. Cancellation Approval"
+                "name": "5. Cancellation Approval",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-6-change-request",
                 "from": "Active",
                 "to": "Active",
-                "name": "6. Change Request Creation"
+                "name": "6. Change Request Creation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-7-change-approval",
                 "from": "Active",
                 "to": "Active",
-                "name": "7. Change Request Approval"
+                "name": "7. Change Request Approval",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-8-suspend",
                 "from": "Active",
                 "to": "Suspended",
-                "name": "8. Subscription Suspension"
+                "name": "8. Subscription Suspension",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-9-resume",
                 "from": "Suspended",
                 "to": "Active",
-                "name": "9. Subscription Resumption"
+                "name": "9. Subscription Resumption",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-10-draft",
                 "from": "New",
                 "to": "Draft",
-                "name": "10. Draft Creation"
+                "name": "10. Draft Creation",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-11-draft-removal",
                 "from": "Draft",
                 "to": "Deleted",
-                "name": "11. Draft Removal"
+                "name": "11. Draft Removal",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             },
             {
                 "id": "t-12-draft-processing",
                 "from": "Draft",
                 "to": "Processing",
-                "name": "12. Draft to Processing Convertion"
+                "name": "12. Draft to Processing Convertion",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ]
     }

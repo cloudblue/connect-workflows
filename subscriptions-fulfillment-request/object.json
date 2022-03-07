@@ -4,39 +4,93 @@
     "statuses": [
         {
             "id": "s-a-draft",
-            "name": "Draft"
+            "name": "Draft",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-b-pending",
-            "name": "Pending"
+            "name": "Pending",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-c-tiers-setup",
-            "name": "Tiers Setup"
+            "name": "Tiers Setup",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-d-inquiring",
-            "name": "Inquiring"
+            "name": "Inquiring",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-e-approved",
-            "name": "Approved"
+            "name": "Approved",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-f-failed",
-            "name": "Failed"
+            "name": "Failed",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-g-scheduled",
-            "name": "Scheduled"
+            "name": "Scheduled",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-h-revoking",
-            "name": "Revoking"
+            "name": "Revoking",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-i-revoked",
-            "name": "Revoked"
+            "name": "Revoked",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ],
     "transitions": [
@@ -44,97 +98,193 @@
             "id": "t-1-new-pending",
             "from": "New",
             "to": "Pending",
-            "name": "1. Buyer creates fulfillment request (provisioning)"
+            "name": "1. Buyer creates fulfillment request (provisioning)",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-2-new-draft",
             "from": "New",
             "to": "Draft",
-            "name": "2. Buyer creates draft request"
+            "name": "2. Buyer creates draft request",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-3-draft-pending",
             "from": "Draft",
             "to": "Pending",
-            "name": "3. Buyer decides to provision a draft"
+            "name": "3. Buyer decides to provision a draft",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-4-draft-deleted",
             "from": "Draft",
             "to": "Deleted",
-            "name": "4. Garbage Collection"
+            "name": "4. Garbage Collection",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-5-pending-tiers-setup",
             "from": "Pending",
             "to": "Tiers Setup",
-            "name": "5. System waits for TC Request to complete"
+            "name": "5. System waits for TC Request to complete",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-6-tiers-setup-failed",
             "from": "Tiers Setup",
             "to": "Failed",
-            "name": "6. TC Request has been failed"
+            "name": "6. TC Request has been failed",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-7-tiers-setup-pending",
             "from": "Tiers Setup",
             "to": "Pending",
-            "name": "7. TC Request has been successfully completed"
+            "name": "7. TC Request has been successfully completed",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-8-pending-inquiring",
             "from": "Pending",
             "to": "Inquiring",
-            "name": "8. System asks for the missing required parameters"
+            "name": "8. System asks for the missing required parameters",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-9-pending-inquiring",
             "from": "Pending",
             "to": "Inquiring",
-            "name": "9. Vendor asks for parameters"
+            "name": "9. Vendor asks for parameters",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-10-inquiring-pending",
             "from": "Inquiring",
             "to": "Pending",
-            "name": "10. Customer submits required data"
+            "name": "10. Customer submits required data",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-11-pending-approved",
             "from": "Pending",
             "to": "Approved",
-            "name": "11. Vendor successfully completes Request"
+            "name": "11. Vendor successfully completes Request",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-12-pending-failed",
             "from": "Pending",
             "to": "Failed",
-            "name": "12. Vendor irreversibly fails Request"
+            "name": "12. Vendor irreversibly fails Request",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-13-pending-scheduled",
             "from": "Pending",
             "to": "Scheduled",
-            "name": "13. Vendor schedules request"
+            "name": "13. Vendor schedules request",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-14-scheduled-pending",
             "from": "Scheduled",
             "to": "Pending",
-            "name": "14. Request returns to Pending state"
+            "name": "14. Request returns to Pending state",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-15-scheduled-revoking",
             "from": "Scheduled",
             "to": "Revoking",
-            "name": "15. Distributor/Reseller revoked Request"
+            "name": "15. Distributor/Reseller revoked Request",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-16-revoked-revoked",
             "from": "Revoking",
             "to": "Revoked",
-            "name": "16. Vendor confirms revocation"
+            "name": "16. Vendor confirms revocation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ]
 }

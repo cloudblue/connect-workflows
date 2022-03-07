@@ -4,15 +4,33 @@
     "statuses": [
         {
             "id": "s-a-private",
-            "name": "Private"
+            "name": "Private",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-b-ready",
-            "name": "Ready"
+            "name": "Ready",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-c-active",
-            "name": "Listed"
+            "name": "Listed",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ],
     "transitions": [
@@ -20,43 +38,85 @@
             "id": "t-1-new-private",
             "from": "New",
             "to": "Private",
-            "name": "1. Offer Instance Creation"
+            "name": "1. Offer Instance Creation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-2-priv-ready",
             "from": "Private",
             "to": "Ready",
-            "name": "2. Public Version Creation"
+            "name": "2. Public Version Creation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-3-ready-listed",
             "from": "Ready",
             "to": "Listed",
-            "name": "3. Adding Offer to Listing"
+            "name": "3. Adding Offer to Listing",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-4-listed-ready",
             "from": "Draft",
             "to": "Deleted",
-            "name": "4. Offer Delisting"
+            "name": "4. Offer Delisting",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-5-priv-deleted",
             "from": "Processing",
             "to": "Active",
-            "name": "5. Private Offer Removal"
+            "name": "5. Private Offer Removal",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-6-ready-deleted",
             "from": "Active",
             "to": "Processing",
-            "name": "6. Ready Offer Instance Removal"
+            "name": "6. Ready Offer Instance Removal",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-7-ready-private",
             "from": "Ready",
             "to": "Private",
-            "name": "7. Ready Offer Instance Removal"
+            "name": "7. Ready Offer Instance Removal",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
         
     ]

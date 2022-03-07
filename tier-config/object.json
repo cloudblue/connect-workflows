@@ -4,15 +4,33 @@
     "statuses": [
         {
             "id": "s-a-draft",
-            "name": "Draft"
+            "name": "Draft",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-b-processing",
-            "name": "Pending"
+            "name": "Pending",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-c-active",
-            "name": "Active"
+            "name": "Active",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ],
     "transitions": [
@@ -20,37 +38,73 @@
             "id": "t-1-new-processing",
             "from": "New",
             "to": "Processing",
-            "name": "1. New Config Creation"
+            "name": "1. New Config Creation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-2-new-draft",
             "from": "New",
             "to": "Draft",
-            "name": "2. Draft Creation"
+            "name": "2. Draft Creation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-3-draft-processing",
             "from": "Draft",
             "to": "Processing",
-            "name": "3. Draft Validation"
+            "name": "3. Draft Validation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-4-draft-deleted",
             "from": "Draft",
             "to": "Deleted",
-            "name": "4. Draft Removal"
+            "name": "4. Draft Removal",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-5-pro-active",
             "from": "Processing",
             "to": "Active",
-            "name": "5. Config Activation"
+            "name": "5. Config Activation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-6-act-processing",
             "from": "Active",
             "to": "Processing",
-            "name": "6. Config Update"
+            "name": "6. Config Update",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ]
 }

@@ -4,11 +4,23 @@
     "statuses": [
         {
             "id": "s-a-active",
-            "name": "Active"
+            "name": "Active",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-b-inactive",
-            "name": "Inactive"
+            "name": "Inactive",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ],
     "transitions": [
@@ -16,37 +28,73 @@
             "id": "t-1-new-active",
             "from": "New",
             "to": "Active",
-            "name": "1. New Active Agreement Version Creation"
+            "name": "1. New Active Agreement Version Creation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-2-new-inactive",
             "from": "New",
             "to": "Inactive",
-            "name": "2. New Inactive Agreement Version Creation"
+            "name": "2. New Inactive Agreement Version Creation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-3-act-inactive",
             "from": "Active",
             "to": "Inactive",
-            "name": "3. Agreement Version Deactivation"
+            "name": "3. Agreement Version Deactivation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-4-inact-active",
             "from": "Inactive",
             "to": "Active",
-            "name": "4. Agreement Version Reactivation"
+            "name": "4. Agreement Version Reactivation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-5-act-deleted",
             "from": "Active",
             "to": "Deleted",
-            "name": "5. Active Agreement Version Removal"
+            "name": "5. Active Agreement Version Removal",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-6-inact-deleted",
             "from": "Inactive",
             "to": "Deleted",
-            "name": "6. Inactive Agreement Version Removal"
+            "name": "6. Inactive Agreement Version Removal",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ]
 }

@@ -4,11 +4,23 @@
     "statuses": [
         {
             "id": "s-a-invited",
-            "name": "Invited"
+            "name": "Invited",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "s-b-active",
-            "name": "Active"
+            "name": "Active",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ],
     "transitions": [
@@ -16,25 +28,49 @@
             "id": "t-1-new-invited",
             "from": "New",
             "to": "Invited",
-            "name": "1. Partner Invitation"
+            "name": "1. Partner Invitation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-2-new-active",
             "from": "New",
             "to": "Active",
-            "name": "2. Partner Account Creation"
+            "name": "2. Partner Account Creation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-3-inv-active",
             "from": "Invited",
             "to": "Active",
-            "name": "3. Invitation Link Activation"
+            "name": "3. Invitation Link Activation",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         },
         {
             "id": "t-4-act-removed",
             "from": "Active",
             "to": "Removed",
-            "name": "4. Contract Termination"
+            "name": "4. Contract Termination",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ]
 }
