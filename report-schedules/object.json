@@ -1,0 +1,46 @@
+{
+    "name": "Report Schedules",
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-enabled",
+            "name": "Enabled"
+        },
+        {
+            "id": "s-b-disabled",
+            "name": "Disabled"
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-enabled",
+            "from": "New",
+            "to": "Enabled",
+            "name": "1. New Schedule Creation"
+        },
+        {
+            "id": "t-2-enabled-disabled",
+            "from": "Enabled",
+            "to": "Disabled",
+            "name": "2. Schedule Deactivation"
+        },
+        {
+            "id": "t-3-disabled-enabled",
+            "from": "Disabled",
+            "to": "Enabled",
+            "name": "3. Schedule Reactivation"
+        },
+        {
+            "id": "t-4-enabled-deleted",
+            "from": "Enabled",
+            "to": "Deleted",
+            "name": "4. Enabled Schedule Removal"
+        },
+        {
+            "id": "t-5-disabled-deleted",
+            "from": "Disabled",
+            "to": "Deleted",
+            "name": "5. Enabled Schedule Removal"
+        }
+    ]
+}
