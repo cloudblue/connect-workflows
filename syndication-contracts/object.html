@@ -1,0 +1,36 @@
+<html>
+<head>
+<style>
+</style>
+<meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type='text/javascript' src='http://davidlynch.org/projects/maphilight/jquery.maphilight.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.map').maphilight({ alwaysOn: true });
+            // uncomment this line for normal hover highlighting
+            // $('.map').maphilight();
+        });   
+    </script>
+</head>
+<body>
+
+<!-- Edit with https://summerstyle.github.io/summer/ below -->
+
+<img class="map" src="object.png" alt="" usemap="#map" />
+<map name="map">
+    <area shape="rect" coords="769, 7, 1141, 224" href="s-d-terminated" />
+    <area shape="rect" coords="922, 248, 1135, 329" href=" t-4-act-terminated" />
+    <area shape="rect" coords="844, 348, 1068, 577" href="s-b-active" />
+    <area shape="rect" coords="819, 754, 1087, 969" href="s-c-rejected" />
+    <area shape="rect" coords="524, 703, 772, 876" href="t-3-pend-rejected" />
+    <area shape="rect" coords="579, 347, 776, 469" href="t-2-pend-active" />
+    <area shape="rect" coords="334, 335, 552, 558" href="s-a-pending" />
+    <area shape="rect" coords="29, 334, 322, 482" href="t-1-new-pending" />
+</map>
+</map>
+
+<!-- Edit with https://summerstyle.github.io/summer/ above -->
+
+</body>
+</html>
