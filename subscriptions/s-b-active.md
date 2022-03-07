@@ -4,10 +4,6 @@ This subscription status indicates that a Vendor successfully approved a fulfill
 An active subscription can be cancelled; thus, the system assigns the *Terminating* status to this subscription.
 Once a subscription is activated, consumers might also create a change request to adjust items or item quantity.  
 Furthermore, an active subscription can be suspended in case a corresponding capability is enabled.
-## Fulfillment Requests
-Active subscriptions are interconnected with fulfillment requests in the following state:
-* **Approved**
-In case a cancel fulfillment request receives the **Failed** status, an interconnected subscription remains in the *Active* state.
 ## Prerequisites
 A subscription with the [Processing](s-a-processing.html) status and an approved fulfillment request.
 ## Transferable statuses
