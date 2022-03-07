@@ -1,8 +1,10 @@
 # Listed Status 
 ## Description
-The **Listed** status is displayed in case an associated listing is activated. Furthermore, this status indicates that a defined product was successfully published on a specified marketplace.
-Vendors are able to create a listing termination request and delist a product from a marketplace. Therefore, this listing will be transfered to the **Not Listed** state.
-In addition, Vendors can create update listing requests and update provided listing information. Thus, the listing will be updated and it will remain the **Listed** status.
+The *Listed* status is displayed in case your new listing request is approved and the listing object is successfully activated. This status also indicates that the defined product was successfully published on the specified marketplace.
+
+Note that the system allows Vendors to create a listing termination request and delist their product from the marketplace. Therefore, this listing will be transferred back to the *Not Listed* state.
+
+In addition, note that Vendors can create update listing requests and update provided listing information. Thus, the listing will be updated and it will remain the *Listed* status.
 ## Listing Requests
 Activated listings are interconnected with the following Listing Request states:
 **Completed**
