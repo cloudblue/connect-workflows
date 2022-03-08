@@ -1,5 +1,7 @@
 # CloudBlue Connect Platform Workflows Repository
 
+[![Build Connect Workflows](https://github.com/cloudblue/connect-workflows/actions/workflows/github-actions.yml/badge.svg)](https://github.com/cloudblue/connect-workflows/actions/workflows/github-actions.yml)
+
 Documentation repository of Connect modules, objects, statuses and transitions between them.
 
 ![workflow](https://github.com/cloudblue/connect-workflows/blob/main/about.gif?raw=true)
