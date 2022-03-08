@@ -61,8 +61,8 @@
             },
             {
                 "id": "t-3-draft-del",
-                "from": "Not Listed",
-                "to": "Not Listed",
+                "from": "Draft",
+                "to": "Deleted",
                 "name": "3. Distributor rejects the listing request",
                 "mapping": {
                     "left": "10%",
@@ -73,8 +73,8 @@
             },
             {
                 "id": "t-4-pub-end",
-                "from": "Listed",
-                "to": "Listed",
+                "from": "Published",
+                "to": "End of Sale",
                 "name": "4. End of Sale Confirmation",
                 "mapping": {
                     "left": "10%",
@@ -85,8 +85,8 @@
             },
             {
                 "id": "t-5-end-pub",
-                "from": "Listed",
-                "to": "Listed",
+                "from": "End of Sale",
+                "to": "Published",
                 "name": "5. Product Restoration",
                 "mapping": {
                     "left": "10%",

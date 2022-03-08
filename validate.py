@@ -92,6 +92,9 @@ def validate_status(status, output_dir, working_dir, default_image):
     status_image = PIL.Image.open( os.path.join(working_dir, image) )
     img_width, img_height = status_image.size
     if status_image.size != default_image.size:
+        print( 'status image validation failed: ' + status['name'] )
+        print( 'status_image.size = ' + str(status_image.size) )
+        print( 'default_image.size = ' + str(default_image.size) )
         error('Different image sizes wihin the same object')
 
 

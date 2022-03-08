@@ -105,8 +105,8 @@
             },
             {
                 "id": "t-5-act-terminated",
-                "from": "Listed",
-                "to": "Not Listed",
+                "from": "Active",
+                "to": "Terminated",
                 "name": "5. Contract Termination",
                 "mapping": {
                     "left": "10%",

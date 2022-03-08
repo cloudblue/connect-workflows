@@ -14,7 +14,7 @@
         },
         {
             "id": "s-b-processing",
-            "name": "Pending",
+            "name": "Processing",
             "mapping": {
                 "left": "10%",
                 "top": "10%",

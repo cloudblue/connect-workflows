@@ -108,7 +108,6 @@
             "objects": [
                 "report-repositories/object.json",
                 "report-schedules/object.json",
-                "report-templates/object.json",
                 "reports/object.json"
             ]
         },
