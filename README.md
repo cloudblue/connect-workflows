@@ -6,6 +6,4 @@ Documentation repository of Connect modules, objects, statuses and transitions b
 
 All of the modules and corresponding objects are listed in the workflows.json.
 
-Each object and its states is documented in the separate object.json, referenced from the workflows.json.
-
-Object imagemaps are maintained with https://summerstyle.github.io/summer/.
+Each object and its states is documented in the separate object.json, referenced from the workflows.json

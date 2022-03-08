@@ -23,5 +23,13 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+
+      - name: Install python dependencies
+        uses: py-actions/py-dependency-install@v3
+        with:
+          path: requirements.txt
+
+      - name: Run validation script
+        run: python ./validate.py
       
       - run: echo "This job's status is ${{ job.status }}."
