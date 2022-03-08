@@ -39,7 +39,7 @@
         {
             "id": "t-2-act-decom",
             "from": "Active",
-            "to": "Decomissioned",
+            "to": "Decommissioned",
             "name": "2. Tier Account Removal",
             "mapping": {
                 "left": "10%",

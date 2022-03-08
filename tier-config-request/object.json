@@ -150,7 +150,7 @@
         },
         {
             "id": "t-8-tier-pending",
-            "from": "Tier Setup",
+            "from": "Tiers Setup",
             "to": "Pending",
             "name": "8. Tier Setup is Completed",
             "mapping": {
@@ -199,7 +199,7 @@
         {
             "id": "t-12-draft-tiers",
             "from": "Draft",
-            "to": "Tier Setup",
+            "to": "Tiers Setup",
             "name": "12. Draft to Tier Setup Transition",
             "mapping": {
                 "left": "10%",
@@ -243,7 +243,7 @@
         },
         {
             "id": "t-16-tier-failed",
-            "from": "Tier",
+            "from": "Tiers Setup",
             "to": "Failed",
             "name": "16. Tier Setup Request Rejection",
             "mapping": {

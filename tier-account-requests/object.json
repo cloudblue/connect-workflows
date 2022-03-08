@@ -72,7 +72,7 @@
             {
                 "id": "t-3-pen-accepted",
                 "from": "Pending",
-                "to": "Active",
+                "to": "Accepted",
                 "name": "3. Request Acceptance",
                 "mapping": {
                     "left": "10%",

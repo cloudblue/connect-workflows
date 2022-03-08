@@ -3,7 +3,17 @@
     "image": "object.png",
     "statuses": [
         {
-            "id": "s-a-draft",
+            "id": "s-a-new",
+            "name": "New",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
+        },
+        {
+            "id": "s-b-draft",
             "name": "Draft",
             "mapping": {
                 "left": "10%",
@@ -13,7 +23,17 @@
             }
         },
         {
-            "id": "s-b-processing",
+            "id": "s-c-deleted",
+            "name": "Deleted",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
+        },
+        {
+            "id": "s-d-published",
             "name": "Published",
             "mapping": {
                 "left": "10%",
@@ -23,7 +43,7 @@
             }
         },
         {
-            "id": "s-c-endsale",
+            "id": "s-e-endsale",
             "name": "End of Sale",
             "mapping": {
                 "left": "10%",

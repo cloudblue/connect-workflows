@@ -42,6 +42,16 @@
                     "width": "10%",
                     "height": "10%"
                 }
+            },
+            {
+                "id": "s-e-deleted",
+                "name": "Deleted",
+                "mapping": {
+                    "left": "10%",
+                    "top": "10%",
+                    "width": "10%",
+                    "height": "10%"
+                }
             }
         ],
         "transitions": [
@@ -96,7 +106,7 @@
             {
                 "id": "t-5-ready-remove",
                 "from": "Ready",
-                "to": "Processing",
+                "to": "Deleted",
                 "name": "5. Report Removal",
                 "mapping": {
                     "left": "10%",

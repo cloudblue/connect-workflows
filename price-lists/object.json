@@ -60,7 +60,7 @@
             {
                 "id": "t-2-draft-scheduled",
                 "from": "Draft",
-                "to": "Schedule",
+                "to": "Scheduled",
                 "name": "2. Price List Schedule",
                 "mapping": {
                     "left": "10%",

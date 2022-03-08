@@ -23,7 +23,7 @@
             }
         },
         {
-            "id": "s-c-active",
+            "id": "s-c-listed",
             "name": "Listed",
             "mapping": {
                 "left": "10%",
@@ -72,8 +72,8 @@
         },
         {
             "id": "t-4-listed-ready",
-            "from": "Draft",
-            "to": "Deleted",
+            "from": "Listed",
+            "to": "Ready",
             "name": "4. Offer Delisting",
             "mapping": {
                 "left": "10%",
@@ -84,8 +84,8 @@
         },
         {
             "id": "t-5-priv-deleted",
-            "from": "Processing",
-            "to": "Active",
+            "from": "Private",
+            "to": "Deleted",
             "name": "5. Private Offer Removal",
             "mapping": {
                 "left": "10%",
@@ -96,8 +96,8 @@
         },
         {
             "id": "t-6-ready-deleted",
-            "from": "Active",
-            "to": "Processing",
+            "from": "Ready",
+            "to": "Deleted",
             "name": "6. Ready Offer Instance Removal",
             "mapping": {
                 "left": "10%",

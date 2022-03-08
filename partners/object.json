@@ -21,6 +21,16 @@
                 "width": "10%",
                 "height": "10%"
             }
+        },
+        {
+            "id": "s-c-removed",
+            "name": "Removed",
+            "mapping": {
+                "left": "10%",
+                "top": "10%",
+                "width": "10%",
+                "height": "10%"
+            }
         }
     ],
     "transitions": [

@@ -114,7 +114,7 @@
             {
                 "id": "t-4-inv-uploaded",
                 "from": "Invalid",
-                "to": "Uploading",
+                "to": "Uploaded",
                 "name": "4. Record Reuploading",
                 "mapping": {
                     "left": "10%",
