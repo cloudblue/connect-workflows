@@ -133,6 +133,31 @@ def validate_object(obj_file):
     for transition in object['transitions']:
         validate_transition(transition, known_statuses, output_dir, working_dir, default_image)
 
+def validate_no_orphant_folders(modules):
+
+    print('checking orphanted folders...')
+
+    object_folders = []
+
+    for m in modules:
+        if not 'objects' in modules[m]:
+            continue
+        
+        for o in modules[m]['objects']:
+            folder = os.path.split(o)[0]
+            object_folders.append(folder)
+
+    ignored_folders = [ '.env', '.git', '.github' ]
+    directory_contents = os.listdir('.')
+    for item in directory_contents:
+        if not os.path.isdir(item):
+            continue
+        if item in ignored_folders:
+            continue
+        if item not in object_folders:
+            error('orphant folder detected: ' + item)
+
+
 def main():
 
     icons = get_material_icon_names()
@@ -144,6 +169,9 @@ def main():
 
     counter = 1
     modules = data["modules"]
+
+    validate_no_orphant_folders(modules)
+
     for module_name in modules:
 
         m = modules[module_name]
