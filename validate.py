@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import os
+import re
 import json
 import requests
 import markdown
@@ -29,6 +30,25 @@ def get_material_icon_names():
 
     return ret
 
+
+def validate_mapping(mapping):
+    left = mapping['left']
+    top = mapping['top']
+    width = mapping['width']
+    height = mapping['height']
+    
+    pattern = r"^\d+\.?\d*\%$"
+    pat = re.compile(pattern)
+
+    if not re.fullmatch(pat, left):
+        error("left coordinates are invalid: " + left)
+    if not re.fullmatch(pat, top):
+        error("top coordinates are invalid: " + top)
+    if not re.fullmatch(pat, width):
+        error("top coordinates are invalid: " + width)
+    if not re.fullmatch(pat, height):
+        error("top coordinates are invalid: " + height)
+        
 
 def validate_transition(transition, known_statuses, output_dir, working_dir, default_image):
 
@@ -66,6 +86,8 @@ def validate_transition(transition, known_statuses, output_dir, working_dir, def
     if transition_image.size != default_image.size:
         error('Different image sizes wihin the same object')
 
+    validate_mapping(transition['mapping'])
+
 
 def validate_status(status, output_dir, working_dir, default_image):
     
@@ -96,6 +118,8 @@ def validate_status(status, output_dir, working_dir, default_image):
         print( 'status_image.size = ' + str(status_image.size) )
         print( 'default_image.size = ' + str(default_image.size) )
         error('Different image sizes wihin the same object')
+
+    validate_mapping(status['mapping'])
 
 
 def validate_object(obj_file):
@@ -132,6 +156,7 @@ def validate_object(obj_file):
     # validate each transition
     for transition in object['transitions']:
         validate_transition(transition, known_statuses, output_dir, working_dir, default_image)
+
 
 def validate_no_orphant_folders(modules):
 
