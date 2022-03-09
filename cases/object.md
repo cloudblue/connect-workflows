@@ -12,6 +12,7 @@ The following provides a list of all available case states on the CloudBlue Conn
 * B. [Inquiring](s-b-inquiring.html)
 * C. [Resolved](s-c-resolved.html)
 * D. [Closed](s-d-closed.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 
@@ -20,6 +21,7 @@ Choose a transition from the provided diagram or click on any of the following c
 3. [Inquired Data is Submitted](t-3-inq-pending.html)
 4. [Case Resolution](t-4-pend-resolved.html)
 5. [Case Closure](t-5-res-closed.html)
-6. [Case Reopening][t-6-res-pending.html]
+6. [Case Reopening](t-6-res-pending.html)
+
 ## Learn more
 Refer to the [Connect community page](https://connect.cloudblue.com/community/modules/helpdesk/) for more information.

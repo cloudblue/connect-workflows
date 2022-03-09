@@ -1,25 +1,26 @@
 {
     "name": "Agreement Versions",
     "image": "object.png",
+    "readme": "object.md",
     "statuses": [
         {
             "id": "s-a-active",
             "name": "Active",
             "mapping": {
-                "left": "33.1%",
-                "top": "21.3%",
-                "width": "17.9%",
-                "height": "27.7%"
+                "left": "35.21%",
+                "top": "25%",
+                "width": "14.79%",
+                "height": "20.68%"
             }
         },
         {
             "id": "s-b-inactive",
             "name": "Inactive",
             "mapping": {
-                "left": "77.8%",
-                "top": "20.7%",
-                "width": "20.5%",
-                "height": "29.0%"
+                "left": "78.86%",
+                "top": "25.21%",
+                "width": "18.29%",
+                "height": "20.58%"
             }
         }
     ],
@@ -30,10 +31,10 @@
             "to": "Active",
             "name": "1. New Active Agreement Version Creation",
             "mapping": {
-                "left": "15.1%",
-                "top": "24.6%",
-                "width": "14.0%",
-                "height": "10.9%"
+                "left": "16.36%",
+                "top": "26.23%",
+                "width": "12.64%",
+                "height": "5.35%"
             }
         },
         {
@@ -42,10 +43,10 @@
             "to": "Inactive",
             "name": "2. New Inactive Agreement Version Creation",
             "mapping": {
-                "left": "36.6%",
-                "top": "0.1%",
-                "width": "18.4%",
-                "height": "9.5%"
+                "left": "39.21%",
+                "top": "1.65%",
+                "width": "13.93%",
+                "height": "5.35%"
             }
         },
         {
@@ -54,10 +55,10 @@
             "to": "Inactive",
             "name": "3. Agreement Version Deactivation",
             "mapping": {
-                "left": "58.9%",
-                "top": "25.2%",
-                "width": "12.9%",
-                "height": "11.0%"
+                "left": "60.57%",
+                "top": "26.23%",
+                "width": "9.64%",
+                "height": "5.35%"
             }
         },
         {
@@ -66,10 +67,10 @@
             "to": "Active",
             "name": "4. Agreement Version Reactivation",
             "mapping": {
-                "left": "56.4%",
-                "top": "61.0%",
-                "width": "18.4%",
-                "height": "11.0%"
+                "left": "60.43%",
+                "top": "64.71%",
+                "width": "9.64%",
+                "height": "5.35%"
             }
         },
         {
@@ -78,10 +79,10 @@
             "to": "Deleted",
             "name": "5. Active Agreement Version Removal",
             "mapping": {
-                "left": "29.9%",
-                "top": "84.0%",
-                "width": "19.7%",
-                "height": "10.0%"
+                "left": "33.57%",
+                "top": "87.24%",
+                "width": "12.57%",
+                "height": "5.35%"
             }
         },
         {
@@ -90,10 +91,10 @@
             "to": "Deleted",
             "name": "6. Inactive Agreement Version Removal",
             "mapping": {
-                "left": "81.4%",
-                "top": "83.7%",
-                "width": "18.5%",
-                "height": "10.3%"
+                "left": "83.93%",
+                "top": "87.24%",
+                "width": "13.93%",
+                "height": "5.35%"
             }
         }
     ]

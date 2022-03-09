@@ -1,45 +1,46 @@
 {
     "name": "Cases",
     "image": "object.png",
+    "readme": "object.md",
     "statuses": [
         {
             "id": "s-a-pending",
             "name": "Pending",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "25.89%",
+                "top": "58.32%",
+                "width": "11.75%",
+                "height": "25.71%"
             }
         },
         {
             "id": "s-b-inquiring",
             "name": "Inquiring",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "25.25%",
+                "top": "4.06%",
+                "width": "13.03%",
+                "height": "25.03%"
             }
         },
         {
             "id": "s-c-resolved",
             "name": "Resolved",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "56.75%",
+                "top": "58.32%",
+                "width": "13.35%",
+                "height": "24.36%"
             }
         },
         {
             "id": "s-d-closed",
             "name": "Closed",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "87.83%",
+                "top": "58.59%",
+                "width": "10.2%",
+                "height": "24.36%"
             }
         }
     ],
@@ -50,10 +51,10 @@
             "to": "Pending",
             "name": "1. New Case Creation",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "10.14%",
+                "top": "61.98%",
+                "width": "9.13%",
+                "height": "2.98%"
             }
         },
         {
@@ -62,10 +63,10 @@
             "to": "Inquiring",
             "name": "2. Data Inquiry",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "11.16%",
+                "top": "30.72%",
+                "width": "6.89%",
+                "height": "6.63%"
             }
         },
         {
@@ -74,10 +75,10 @@
             "to": "Pending",
             "name": "3. Required Data is Submitted",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "44.42%",
+                "top": "30.72%",
+                "width": "8.38%",
+                "height": "6.5%"
             }
         },
         {
@@ -86,10 +87,10 @@
             "to": "Resolved",
             "name": "4. Case Resolution",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "43.14%",
+                "top": "62.25%",
+                "width": "9.66%",
+                "height": "2.98%"
             }
         },
         {
@@ -98,10 +99,10 @@
             "to": "Closed",
             "name": "5. Case Closure",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "72.98%",
+                "top": "62.25%",
+                "width": "8.7%",
+                "height": "2.98%"
             }
         },
         {
@@ -110,10 +111,10 @@
             "to": "Pending",
             "name": "6. Case Reopening",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "45.38%",
+                "top": "91.07%",
+                "width": "5.23%",
+                "height": "6.63%"
             }
         }
     ]

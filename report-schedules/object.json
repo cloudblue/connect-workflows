@@ -1,25 +1,26 @@
 {
     "name": "Report Schedules",
     "image": "object.png",
+    "readme": "object.md",
     "statuses": [
         {
             "id": "s-a-enabled",
             "name": "Enabled",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "34%",
+                "top": "32.97%",
+                "width": "17.8%",
+                "height": "23.74%"
             }
         },
         {
             "id": "s-b-disabled",
             "name": "Disabled",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "77.87%",
+                "top": "33.11%",
+                "width": "19.09%",
+                "height": "23.74%"
             }
         }
     ],
@@ -30,10 +31,10 @@
             "to": "Enabled",
             "name": "1. New Schedule Creation",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "14.03%",
+                "top": "33.92%",
+                "width": "12.99%",
+                "height": "6.38%"
             }
         },
         {
@@ -42,10 +43,10 @@
             "to": "Disabled",
             "name": "2. Schedule Deactivation",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "59.74%",
+                "top": "34.06%",
+                "width": "10.83%",
+                "height": "6.38%"
             }
         },
         {
@@ -54,10 +55,10 @@
             "to": "Enabled",
             "name": "3. Schedule Reactivation",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "59.74%",
+                "top": "2.71%",
+                "width": "10.83%",
+                "height": "6.38%"
             }
         },
         {
@@ -66,10 +67,10 @@
             "to": "Deleted",
             "name": "4. Enabled Schedule Removal",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "34.96%",
+                "top": "71.64%",
+                "width": "15.72%",
+                "height": "6.38%"
             }
         },
         {
@@ -78,10 +79,10 @@
             "to": "Deleted",
             "name": "5. Enabled Schedule Removal",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "79.39%",
+                "top": "71.64%",
+                "width": "15.96%",
+                "height": "6.38%"
             }
         }
     ]

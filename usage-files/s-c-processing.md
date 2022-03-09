@@ -7,5 +7,5 @@ A usage file object in the [Uploading](s-b-uploading.html) state.
 Once your uploaded spreadsheet is processed successfully, the system assigns the [Ready](s-e-ready.html) status to the usage file object.
 Otherwise, the file processing is failed and the system transfers the usage file object to the [Invalid](s-d-invalid.html) state.
 ## Associated transitions
-* [Report Creation Success](t-3-dep-ready.html)
-* [Report Removal](t-5-ready-remove.html)
+* [Usage File Processing](t-3-upl-processing.html)
+* [File is Processed](t-6-pro-ready.html)

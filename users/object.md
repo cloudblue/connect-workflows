@@ -8,6 +8,7 @@ The list below displays available statuses of the user objects on the CloudBlue 
 * A. [Invited](s-a-invited.html)
 * B. [Joined](s-b-joined.html)
 * C. [Expired](s-c-expired.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 

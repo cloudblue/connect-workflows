@@ -10,6 +10,7 @@ The following introduces available statuses for partner objects on the CloudBlue
 
 * A. [Invited](s-a-invited.html)
 * B. [Active](s-b-active.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 
@@ -17,7 +18,6 @@ Choose a transition from the provided diagram or click on any of the following c
 2. [Partner Account Creation](t-2-new-active.html)
 3. [Invitation Link Activation](t-3-inv-active.html)
 4. [Contract Termination](t-4-act-removed.html)
-
 
 ## Learn more
 Refer to the [Connect community page](https://connect.cloudblue.com/community/modules/partners/) for more information.

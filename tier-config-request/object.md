@@ -14,6 +14,7 @@ The list below displays available statuses for tier configuration requests on th
 * D. [Inquiring](s-d-inquiring.html)
 * E. [Approved](s-e-approved.html)
 * F. [Failed](s-f-failed.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 
@@ -33,5 +34,6 @@ Choose a transition from the provided diagram or click on any of the following c
 14. [Tier Request Approval](t-14-pend-approved.html)
 15. [Pending Request Rejection](t-15-pend-failed.html) 
 16. [Tier Setup Request Rejection](t-16-tier-failed.html) 
+
 ## Learn more
 Refer to the [Connect community page](https://connect.cloudblue.com/community//tier-config/) for more information.

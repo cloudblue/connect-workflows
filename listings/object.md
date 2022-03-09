@@ -20,5 +20,6 @@ Choose a transition from the provided diagram or click on any of the following c
 5. [Termination Apporoval](t-5-listing-termination.html)
 6. [Update Request](t-6-update-request.html)
 7. [Update Approval](t-7-listing-update.html)
+
 ## Learn more
 Refer to the [Connect community page](https://connect.cloudblue.com/community/modules/listings/) for more information.

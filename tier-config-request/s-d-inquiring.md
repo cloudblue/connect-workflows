@@ -11,6 +11,7 @@ Tier requests can also be assigned to this state from the following statuses:
 
 * [Draft](s-a-draft.html)
 * [Tiers Setup](s-c-tiers-setup.html)
+
 ## Transferable statuses
 Once all required parameter data is submitted to tier requests, the system assigns such requests to the [Pending](s-b-pending.html) status. Otherwise, a tier request is rejected and assigned to the [Failed](s-f-failed.html) status.
 ## Associated transitions

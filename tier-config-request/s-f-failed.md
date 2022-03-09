@@ -6,8 +6,9 @@ A tier request can be transferred to the **Failed** state in case this request i
 
 * [Pending](s-b-pending.html)
 * [Tiers Setup](s-c-tiers-setup.html)
-* [Inquiring](s-d-inquiring.hmtl)
+* [Inquiring](s-d-inquiring.html)
+
 ## Associated transitions
 * [Tier Setup Request Rejection](t-16-tier-failed.html) 
-* [Pending Request Rejection](t-12-pending-failed)
+* [Pending Request Rejection](t-15-pend-failed.html)
 * [Inquiring Request Rejection](t-13-inq-failed.html)

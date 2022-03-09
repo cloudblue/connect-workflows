@@ -8,6 +8,7 @@ A tier request is generated in case a **Tier scope product parameter** is presen
 * [Draft](s-a-draft.html)
 * [Tiers Setup](s-c-tiers-setup.html)
 * [Inquiring](s-d-inquiring.html)
+
 ## Transferable statuses
 In case any parameter data is required, a pending request can be switched to the [Inquiring](s-d-inquiring.html)) state.
 In case of on an error, the system asllows rejecting a pending request and assign it to the [Failed](s-f-failed.html) status.

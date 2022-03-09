@@ -1,35 +1,26 @@
 {
     "name": "Partners",
     "image": "object.png",
+    "readme": "object.md",
     "statuses": [
         {
             "id": "s-a-invited",
             "name": "Invited",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "36.78%",
+                "top": "30.46%",
+                "width": "16.8%",
+                "height": "20.39%"
             }
         },
         {
             "id": "s-b-active",
             "name": "Active",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
-            }
-        },
-        {
-            "id": "s-c-removed",
-            "name": "Removed",
-            "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "80.81%",
+                "top": "30.46%",
+                "width": "15.92%",
+                "height": "20.39%"
             }
         }
     ],
@@ -40,10 +31,10 @@
             "to": "Invited",
             "name": "1. Partner Invitation",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "13.62%",
+                "top": "31.71%",
+                "width": "15.03%",
+                "height": "5.21%"
             }
         },
         {
@@ -52,10 +43,10 @@
             "to": "Active",
             "name": "2. Partner Account Creation",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "36.34%",
+                "top": "1.59%",
+                "width": "17.15%",
+                "height": "5.21%"
             }
         },
         {
@@ -64,10 +55,10 @@
             "to": "Active",
             "name": "3. Invitation Link Activation",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "58.71%",
+                "top": "31.71%",
+                "width": "16.09%",
+                "height": "5.21%"
             }
         },
         {
@@ -76,10 +67,10 @@
             "to": "Removed",
             "name": "4. Contract Termination",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "80.19%",
+                "top": "64.78%",
+                "width": "17.33%",
+                "height": "5.21%"
             }
         }
     ]

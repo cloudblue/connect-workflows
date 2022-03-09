@@ -1,95 +1,96 @@
 {
     "name": "Fulfillment Request",
     "image": "object.png",
+    "readme": "object.md",
     "statuses": [
         {
             "id": "s-a-draft",
             "name": "Draft",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "10.77%",
+                "top": "46.3%",
+                "width": "7.31%",
+                "height": "9.08%"
             }
         },
         {
             "id": "s-b-pending",
             "name": "Pending",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "42.52%",
+                "top": "22.6%",
+                "width": "11.5%",
+                "height": "9.9%"
             }
         },
         {
             "id": "s-c-tiers-setup",
             "name": "Tiers Setup",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "47.11%",
+                "top": "46.11%",
+                "width": "16.63%",
+                "height": "9.73%"
             }
         },
         {
             "id": "s-d-inquiring",
             "name": "Inquiring",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "41.96%",
+                "top": "1.53%",
+                "width": "12.65%",
+                "height": "9.73%"
             }
         },
         {
             "id": "s-e-approved",
             "name": "Approved",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "82.76%",
+                "top": "22.63%",
+                "width": "13.59%",
+                "height": "9.87%"
             }
         },
         {
             "id": "s-f-failed",
             "name": "Failed",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "85.14%",
+                "top": "46.11%",
+                "width": "8.75%",
+                "height": "9.2%"
             }
         },
         {
             "id": "s-g-scheduled",
             "name": "Scheduled",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "26.95%",
+                "top": "46.45%",
+                "width": "15.05%",
+                "height": "8.89%"
             }
         },
         {
             "id": "s-h-revoking",
             "name": "Revoking",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "27.96%",
+                "top": "68.29%",
+                "width": "13.05%",
+                "height": "8.89%"
             }
         },
         {
             "id": "s-i-revoked",
             "name": "Revoked",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "28.34%",
+                "top": "88.46%",
+                "width": "12.11%",
+                "height": "9.13%"
             }
         }
     ],
@@ -100,10 +101,10 @@
             "to": "Pending",
             "name": "1. Buyer creates fulfillment request (provisioning)",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "10.65%",
+                "top": "23.15%",
+                "width": "18.98%",
+                "height": "1.26%"
             }
         },
         {
@@ -112,10 +113,10 @@
             "to": "Draft",
             "name": "2. Buyer creates draft request",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "0.8%",
+                "top": "38.29%",
+                "width": "7.97%",
+                "height": "2.58%"
             }
         },
         {
@@ -124,10 +125,10 @@
             "to": "Pending",
             "name": "3. Buyer decides to provision a draft",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "18.89%",
+                "top": "38.29%",
+                "width": "9.34%",
+                "height": "2.58%"
             }
         },
         {
@@ -136,10 +137,10 @@
             "to": "Deleted",
             "name": "4. Garbage Collection",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "8.94%",
+                "top": "60.25%",
+                "width": "10.58%",
+                "height": "1.31%"
             }
         },
         {
@@ -148,10 +149,10 @@
             "to": "Tiers Setup",
             "name": "5. System waits for TC Request to complete",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "55.43%",
+                "top": "37.79%",
+                "width": "10.98%",
+                "height": "2.58%"
             }
         },
         {
@@ -160,10 +161,10 @@
             "to": "Failed",
             "name": "6. TC Request has been failed",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "69.68%",
+                "top": "49.93%",
+                "width": "7.17%",
+                "height": "2.38%"
             }
         },
         {
@@ -172,10 +173,10 @@
             "to": "Pending",
             "name": "7. TC Request has been successfully completed",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "45.27%",
+                "top": "37.79%",
+                "width": "7.13%",
+                "height": "2.38%"
             }
         },
         {
@@ -184,10 +185,10 @@
             "to": "Inquiring",
             "name": "8. System asks for the missing required parameters",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "23%",
+                "top": "15%",
+                "width": "12.98%",
+                "height": "2.62%"
             }
         },
         {
@@ -196,10 +197,10 @@
             "to": "Inquiring",
             "name": "9. Vendor asks for parameters",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "44.52%",
+                "top": "15.02%",
+                "width": "7.38%",
+                "height": "2.62%"
             }
         },
         {
@@ -208,10 +209,10 @@
             "to": "Pending",
             "name": "10. Customer submits required data",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "61.62%",
+                "top": "15.02%",
+                "width": "10.56%",
+                "height": "2.62%"
             }
         },
         {
@@ -220,10 +221,10 @@
             "to": "Approved",
             "name": "11. Vendor successfully completes Request",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "61.52%",
+                "top": "23.15%",
+                "width": "14.82%",
+                "height": "1.26%"
             }
         },
         {
@@ -232,10 +233,10 @@
             "to": "Failed",
             "name": "12. Vendor irreversibly fails Request",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "61.81%",
+                "top": "28.02%",
+                "width": "10.87%",
+                "height": "2.6%"
             }
         },
         {
@@ -244,10 +245,10 @@
             "to": "Scheduled",
             "name": "13. Vendor schedules request",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "33.98%",
+                "top": "37.7%",
+                "width": "9.34%",
+                "height": "2.58%"
             }
         },
         {
@@ -256,10 +257,10 @@
             "to": "Pending",
             "name": "14. Request returns to Pending state",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "28.46%",
+                "top": "31.02%",
+                "width": "9.5%",
+                "height": "2.58%"
             }
         },
         {
@@ -268,10 +269,10 @@
             "to": "Revoking",
             "name": "15. Distributor/Reseller revoked Request",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "28.88%",
+                "top": "59.61%",
+                "width": "11.1%",
+                "height": "2.58%"
             }
         },
         {
@@ -280,10 +281,10 @@
             "to": "Revoked",
             "name": "16. Vendor confirms revocation",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "29.66%",
+                "top": "80.95%",
+                "width": "9.71%",
+                "height": "2.36%"
             }
         }
     ]
