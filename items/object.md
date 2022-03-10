@@ -10,6 +10,7 @@ The list below displays available item states on the CloudBlue Connect platform.
 * A. [Draft](s-a-draft.html)
 * B. [Published](s-b-published.html)
 * C. [End of Sale](s-c-endsale.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 
@@ -18,5 +19,6 @@ Choose a transition from the provided diagram or click on any of the following c
 3. [Draft Removal](t-3-draft-deleted.html)
 4. [End of Sale Assignment](t-4-published-endsale.html)
 5. [Item Restoration](t-5-endsale-published.html)
+
 ## Learn more
 Refer to the [Connect community page](https://staging.connect.cloudblue.com/community/modules/products/items/) for more details.

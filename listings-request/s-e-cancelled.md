@@ -4,5 +4,5 @@ The Cancelled listing request status is displayed in case a listing request crea
 ## Prerequisites
 Distributors can reject a listing request and transfer it to the *Cancelled* state in case this listing request has one of the following statuses:
 
-* [Deploying State](deploying.html)
-* [Reviewing State](reviewing.html)
+* [Deploying State](s-c-deploying.html)
+* [Reviewing State](s-b-reviewing.html)

@@ -4,4 +4,4 @@ This transition indicates that a Vendor accepts a request to change or update ti
 ## Prerequisites
 A tier account request in the [Pending](s-a-pending.html) state.
 ## Operation results
-A tier account request with the [Active](s-c-active.html) status.
+A tier account request with the [Active](s-c-accepted.html) status.

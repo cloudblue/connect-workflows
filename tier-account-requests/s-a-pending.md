@@ -4,8 +4,9 @@ This status indicates that a new request to change or update tier account data i
 ## Prerequisites
 * The enabled **Tier Accounts Sync** capability.
 * Edited tier account data.
+
 ## Transferable statuses
-Once a Vendor accepts a tier account request, the system transfers it to the [Accepted](s-c-active.html) state.
+Once a Vendor accepts a tier account request, the system transfers it to the [Accepted](s-c-accepted.html) state.
 In case a Vendor ignores a request, the system assigns the [Ignored](s-d-ignored.html) status to this contract.
 ## Associated transitions
 * [Pending Request Creation](t-1-new-pending.html)

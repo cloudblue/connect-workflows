@@ -23,5 +23,6 @@ Choose a transition from the provided diagram or click on any of the following c
 4. [Contract Rejection](t-4-pen-rejected.html)
 5. [Contract Termination](t-5-act-terminated.html)
 6. [Data Refinement](t-6-pen-enrolling.html)
+
 ## Learn more
 Refer to the [Connect community page](https://connect.cloudblue.com/community/modules/partners/contracts/distribution-contracts/) for more information.

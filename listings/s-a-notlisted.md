@@ -9,6 +9,7 @@ Listings in this state are interconnected with one of the following Listing Requ
 * **Reviewing**
 * **Deploying**
 * **Cancelled**
+
 ## Prerequisites 
 A submitted listing request is required for Connect to create a new listing with this status.
 ## Transferable statuses

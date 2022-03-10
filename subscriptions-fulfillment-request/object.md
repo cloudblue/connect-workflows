@@ -15,6 +15,7 @@ The following list showcases available statuses for fulfillment requests on the 
 * G. [Scheduled](s-g-scheduled.html)
 * H. [Revoking](s-h-revoking.html)
 * I. [Revoked](s-i-revoked.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 
@@ -33,6 +34,7 @@ Choose a transition from the provided diagram or click on any of the following c
 13. [Schedule Delayed Activation](t-13-pending-scheduled.html)
 14. [Scheduled to Pending Convertion](t-14-scheduled-pending.html)
 15. [Request Revocation](t-15-scheduled-revoking.html)
-16. [Revocation Confirmation](t-16-revoked-revoked.html)
+16. [Revocation Confirmation](t-16-revoking-revoked.html)
+
 ## Learn more
 Refer to the [Connect community page](https://connect.cloudblue.com/community/modules/subscriptions/fulfillment-requests/) for more information on fulfillment requests.

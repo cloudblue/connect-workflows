@@ -7,30 +7,30 @@
                 "id": "s-a-draft",
                 "name": "Draft",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "20.23%",
+                    "top": "32.18%",
+                    "width": "8.02%",
+                    "height": "24.82%"
                 }
             },
             {
                 "id": "s-b-published",
                 "name": "Published",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "46.36%",
+                    "top": "31.46%",
+                    "width": "15.36%",
+                    "height": "25.54%"
                 }
             },
             {
                 "id":"s-c-endsale",
                 "name": "End of Sale",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "80.17%",
+                    "top": "31.75%",
+                    "width": "17.77%",
+                    "height": "25.54%"
                 }
             }
         ],
@@ -41,10 +41,10 @@
                 "to": "Draft",
                 "name": "1. Draft Creation",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "7.05%",
+                    "top": "31.75%",
+                    "width": "9.74%",
+                    "height": "6.78%"
                 }
             },
             {
@@ -53,10 +53,10 @@
                 "to": "Published",
                 "name": "2. Product Version Assignment",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "32.89%",
+                    "top": "31.6%",
+                    "width": "10.77%",
+                    "height": "6.64%"
                 }
             },
             {
@@ -65,10 +65,10 @@
                 "to": "Deleted",
                 "name": "3. Distributor rejects the listing request",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "17.59%",
+                    "top": "71.57%",
+                    "width": "13.3%",
+                    "height": "3.17%"
                 }
             },
             {
@@ -77,10 +77,10 @@
                 "to": "End of Sale",
                 "name": "4. End of Sale Confirmation",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "64.7%",
+                    "top": "31.6%",
+                    "width": "13.64%",
+                    "height": "7.22%"
                 }
             },
             {
@@ -89,10 +89,10 @@
                 "to": "Published",
                 "name": "5. Product Restoration",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "66.02%",
+                    "top": "2.16%",
+                    "width": "11.06%",
+                    "height": "7.22%"
                 }
             }
         ]

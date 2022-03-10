@@ -7,40 +7,40 @@
                 "id": "s-a-pending",
                 "name": "Pending",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "44.73%",
+                    "top": "38.2%",
+                    "width": "15.12%",
+                    "height": "17.85%"
                 }
             },
             {
                 "id": "s-b-unsupported",
                 "name": "Unsupported",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "2.6%",
+                    "top": "2.3%",
+                    "width": "24.08%",
+                    "height": "18.33%"
                 }
             },
             {
                 "id": "s-c-accepted",
                 "name": "Accepted",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "79.27%",
+                    "top": "2.5%",
+                    "width": "18.13%",
+                    "height": "18.14%"
                 }
             },
             {
                 "id": "s-d-ignored",
                 "name": "Ignored",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "81.33%",
+                    "top": "78.6%",
+                    "width": "14.3%",
+                    "height": "17.95%"
                 }
             }
         ],
@@ -51,10 +51,10 @@
                 "to": "Pending",
                 "name": "1. Pending Request Creation",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "26.74%",
+                    "top": "37.62%",
+                    "width": "9.23%",
+                    "height": "4.41%"
                 }
             },
             {
@@ -63,10 +63,10 @@
                 "to": "Unsupported",
                 "name": "2. Unsupported Request Creation",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "9.99%",
+                    "top": "29.56%",
+                    "width": "9.37%",
+                    "height": "4.41%"
                 }
             },
             {
@@ -75,10 +75,10 @@
                 "to": "Accepted",
                 "name": "3. Request Acceptance",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "52.39%",
+                    "top": "1.73%",
+                    "width": "11.76%",
+                    "height": "4.7%"
                 }
             },
             {
@@ -87,10 +87,10 @@
                 "to": "Ignored",
                 "name": "4. Request Ignore",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "52.74%",
+                    "top": "88%",
+                    "width": "11.08%",
+                    "height": "4.7%"
                 }
             }
         ]

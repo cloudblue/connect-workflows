@@ -11,6 +11,7 @@ The draft request can be transferred to one of the following statuses:
 * [Tiers Setup](s-c-tiers-setup.html)
 * [Inquiring](s-d-inquiring.html)
 * [Pending](s-b-pending.html)
+
 ## Associated transitions
 * [New draft creation](t-2-new-draft.html)
 * [Draft to Pending Request Convertion](t-3-draft-pending.html)

@@ -7,90 +7,90 @@
                 "id": "s-a-draft",
                 "name": "Draft",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "11.94%",
+                    "top": "44.19%",
+                    "width": "3.27%",
+                    "height": "14.86%"
                 }
             },
             {
                 "id": "s-b-uploading",
                 "name": "Uploading",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "23.55%",
+                    "top": "43.95%",
+                    "width": "6.43%",
+                    "height": "16.1%"
                 }
             },
             {
                 "id": "s-c-processing",
                 "name": "Processing",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "36.83%",
+                    "top": "43.8%",
+                    "width": "7.09%",
+                    "height": "15.83%"
                 }
             },
             {
                 "id": "s-d-invalid",
                 "name": "Invalid",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "38.24%",
+                    "top": "81.29%",
+                    "width": "4.27%",
+                    "height": "14.82%"
                 }
             },
             {
                 "id": "s-e-ready",
                 "name": "Ready",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "52.5%",
+                    "top": "44.07%",
+                    "width": "3.99%",
+                    "height": "16.3%"
                 }
             },
             {
                 "id": "s-f-pending",
                 "name": "Pending",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "66.04%",
+                    "top": "43.76%",
+                    "width": "5.11%",
+                    "height": "16.53%"
                 }
             },
             {
                 "id": "s-g-rejected",
                 "name": "Rejected",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "44.82%",
+                    "top": "1.98%",
+                    "width": "5.7%",
+                    "height": "15.83%"
                 }
             },
             {
                 "id": "s-h-accepted",
                 "name": "Accepted",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "79.66%",
+                    "top": "43.8%",
+                    "width": "6.18%",
+                    "height": "16.49%"
                 }
             },
             {
                 "id": "s-i-closed",
                 "name": "Closed",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "94.78%",
+                    "top": "43.72%",
+                    "width": "4.38%",
+                    "height": "15.95%"
                 }
             }
         ],
@@ -101,10 +101,10 @@
                 "to": "Draft",
                 "name": "1. Usage File Creation",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "4.93%",
+                    "top": "43.64%",
+                    "width": "3.73%",
+                    "height": "4.16%"
                 }
             },
             {
@@ -113,10 +113,10 @@
                 "to": "Uploading",
                 "name": "2. Usage File Uploading",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "17.32%",
+                    "top": "44.42%",
+                    "width": "3.97%",
+                    "height": "4.28%"
                 }
             },
             {
@@ -125,10 +125,10 @@
                 "to": "Processing",
                 "name": "3. Usage File Processing",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "32.04%",
+                    "top": "44.42%",
+                    "width": "3.26%",
+                    "height": "3.89%"
                 }
             },
             {
@@ -137,10 +137,10 @@
                 "to": "Invalid",
                 "name": "4. Processing Failure",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "37.98%",
+                    "top": "68.57%",
+                    "width": "4.75%",
+                    "height": "2.06%"
                 }
             },
             {
@@ -149,10 +149,10 @@
                 "to": "Uploading",
                 "name": "5. Invalid File Reuploading",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "25.3%",
+                    "top": "84.75%",
+                    "width": "2.94%",
+                    "height": "4.24%"
                 }
             },
             {
@@ -161,10 +161,10 @@
                 "to": "Ready",
                 "name": "6. File is Processed",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "45.32%",
+                    "top": "45.62%",
+                    "width": "4.24%",
+                    "height": "2.1%"
                 }
             },
             {
@@ -173,10 +173,10 @@
                 "to": "Uploading",
                 "name": "7. Processed File Reuploading",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "39.12%",
+                    "top": "28.16%",
+                    "width": "2.46%",
+                    "height": "4.24%"
                 }
             },
             {
@@ -185,10 +185,10 @@
                 "to": "Pending",
                 "name": "8. File is Submitted",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "59.62%",
+                    "top": "44.42%",
+                    "width": "3.95%",
+                    "height": "4.24%"
                 }
             },
             {
@@ -197,10 +197,10 @@
                 "to": "Rejected",
                 "name": "9. Pending File Rejection",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "66.79%",
+                    "top": "6.69%",
+                    "width": "3.72%",
+                    "height": "2.1%"
                 }
             },
             {
@@ -209,10 +209,10 @@
                 "to": "Uploading",
                 "name": "10. Rejected File Reuploading",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "24.4%",
+                    "top": "5.68%",
+                    "width": "3.49%",
+                    "height": "4.16%"
                 }
             },
             {
@@ -221,10 +221,10 @@
                 "to": "Accepted",
                 "name": "11. Usage File Acceptance",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "73.75%",
+                    "top": "45.27%",
+                    "width": "4.16%",
+                    "height": "2.06%"
                 }
             },
             {
@@ -233,10 +233,10 @@
                 "to": "Closed",
                 "name": "12. Usage File Closure",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "88.22%",
+                    "top": "45.59%",
+                    "width": "3.62%",
+                    "height": "1.79%"
                 }
             }
         ]

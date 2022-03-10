@@ -11,6 +11,7 @@ The following list displays available subscription statuses on the Connect platf
 * D. [Terminated](s-d-teminated.html)
 * E. [Suspended](s-e-suspended.html)
 * F. [Draft](s-f-draft.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 
@@ -26,5 +27,6 @@ Choose a transition from the provided diagram or click on any of the following c
 10. [Draft Creation](t-10-draft.html)
 11. [Draft Removal](t-11-draft-removal.html)
 12. [Draft to Processing Convertion](t-12-draft-processing.html)
+
 ## Learn more
 Refer to the [Connect community page](https://connect.cloudblue.com/community/subscriptions) for more information.

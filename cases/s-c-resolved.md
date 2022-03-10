@@ -10,4 +10,4 @@ Partners can also reopen their resolved Case and assign the [Pending](s-a-pendin
 ## Associated transitions
 * [Case Resolution](t-4-pend-resolved.html)
 * [Case Closure](t-5-res-closed.html)
-* [Case Reopening][t-6-res-pending.html]
+* [Case Reopening](t-6-res-pending.html)

@@ -4,5 +4,6 @@ In case a new tier account request is created, and the **Tier Accounts Sync** ca
 ## Prerequisites
 * The disabled **Tier Accounts Sync** capability.
 * Edited tier account data.
+
 ## Associated transitions
 [Unsupported Request Creation](t-2-new-unsupported.html)

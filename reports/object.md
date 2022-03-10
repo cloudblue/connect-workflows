@@ -9,6 +9,7 @@ The following list displays available report statuses on the Connect platform. S
 * B. [Deploying](s-b-deploying.html)
 * C. [Ready](s-c-ready.html)
 * D. [Failed](s-d-failed.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 
@@ -17,5 +18,6 @@ Choose a transition from the provided diagram or click on any of the following c
 3. [Report Creation Success](t-3-dep-ready.html)
 4. [Report Creation Failure](t-4-dep-failed.html)
 5. [Report Removal](t-5-ready-remove.html)
+
 ## Learn more
 Refer to the [Connect community page](https://connect.cloudblue.com/community/modules/reports/) for more information.

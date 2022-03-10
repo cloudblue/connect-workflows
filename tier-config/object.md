@@ -9,6 +9,7 @@ The list below displays available tier config statuses on the CloudBlue Connect 
 * A. [Draft](s-a-draft.html)
 * B. [Processing](s-b-processing.html)
 * C. [Active](s-c-active.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 
@@ -18,7 +19,6 @@ Choose a transition from the provided diagram or click on any of the following c
 4. [Draft Config Removal](t-4-draft-deleted.html)
 5. [Config Activation](t-5-pro-active.html)
 6. [Config Update](t-6-act-processing.html)
-
 
 ## Learn more
 Refer to the [Connect community page](https://staging.connect.cloudblue.com/community/modules/tier-config/) for more information.

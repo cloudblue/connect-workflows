@@ -14,6 +14,7 @@ The following list displays available statuses of usage record objects on the Cl
 * E. [Rejected](s-e-rejected.html)
 * F. [Accepted](s-f-accepted.html)
 * G. [Closed](s-g-closed.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 

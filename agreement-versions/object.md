@@ -8,6 +8,7 @@ The following list displays available statuses of the agreement version objects 
 
 * A. [Active](s-a-active.html)
 * B. [Inactive](s-b-inactive.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 

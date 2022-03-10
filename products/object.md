@@ -7,7 +7,7 @@ Once Vendors assign a version to a *Draft* product, it transfers to the *Publish
 The list below displays all product statuses on the Connect platform. Select a status from the provided diagram or click on a contextual link below to display detailed status information:
 
 * A.  [Draft](s-a-draft.html)
-* B.  [Published](s-b-listed.html)
+* B.  [Published](s-b-published.html)
 * C.  [End of Sale](s-c-endsale.html)
 
 ## Transitions
@@ -16,7 +16,8 @@ Choose a transition from the provided diagram or click on any of the following c
 1. [Draft Creation](t-1-new-draft.html)
 2. [Product Version Assignment](t-2-draft-pub.html)
 3. [Draft Removal](t-3-draft-del.html)
-4. [End of Sale Confirmation](t-5-pub-end.html)
-5. [Product Restoration](t-6-end-pub.html)
+4. [End of Sale Confirmation](t-4-pub-end.html)
+5. [Product Restoration](t-5-end-pub.html)
+
 ## Learn more
 Refer to the [Connect community page](https://connect.cloudblue.com/community/modules/products/) for more information.

@@ -9,6 +9,7 @@ The following list displays available statuses of the tier account objects on th
 
 * A. [Active](s-a-active.html)
 * B. [Decommissioned](s-b-decom.html)
+
 ## Transitions
 Choose a transition from the provided diagram or click on any of the following contextual links to access transition information:
 
