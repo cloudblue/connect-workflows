@@ -1,9 +1,9 @@
 # Pending Status 
 ## Description
-This status indicates that the system sucessfully processed the enrolling operation initiated by a Vendor. When the system assigns the *Pending* state to a distribution contract, Distributors can approve or reject this contract. Thereafter, the system transfers activated or rejected contracts to the corresponding states.
+This status indicates that the system sucessfully processed the enrolling operation initiated by Vendors. When the system assigns the *Pending* state to a distribution contract, Distributors can approve or reject this contract. Thereafter, the system transfers activated or rejected contracts to the corresponding states.
 Note that Distributors can also ask Vendors to complete a custom form once again by clicking the **Refine Data** button. Thus, Vendors should complete this custom form and enroll their contract once again.
 ## Prerequisites
-A distribution contract with the [Enrolling](s-a-enrolled.html) status.
+A distribution contract with the [Enrolling](s-a-enrolling.html) status.
 ## Transferable statuses
 Once a Distributor approves a distribution contract, the system transfers it to the [Active](s-c-active.html) state.
 
