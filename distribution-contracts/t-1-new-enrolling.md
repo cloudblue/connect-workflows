@@ -5,4 +5,4 @@ In case Distributor attach a **custom form** to the distribution agreement, Vend
 ## Prerequisites
 A distribution agreement that is created by Distributors and enrolled by Vendors.
 ## Operation results
-A distribution contract with the [Enrolling](s-a-enrolled.html) status.
+A distribution contract with the [Enrolling](s-a-enrolling.html) status.
