@@ -1,0 +1,125 @@
+{
+    "name": "Tier Config Request",
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-draft",
+            "name": "Draft"
+        },
+        {
+            "id": "s-b-pending",
+            "name": "Pending"
+        },
+        {
+            "id": "s-c-tiers-setup",
+            "name": "Tiers Setup"
+        },
+        {
+            "id": "s-d-inquiring",
+            "name": "Inquiring"
+        },
+        {
+            "id": "s-e-approved",
+            "name": "Approved"
+        },
+        {
+            "id": "s-f-failed",
+            "name": "Failed"
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-draft",
+            "from": "New",
+            "to": "Draft",
+            "name": "1. New Draft Creation"
+        },
+        {
+            "id": "t-2-new-pending",
+            "from": "New",
+            "to": "Pending",
+            "name": "2. Pending Request Creation"
+        },
+        {
+            "id": "t-3-draft-deleted",
+            "from": "Draft",
+            "to": "Deleted",
+            "name": "3. Draft Removal"
+        },
+        {
+            "id": "t-4-draft-pending",
+            "from": "Draft",
+            "to": "Pending",
+            "name": "4. Draft Approval"
+        },
+        {
+            "id": "t-5-pend-inquiring",
+            "from": "Pending",
+            "to": "Inquiring",
+            "name": "5. Inquiring Data"
+        },
+        {
+            "id": "t-6-inq-pending",
+            "from": "Inquiring",
+            "to": "Pending",
+            "name": "6. Parameter Value Assignment"
+        },
+        {
+            "id": "t-7-tier-inquiring",
+            "from": "Tiers Setup",
+            "to": "Inquiring",
+            "name": "7. Tier Setup to Inquiring Transition"
+        },
+        {
+            "id": "t-8-tier-pending",
+            "from": "Tier Setup",
+            "to": "Pending",
+            "name": "8. Tier Setup is Completed"
+        },
+        {
+            "id": "t-9-new-inquiring",
+            "from": "New",
+            "to": "Inquiring",
+            "name": "9. New Inquiring Request"
+        },
+        {
+            "id": "t-10-new-tiers",
+            "from": "New",
+            "to": "Pending",
+            "name": "10. New Tier Setup Request"
+        },
+        {
+            "id": "t-11-draft-inquiring",
+            "from": "Draft",
+            "to": "Inquiring",
+            "name": "11. Draft to Inquiring Transition"
+        },
+        {
+            "id": "t-12-draft-tiers",
+            "from": "Draft",
+            "to": "Tier Setup",
+            "name": "12. Draft to Tier Setup Transition"
+        },        {
+            "id": "t-13-inq-failed",
+            "from": "Inquiring",
+            "to": "Failed",
+            "name": "13. Inquiring Request Rejection"
+        },        {
+            "id": "t-14-pend-approved",
+            "from": "Pending",
+            "to": "Approved",
+            "name": "14. Request Approval"
+        },        {
+            "id": "t-15-pend-failed",
+            "from": "Pending",
+            "to": "Failed",
+            "name": "15. Pending Request Rejection"
+        },
+        {
+            "id": "t-16-tier-failed",
+            "from": "Tier",
+            "to": "Failed",
+            "name": "16. Tier Setup Request Rejection"
+        }
+    ]
+}
