@@ -5,4 +5,4 @@ Note that the *Approved* status represents a terminal state, meaning no actions 
 ## Prerequisites
 A tier request with the [Pending](s-b-pending.html) status.
 ## Associated transitions
-[Tier Request Approval](t14-pending-approved.html)
+[Tier Request Approval](t-14-pend-approved.html)

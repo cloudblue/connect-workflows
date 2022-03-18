@@ -4,5 +4,6 @@ This transition indicates that a new request to change or update tier account da
 ## Prerequisites
 * The disabled **Tier Accounts Sync** capability.
 * Edited tier account data.
+
 ## Operation results
 A tier account request in [Unsupported](s-b-unsupported.html) status.

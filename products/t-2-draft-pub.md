@@ -4,4 +4,4 @@ This transition indicates that  a Vendor assigned a version to a draft product. 
 ## Prerequisites
 A product with the [Draft](s-a-draft.html) status.
 ## Operation results
-A product with the [Published](s-b-listed.html) status.
+A product with the [Published](s-b-published.html) status.

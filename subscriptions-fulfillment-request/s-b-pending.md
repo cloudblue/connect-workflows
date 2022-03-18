@@ -9,6 +9,7 @@ A listed product and active distribution contract are required to create a pendi
 * [Draft](s-a-draft.html)
 * [Tiers Setup](s-c-tiers-setup.html)
 * [Inquiring](s-d-inquiring.html)
+
 ## Transferable statuses
 In case any parameter data is required, a pending request can be switched to the [Inquiring](s-d-inquiring.html)) state.
 If tier configuration is required, a request can get the [Tiers Setup](s-c-tiers-setup.html) status.
@@ -18,11 +19,11 @@ Once Vendors appove a fulfillment request, this request transfers to the [Approv
 * [Pending Request Creation](t-1-new-pending.html)
 * [Draft to Pending Convertion](t-3-draft-pending.html)
 * [Pending to Tiers Setup Convertion](t-5-pending-tiers-setup.html)
-* [Completed Tiers Configuration](t7-tiers-setup-pending.html)
-* [System Parameters Inquiry](t8-pending-inquiring.html)
-* [Vendor Parameters Inquiry](t9-pending-inquiring.html)
-* [Inquiring Data Provision](t10-inquiring-pending.html)
-* [Pending Request Approval](t11-pending-approved.html)
-* [Pending Request Rejection](t-12-pending-failed)
+* [Completed Tiers Configuration](t-7-tiers-setup-pending.html)
+* [System Parameters Inquiry](t-8-pending-inquiring.html)
+* [Vendor Parameters Inquiry](t-9-pending-inquiring.html)
+* [Inquiring Data Provision](t-10-inquiring-pending.html)
+* [Pending Request Approval](t-11-pending-approved.html)
+* [Pending Request Rejection](t-12-pending-failed.html)
 * [Schedule Delayed Activation](t-13-pending-scheduled.html)
 * [Scheduled to Pending Convertion](t-14-scheduled-pending.html)

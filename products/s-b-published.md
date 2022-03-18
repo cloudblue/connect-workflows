@@ -8,5 +8,5 @@ A product with the [Draft](s-a-draft.html) status.
 Once a Vendor clicks the **End of Sale** button from the product page of a published product, the system transfers this product to the [End of Sale](s-c-endsale.html) state.
 ## Associated transitions
 * [Product Version Assignment](t-2-draft-pub.html)
-* [End of Sale Confirmation](t-5-pub-end.html)
-* [Product Restoration](t-6-end-pub.html)
+* [End of Sale Confirmation](t-4-pub-end.html)
+* [Product Restoration](t-5-end-pub.html)

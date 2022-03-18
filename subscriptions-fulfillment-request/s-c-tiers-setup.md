@@ -4,7 +4,8 @@ In case reseller or customer account configuration is required, the system trans
 
 Once a tier request is successfully approved and tier configuration is activated, the system transfers your fulfillment request to the Pending state and sends **Tier Configuration Approved Template** to your customers or resellers. Refer to the [Tier Configuration documentation](https://connect.cloudblue.com/community/modules/tier-config/) for more information. 
 ## Prerequisites
-A listed product and active distribution contract are required to create a fulfillment request with *tiers setup* status. Fulfillment requests can also get this status from the [Draft](draft.html) state.
+A listed product and active distribution contract are required to create a fulfillment request with *tiers setup* status. Fulfillment requests can also get
+ this status from the [Draft](s-a-draft.html) state.
 
 ## Transferable statuses
 Once the tiers configuration is successfully completed, your fulfillment request can be assigned to one of the following statuses:
@@ -15,5 +16,5 @@ Once the tiers configuration is successfully completed, your fulfillment request
 In case the tiers configuration is failed, this request is assigned to the [Failed](s-f-failed.html) status.
 ## Associated transitions
 * [Pending to Tiers Setup Convertion](t-5-pending-tiers-setup.html)
-* [Tier Configuration Failure](t-6-tiers-setup-failed)
+* [Tier Configuration Failure](t-6-tiers-setup-failed.html)
 * [Completed Tiers Configuration](t-7-tiers-setup-pending.html)

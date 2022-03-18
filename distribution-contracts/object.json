@@ -7,50 +7,50 @@
                 "id": "s-a-enrolling",
                 "name": "Enrolling",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "21.35%",
+                    "top": "36.55%",
+                    "width": "15.35%",
+                    "height": "18.23%"
                 }
             },
             {
                 "id": "s-b-pending",
                 "name": "Pending",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "47.32%",
+                    "top": "36.55%",
+                    "width": "13.9%",
+                    "height": "18.53%"
                 }
             },
             {
                 "id": "s-c-active",
                 "name": "Active",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "81.3%",
+                    "top": "36.35%",
+                    "width": "11.43%",
+                    "height": "18.13%"
                 }
             },
             {
                 "id": "s-d-rejected",
                 "name": "Rejected",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "79.41%",
+                    "top": "77.79%",
+                    "width": "15.41%",
+                    "height": "18.53%"
                 }
             },
             {
                 "id": "s-e-terminated",
                 "name": "Terminated",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "77.07%",
+                    "top": "2.19%",
+                    "width": "19.9%",
+                    "height": "18.73%"
                 }
             }
         ],
@@ -61,10 +61,10 @@
                 "to": "Enrolling",
                 "name": "1. Contract Enrolling",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "8.15%",
+                    "top": "36.45%",
+                    "width": "10.17%",
+                    "height": "5.18%"
                 }
             },
             {
@@ -73,10 +73,10 @@
                 "to": "Pending",
                 "name": "2. Enrolling to Pending Conversion",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "35.82%",
+                    "top": "36.45%",
+                    "width": "11.56%",
+                    "height": "5.18%"
                 }
             },
             {
@@ -85,10 +85,10 @@
                 "to": "Active",
                 "name": "3. Contract Activation",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "64.5%",
+                    "top": "36.45%",
+                    "width": "10.55%",
+                    "height": "4.78%"
                 }
             },
             {
@@ -97,10 +97,10 @@
                 "to": "Rejected",
                 "name": "4. Contract Rejection",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "65.13%",
+                    "top": "77.99%",
+                    "width": "9.16%",
+                    "height": "4.88%"
                 }
             },
             {
@@ -109,10 +109,10 @@
                 "to": "Terminated",
                 "name": "5. Contract Termination",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "87.56%",
+                    "top": "26%",
+                    "width": "11.5%",
+                    "height": "4.88%"
                 }
             },
             {
@@ -121,10 +121,10 @@
                 "to": "Enrolling",
                 "name": "6. Data Refinement",
                 "mapping": {
-                    "left": "10%",
-                    "top": "10%",
-                    "width": "10%",
-                    "height": "10%"
+                    "left": "37.71%",
+                    "top": "16.43%",
+                    "width": "7.83%",
+                    "height": "4.88%"
                 }
             }
         ]

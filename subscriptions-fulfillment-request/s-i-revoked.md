@@ -5,4 +5,4 @@ Note that the Revoked request status represents a terminal state. Namely, revoke
 ## Prerequisites
 A fulfillment request that is assigned to the [Revoking](s-h-revoking.html) status.
 ## Associated transition
-* [Revocation Confirmation](t-16-revoked-revoked.html)
+* [Revocation Confirmation](t-16-revoking-revoked.html)

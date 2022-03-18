@@ -1,55 +1,36 @@
 {
-    "name": "Tier Configs",
+    "name": "Items",
     "image": "object.png",
+    "readme": "object.md",
     "statuses": [
         {
-            "id": "s-a-new",
-            "name": "New",
-            "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
-            }
-        },
-        {
-            "id": "s-b-draft",
+            "id": "s-a-draft",
             "name": "Draft",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "25.08%",
+                "top": "5.81%",
+                "width": "8.51%",
+                "height": "31.37%"
             }
         },
         {
-            "id": "s-c-deleted",
-            "name": "Deleted",
-            "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
-            }
-        },
-        {
-            "id": "s-d-published",
+            "id": "s-b-published",
             "name": "Published",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "48.39%",
+                "top": "5.06%",
+                "width": "16.22%",
+                "height": "32.28%"
             }
         },
         {
-            "id": "s-e-endsale",
+            "id": "s-c-endsale",
             "name": "End of Sale",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "78.88%",
+                "top": "4.65%",
+                "width": "18.98%",
+                "height": "33.2%"
             }
         }
     ],
@@ -60,10 +41,10 @@
             "to": "Draft",
             "name": "1. Item Creation",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "9.74%",
+                "top": "5.06%",
+                "width": "7.96%",
+                "height": "8.13%"
             }
         },
         {
@@ -72,10 +53,10 @@
             "to": "Published",
             "name": "2. Item Publication",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "38.68%",
+                "top": "4.98%",
+                "width": "8.32%",
+                "height": "8.8%"
             }
         },
         {
@@ -84,10 +65,10 @@
             "to": "Deleted",
             "name": "3. Draft Removal",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "17.53%",
+                "top": "56.76%",
+                "width": "10.75%",
+                "height": "3.82%"
             }
         },
         {
@@ -96,10 +77,10 @@
             "to": "End of Sale",
             "name": "4. End of Sale Assignment",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "67.26%",
+                "top": "4.9%",
+                "width": "10.23%",
+                "height": "8.38%"
             }
         },
         {
@@ -108,10 +89,10 @@
             "to": "Published",
             "name": "5. Item Restoration",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "65.81%",
+                "top": "83.57%",
+                "width": "10.15%",
+                "height": "3.57%"
             }
         }
     ]

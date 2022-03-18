@@ -8,4 +8,4 @@ A fulfillment request that is assigned to the [Scheduled](s-g-scheduled.html) st
 In case Vendors confirm their request revocation, the system transfers this request to the [Revoked](s-i-revoked.html) state.
 ## Associated transitions
 * [Request Revocation](t-15-scheduled-revoking.html)
-* [Revocation Confirmation](t-16-revoked-revoked.html)
+* [Revocation Confirmation](t-16-revoking-revoked.html)

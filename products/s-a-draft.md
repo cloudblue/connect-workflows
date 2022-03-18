@@ -6,7 +6,7 @@ Otherwise, a Vendor deletes a draft; thus, all provided product information and 
 ## Prerequisites 
 An active distribution contract is required to create a new draft product.
 ## Transferable statuses
-In case a Vendor assigns a version to a product with this status, the system transfers this product to the [Published](s-b-listed.html) state.
+In case a Vendor assigns a version to a product with this status, the system transfers this product to the [Published](s-b-published.html) state.
 ## Associated transitions
 * [Draft Creation](t-1-new-draft.html)
 * [Product Version Assignment](t-2-draft-pub.html)

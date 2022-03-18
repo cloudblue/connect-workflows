@@ -8,7 +8,7 @@ Furthermore, once a draft tier config is successfully validated, the system assi
 ## Transferable statuses
 Once Vendors appoves a tier request, its corresponding tier configuration is assigned to the [Active](s-c-active.html) state by the system
 ## Associated transitions
+* [New Processing Config](t-1-new-processing.html)
 * [Draft Config Validation](t-3-draft-processing.html)
 * [Config Activation](t-5-pro-active.html)
 * [Config Update](t-6-act-processing.html)
-* 

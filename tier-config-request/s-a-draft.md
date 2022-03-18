@@ -9,6 +9,7 @@ Draft requests can be deleted or transferred to one of the following statuses:
 * [Tiers Setup](s-c-tiers-setup.html)
 * [Inquiring](s-d-inquiring.html)
 * [Pending](s-b-pending.html)
+
 ## Associated transitions
 * [New Draft Creation](t-1-new-draft.html)
 * [Pending Request Creation](t-2-new-pending.html)

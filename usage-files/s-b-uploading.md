@@ -6,13 +6,13 @@ Once the usage file is successfully uploaded to the Connect platform, the system
 A usage file object in one of the following states:
 
 * [Draft](s-a-draft.html) 
-* [Invalid](s-d-invalid)
-* [Rejected](s-g-rejected)
+* [Invalid](s-d-invalid.html)
+* [Rejected](s-g-rejected.html)
 
 ## Transferable statuses
-When your spreadsheet file is uploaded, the system transfers the usage file object to the [Processing](s-c-processing) state.
+When your spreadsheet file is uploaded, the system transfers the usage file object to the [Processing](s-c-processing.html) state.
 ## Associated transitions
-* [Usage File Uploading](t-2-draft-uploading)
-* [Usage File Processing](t-3-upl-processing)
-* [Invalid File Reuploading](t-5-inv-uploading)
-* [Rejected File Reuploading](t-10-reject-uploading)
+* [Usage File Uploading](t-2-draft-uploading.html)
+* [Usage File Processing](t-3-upl-processing.html)
+* [Invalid File Reuploading](t-5-inv-uploading.html)
+* [Rejected File Reuploading](t-10-reject-uploading.html)

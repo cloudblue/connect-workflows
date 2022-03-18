@@ -5,5 +5,5 @@ Vendors can also bring their product back to the *Published* state by clicking t
 ## Prerequisites
 A product with the [Published](s-b-published.html) status.
 ## Associated transitions
-* [End of Sale Confirmation](t-5-pub-end.html)
-* [Product Restoration](t-6-end-pub.html)
+* [End of Sale Confirmation](t-4-pub-end.html)
+* [Product Restoration](t-5-end-pub.html)

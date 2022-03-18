@@ -1,5 +1,5 @@
 {
-    "name": "Request",
+    "name": "Listing Requests",
     "image": "object.png",
     "readme": "object.md",
     "statuses": [
@@ -7,50 +7,50 @@
             "id": "s-a-draft",
             "name": "Draft",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "20.5%",
+                "top": "44.62%",
+                "width": "7%",
+                "height": "15.38%"
             }
         },
         {
             "id": "s-b-reviewing",
             "name": "Reviewing",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "43%",
+                "top": "44.18%",
+                "width": "14.1%",
+                "height": "16.71%"
             }
         },
         {
             "id": "s-c-deploying",
             "name": "Deploying",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "59.15%",
+                "top": "8.18%",
+                "width": "13.55%",
+                "height": "16.71%"
             }
         },
         {
             "id": "s-d-completed",
             "name": "Completed",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "82.45%",
+                "top": "8.36%",
+                "width": "14.9%",
+                "height": "16.27%"
             }
         },
         {
             "id": "s-e-cancelled",
             "name": "Cancelled",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "83%",
+                "top": "76.27%",
+                "width": "13.8%",
+                "height": "15.64%"
             }
         }
     ],
@@ -61,10 +61,10 @@
             "to": "Draft",
             "name": "1. Vendor starts populating data",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "9.6%",
+                "top": "44.27%",
+                "width": "7.45%",
+                "height": "4.36%"
             }
         },
         {
@@ -73,10 +73,10 @@
             "to": "Deleted",
             "name": "2. Vendor deletes request before submitting to the Distributor",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "16.4%",
+                "top": "67.91%",
+                "width": "15.25%",
+                "height": "4.27%"
             }
         },
         {
@@ -85,10 +85,10 @@
             "to": "Reviewing",
             "name": "3. Vendor submits request to the Distributor",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "30.5%",
+                "top": "44.27%",
+                "width": "11.65%",
+                "height": "4.44%"
             }
         },
         {
@@ -97,10 +97,10 @@
             "to": "Deploying",
             "name": "4. Distributor approves and proceeds to the deployment",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "43.45%",
+                "top": "30.31%",
+                "width": "13.05%",
+                "height": "4.44%"
             }
         },
         {
@@ -109,10 +109,10 @@
             "to": "Completed",
             "name": "5. Distributor completes all operational activities",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "71.7%",
+                "top": "8.44%",
+                "width": "11.2%",
+                "height": "4.44%"
             }
         },
         {
@@ -121,10 +121,10 @@
             "to": "Cancelled",
             "name": "6. Distributor rejects to proceed with the deployment",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "59.2%",
+                "top": "30.31%",
+                "width": "13.45%",
+                "height": "4.44%"
             }
         },
         {
@@ -133,10 +133,10 @@
             "to": "Cancelled",
             "name": "7. Distributor rejects to proceed with the request",
             "mapping": {
-                "left": "10%",
-                "top": "10%",
-                "width": "10%",
-                "height": "10%"
+                "left": "44.3%",
+                "top": "67.91%",
+                "width": "11.55%",
+                "height": "4.44%"
             }
         }
     ]
