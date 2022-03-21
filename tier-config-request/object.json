@@ -1,0 +1,258 @@
+{
+    "name": "Tier Configuration Request",
+    "image": "object.png",
+    "readme": "object.md",
+    "statuses": [
+        {
+            "id": "s-a-draft",
+            "name": "Draft",
+            "mapping": {
+                "left": "22.87%",
+                "top": "37.63%",
+                "width": "7.23%",
+                "height": "14.68%"
+            }
+        },
+        {
+            "id": "s-b-pending",
+            "name": "Pending",
+            "mapping": {
+                "left": "46.97%",
+                "top": "37.37%",
+                "width": "11.21%",
+                "height": "15.96%"
+            }
+        },
+        {
+            "id": "s-c-tiers-setup",
+            "name": "Tiers Setup",
+            "mapping": {
+                "left": "44.47%",
+                "top": "80.97%",
+                "width": "16.25%",
+                "height": "15.96%"
+            }
+        },
+        {
+            "id": "s-d-inquiring",
+            "name": "Inquiring",
+            "mapping": {
+                "left": "46.41%",
+                "top": "2.73%",
+                "width": "12.43%",
+                "height": "15.53%"
+            }
+        },
+        {
+            "id": "s-e-approved",
+            "name": "Approved",
+            "mapping": {
+                "left": "78.15%",
+                "top": "34.9%",
+                "width": "13.35%",
+                "height": "16.04%"
+            }
+        },
+        {
+            "id": "s-f-failed",
+            "name": "Failed",
+            "mapping": {
+                "left": "80.69%",
+                "top": "63.74%",
+                "width": "8.61%",
+                "height": "15.1%"
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-draft",
+            "from": "New",
+            "to": "Draft",
+            "name": "1. New Draft Creation",
+            "mapping": {
+                "left": "13.75%",
+                "top": "37.8%",
+                "width": "7.08%",
+                "height": "3.84%"
+            }
+        },
+        {
+            "id": "t-2-new-pending",
+            "from": "New",
+            "to": "Pending",
+            "name": "2. Pending Request Creation",
+            "mapping": {
+                "left": "13.6%",
+                "top": "59.73%",
+                "width": "7.08%",
+                "height": "3.84%"
+            }
+        },
+        {
+            "id": "t-3-draft-deleted",
+            "from": "Draft",
+            "to": "Deleted",
+            "name": "3. Draft Removal",
+            "mapping": {
+                "left": "19.05%",
+                "top": "23.04%",
+                "width": "4.79%",
+                "height": "4.1%"
+            }
+        },
+        {
+            "id": "t-4-draft-pending",
+            "from": "Draft",
+            "to": "Pending",
+            "name": "4. Draft Approval",
+            "mapping": {
+                "left": "32.71%",
+                "top": "37.63%",
+                "width": "4.79%",
+                "height": "4.1%"
+            }
+        },
+        {
+            "id": "t-5-pend-inquiring",
+            "from": "Pending",
+            "to": "Inquiring",
+            "name": "5. Inquiring Data",
+            "mapping": {
+                "left": "40.19%",
+                "top": "24.06%",
+                "width": "9.17%",
+                "height": "4.27%"
+            }
+        },
+        {
+            "id": "t-6-inq-pending",
+            "from": "Inquiring",
+            "to": "Pending",
+            "name": "6. Parameter Value Assignment",
+            "mapping": {
+                "left": "55.17%",
+                "top": "24.23%",
+                "width": "9.17%",
+                "height": "4.27%"
+            }
+        },
+        {
+            "id": "t-7-tier-inquiring",
+            "from": "Tiers Setup",
+            "to": "Inquiring",
+            "name": "7. Tier Setup to Inquiring Transition",
+            "mapping": {
+                "left": "35.35%",
+                "top": "64.51%",
+                "width": "8.86%",
+                "height": "4.27%"
+            }
+        },
+        {
+            "id": "t-8-tier-pending",
+            "from": "Tiers Setup",
+            "to": "Pending",
+            "name": "8. Tier Setup is Completed",
+            "mapping": {
+                "left": "56.04%",
+                "top": "64.76%",
+                "width": "7.34%",
+                "height": "4.27%"
+            }
+        },
+        {
+            "id": "t-9-new-inquiring",
+            "from": "New",
+            "to": "Inquiring",
+            "name": "9. New Inquiring Request",
+            "mapping": {
+                "left": "12.89%",
+                "top": "3.07%",
+                "width": "8.71%",
+                "height": "4.27%"
+            }
+        },
+        {
+            "id": "t-10-new-tiers",
+            "from": "New",
+            "to": "Pending",
+            "name": "10. New Tier Setup Request",
+            "mapping": {
+                "left": "12.84%",
+                "top": "81.57%",
+                "width": "8.71%",
+                "height": "4.27%"
+            }
+        },
+        {
+            "id": "t-11-draft-inquiring",
+            "from": "Draft",
+            "to": "Inquiring",
+            "name": "11. Draft to Inquiring Transition",
+            "mapping": {
+                "left": "30.41%",
+                "top": "9.22%",
+                "width": "9.48%",
+                "height": "4.27%"
+            }
+        },
+        {
+            "id": "t-12-draft-tiers",
+            "from": "Draft",
+            "to": "Tiers Setup",
+            "name": "12. Draft to Tier Setup Transition",
+            "mapping": {
+                "left": "31.07%",
+                "top": "81.57%",
+                "width": "7.9%",
+                "height": "4.27%"
+            }
+        },        {
+            "id": "t-13-inq-failed",
+            "from": "Inquiring",
+            "to": "Failed",
+            "name": "13. Inquiring Request Rejection",
+            "mapping": {
+                "left": "63.22%",
+                "top": "9.13%",
+                "width": "8.41%",
+                "height": "3.92%"
+            }
+        },        {
+            "id": "t-14-pend-approved",
+            "from": "Pending",
+            "to": "Approved",
+            "name": "14. Request Approval",
+            "mapping": {
+                "left": "63.93%",
+                "top": "35.84%",
+                "width": "6.93%",
+                "height": "3.92%"
+            }
+        },        {
+            "id": "t-15-pend-failed",
+            "from": "Pending",
+            "to": "Failed",
+            "name": "15. Pending Request Rejection",
+            "mapping": {
+                "left": "63.98%",
+                "top": "46.5%",
+                "width": "6.88%",
+                "height": "3.92%"
+            }
+        },
+        {
+            "id": "t-16-tier-failed",
+            "from": "Tiers Setup",
+            "to": "Failed",
+            "name": "16. Tier Setup Request Rejection",
+            "mapping": {
+                "left": "63.47%",
+                "top": "81.48%",
+                "width": "7.85%",
+                "height": "3.92%"
+            }
+        }
+    ]
+}
