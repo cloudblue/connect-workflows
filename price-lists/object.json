@@ -1,0 +1,134 @@
+{
+    "name": "Price Lists",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-draft",
+                "name": "Draft",
+                "mapping": {
+                    "left": "20.18%",
+                    "top": "51.73%",
+                    "width": "8.21%",
+                    "height": "18.68%"
+                }
+            },
+            {
+                "id": "s-b-scheduled",
+                "name": "Scheduled",
+                "mapping": {
+                    "left": "45.51%",
+                    "top": "51.73%",
+                    "width": "16.95%",
+                    "height": "18.68%"
+                }
+            },
+            {
+                "id": "s-c-active",
+                "name": "Active",
+                "mapping": {
+                    "left": "83.23%",
+                    "top": "51.3%",
+                    "width": "10.56%",
+                    "height": "19.01%"
+                }
+            },
+            {
+                "id": "s-d-teminated",
+                "name": "Terminated",
+                "mapping": {
+                    "left": "79.24%",
+                    "top": "2.59%",
+                    "width": "18.59%",
+                    "height": "19.01%"
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-draft",
+                "from": "New",
+                "to": "Draft",
+                "name": "1. Draft Creation",
+                "mapping": {
+                    "left": "7.1%",
+                    "top": "52.7%",
+                    "width": "10.15%",
+                    "height": "4.75%"
+                }
+            },
+            {
+                "id": "t-2-draft-scheduled",
+                "from": "Draft",
+                "to": "Scheduled",
+                "name": "2. Price List Schedule",
+                "mapping": {
+                    "left": "34.49%",
+                    "top": "52.7%",
+                    "width": "7.51%",
+                    "height": "4.75%"
+                }
+            },
+            {
+                "id": "t-3-schedule-draft",
+                "from": "Scheduled",
+                "to": "Draft",
+                "name": "3. Schedule Cancellation",
+                "mapping": {
+                    "left": "34.49%",
+                    "top": "30.99%",
+                    "width": "7.51%",
+                    "height": "4.75%"
+                }
+            },
+            {
+                "id": "t-4-schedule-active",
+                "from": "Scheduled",
+                "to": "Active",
+                "name": "4. Scheduled Pricing Activation",
+                "mapping": {
+                    "left": "65.04%",
+                    "top": "52.16%",
+                    "width": "10.73%",
+                    "height": "4.86%"
+                }
+            },
+            {
+                "id": "t-5-draft-active",
+                "from": "Draft",
+                "to": "Active",
+                "name": "5. Draft Activation",
+                "mapping": {
+                    "left": "50.26%",
+                    "top": "86.39%",
+                    "width": "7.45%",
+                    "height": "4.97%"
+                }
+            },
+            {
+                "id": "t-6-active-terminated",
+                "from": "Active",
+                "to": "Terminated",
+                "name": "6. Price List Termination",
+                "mapping": {
+                    "left": "90.38%",
+                    "top": "33.8%",
+                    "width": "7.45%",
+                    "height": "4.97%"
+                }
+            },
+            {
+                "id": "t-7-draft-deleted",
+                "from": "Draft",
+                "to": "Deleted",
+                "name": "7. Draft Removal",
+                "mapping": {
+                    "left": "9.68%",
+                    "top": "87.58%",
+                    "width": "10.56%",
+                    "height": "2.48%"
+                }
+            }
+        ]
+    }
+    

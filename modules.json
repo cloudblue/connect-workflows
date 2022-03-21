@@ -2,11 +2,17 @@
     "modules": {
         "Account" : {
             "description": "Manage users, groups, permissions, and account settings of your organization with the Account Management module.",
-            "icon": "business"
+            "icon": "business",
+            "objects": [
+                "users/object.json"
+            ]
         },
         "Agreements": {
             "description": "Create and control the lifecycle of agreements (contract templates) with the Agreements Management module.",
-            "icon": "description"
+            "icon": "description",
+            "objects": [
+                "agreement-versions/object.json"
+            ]
         },
         "Catalog": {
             "description": "View, enroll, test and manage the portfolio of products with the Catalog Management module",
@@ -14,15 +20,28 @@
         },
         "Contracts": {
             "description": "Create and manage contracts with your partners with the Contracts Management module.",
-            "icon": "business_center"
+            "icon": "business_center",
+            "objects": [
+                "distribution-contracts/object.json",
+                "program-contracts/object.json",
+                "service-contracts/object.json",
+                "syndication-contracts/object.json"
+            ]
         },
         "Customers": {
             "description": "View and manage your customers (tier accounts) with the Customers Management module.",
-            "icon": "group"
+            "icon": "group",
+            "objects": [
+                "tier-accounts/object.json",
+                "tier-account-requests/object.json"
+            ]
         },
         "Helpdesk": {
             "description": "Resolve your issues faster.",
-            "icon": "forum"
+            "icon": "forum",
+            "objects": [
+                "cases/object.json"
+            ]
         },
         "Integrations": {
             "description": "Create and manage API tokens, access information, and other integrations with the Extensions  Management module.",
@@ -33,6 +52,13 @@
             "icon": "device_hub"
         },
         "Listings": {
+            "description": "Manage your product listing via this object.",
+            "icon": "star",
+            "objects": [
+                "listings/object.json"
+            ]
+        },
+        "Listing Requests": {
             "description": "Monitor and process the queue of listing requests from your partners with the Listings Management module.",
             "icon": "star",
             "objects": [
@@ -45,19 +71,32 @@
         },
         "Offers": {
             "description": "Set, manage and update the offers of your products with Offers Management module.",
-            "icon": "local_offer"
+            "icon": "local_offer",
+            "objects": [
+                "offers/object.json"
+            ]
         },
         "Partners": {
             "description": "View and manage all your partners and partners' information with the Partners Management module.",
-            "icon": "contacts"
+            "icon": "contacts",
+            "objects": [
+                "partners/object.json"
+            ]
         },
         "Pricing": {
             "description": "Set, manage, and update the pricing of your products and items with the Pricing Management module.",
-            "icon": "attach_money"
+            "icon": "attach_money",
+            "objects": [
+                "price-lists/object.json"
+            ]
         },
         "Products": {
             "description": "Review, test and manage your products with the Products Management module.",
-            "icon": "widgets"
+            "icon": "widgets",
+            "objects": [
+                "products/object.json",
+                "items/object.json"
+            ]
         },
         "Purchasing": {
             "description": "Review, test and manage Purchase Orders (POs) with the Purchasing Management module.",
@@ -65,22 +104,36 @@
         },
         "Reports": {
             "description": "Access and manage the generated report files with the Reports Management module.",
-            "icon": "archive"
+            "icon": "archive",
+            "objects": [
+                "report-repositories/object.json",
+                "report-schedules/object.json",
+                "reports/object.json"
+            ]
         },
         "Tier Config": {
             "description": "View and manage the tier configuration information in the Settings Management module.",
-            "icon": "recent_actors"
+            "icon": "recent_actors",
+            "objects": [
+                "tier-config/object.json",
+                "tier-config-request/object.json"
+            ]
         },
         "Subscriptions": {
             "description": "Review, test, and manage subscriptions of products with the Subscriptions Management module.",
             "icon": "autorenew",
             "objects": [
+                "subscriptions/object.json",
                 "subscriptions-fulfillment-request/object.json"
             ]
         },
         "Usage": {
             "description": "Manage reporting for the pay-as-you-go products with the Usage Management module.",
-            "icon": "assessment"
+            "icon": "assessment",
+            "objects": [
+                "usage-files/object.json",
+                "usage-records/object.json"
+            ]
         }
     }
 }

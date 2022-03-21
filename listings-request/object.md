@@ -1,38 +1,9 @@
-Lorem markdownum clivo vultum quae hostem reperto et concussaque pastor versum
-impetus mittere, creatos, sic. *Aesacos* ferire alienae Amyntor recultae imperat
-solvunt, est signa, vaccam, ut tuos conanti cauda, resonare. Nil vulnera, cum
-*ego validis*, nunc Arcas, quateret omnes?
+# Listing Requests
+## Overview
+A *listing request* object represents a formal request to list a product on a specified marketplace. Listing requests contain product specifications, associated price lists, and included product offers. 
+The system allows Vendors to generate listing requests of the following types: *create* (requests to list a new product), *update* (requests to update listing data), or delete (requests to delist a product from the marketplace). Consequently, all listing requests should be processed by Distributors/ Resellers.
 
-*Suo* Oceanus; fidissima haliaeetus illac fugientem meliora mens. Hesperio
-inpensior auctor ilex per placidissime **coma dum auxilium**.
+Once a new listing request object is generated, the system assigns the *Draft* status to this object. Once Vendors submit their request to Distributor or Reseller systems, the request object is automatically assigned to the *Reviewing* state. Distributors or Resellers can start processing the request and transfer it to the *Deploying* state. In case the request processing is successful, Distributors/Resellers assign the *Completed* status to this request. Alternatively, Distributors/Resellers can reject request in case of an error and transfer it to the *Cancelled* state.
 
-Natis frangit accipe exit pelagoque quam sol regnabat aestuat, Venerem comites
-fecit tangeret, **forsitan**. Dedit condeturque vaga medio tam facerem stabat
-cum movit idem dedit cacumine. Qui fuerit freta carmen. Ityn pietas; novissimus
-munera places, mirum resilire.
-
-At tempora ista, vices bifidosque parte, [arboribus
-florem](http://esse.com/nostrae), vires servatus tam amore segetes successor
-retinens. Luna **densa** Baucisque vestigia Proreus, raptu auro reos ora nequeo
-luminis tellusque: quidem: vellet gramen.
-
-Commenta te vix lymphis tamen sicca vetus nescio ureris vento motae tempore
-carmine! Arestoridae genus, si mora generosos primum circumdata altae, nec domui
-superis quotiens salici consilium. Nihil alimentaque deus secutus quod, esse!
-Diva patruique et metu intervenit quondam divino Arethusa ortu. Exit sine remige
-vulnera et suis hinc famulae misceri ignibus, si ducere in Marte, qui Editus!
-
-> An ad ausis effugit, concursibus alii longum legar tenus Epidauria curis. Qua
-> arte porrigit, sacrorum adhaesit dedere puerilibus vulnere suique. Nec
-> lacrimis trepidas duxisses regio non locumque aufert exclamat reverentia inque
-> virides. Agendum dulcedine maiora. Ait hinc poteras fissaque formosa
-> *docuisse*, mella serpentibus Tmolo est seque potiatur enodisque aratri, nec.
-
-Gravis obsedit cum canis gravitate discedens concretam, *est* in semperque
-rapidus colligit exibit, haberet, queritur miles iuvat. E movit reparare incitat
-coniuge florente magno lacrimas, Cyanen. Me socerque terga miserata, terrigenis
-qui, ut, attonitas edentem Iuno moenibus arcus Finierat sanguine **lucem**
-virginitate animum.
-
-Fama falcato unius. Me non exigua et quibus dextra continuam aliquod, mihi? Pro
-ululare regis miliaque sororis, agmen.
+## Additional Information
+Please refer to the [Listings Management Module](https://connect.cloudblue.com/community/modules/listings/) documentation for more information.

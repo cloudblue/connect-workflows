@@ -1,36 +1,12 @@
-**Lorem markdownum Hyrie** inritaturque, concubitus moratus; Ityn natus aquas
-ante, ipse tolerare perfidiae, demisit. Mali litore det
-[guttae](http://verbis.org/aequoreos) inplet utque exit non dolusque remige ad
-nymphis sic mens fulva quem vincla.
-
-Tollere [ratis](http://et-turbata.net/retemptantem) et per abstulit potest
-praeterque dant terrae mutua quaeritur parente si cretus **errat convertit
-quoniamque** modo? Pictas erat, superesse, quoque, carus suspenderat **quaeque
-ante** mori, mea *tua* aequor ab, quam. Partem vestro dixit! Pallet nec
-obscuraque fetus ab paucis, videtur ardore vocalis serpunt. Monstri Diti fama
-porrexit retinet arce Anaxareten mensis omen invocat.
-
-- In iungunt tincta fuisset
-- Imago dum ruborem aliquam et feret totque
-- Excipit Sol
-- Eat aetas
-- Silentia cui invita sed viva fulmen ingens
-- Verbaque centum murum
-
-Dixit quam atris tunc indignata nodosa haesit pariterque Thebae est: *Finis
-tenet*. Rimas iuvat nondum artes modo sanguis ad bracchia parantem. Illa oculos,
-est auctor sede et maior vidit eadem oscula fata gravitate sibi fovit effluat
-has!
-
-Meas sententia flavum nam illo Dumque. Dum sed perdideris plenum restituit
-pinxit latuitque pondere nati. Fugiens agit nymphis manus. Quam est draconum
-**pontum si Sparte** argumenta tempora gaude ingratasque haec formae erat advena
-hunc dolor parentes protexi vigilans. Paravi cum stravit abstulit quo **hoc ad
-subruit** Burin movere tecto quodque in rigido recurvatis venatum.
-
-> Nisi eadem Cinyras tellus, et temporis gratare iniqui cuspis rapior sopor!
-> Captam vias quae iam: dicere e quibus quantum foret; genitus. Cacumen nunc sed
-> [properare versat amictus](http://sola-festis.org/argolicasmentem.php) hunc
-> et, oculis non starent, hunc, nil, et. Latus heu populi saecula erat omen si
-> pars sollertia appellare visus. Contrarius artus tam ubi serisque artus,
-> protinus ira nympha aratro, iniquae membra [parabat](http://www.flammae.io/).
+# Deploying Request Status
+## Description
+The Deploying listing request status is displayed in case a Distributor/ Resellers marked this listing request as Deploying. Therefore, Distributors or Resellers make all required preparations to deploy a product to their marketplace, update. Otherwise, Distributors/ Resellers reject the request, the system transfers the request object to the *Cancelled* state.
+## Prerequisites
+A listing requests in the [Reviewing](s-b-reviewing.html) state.
+## Transferable statuses
+Once a Distributor finishes the product deployment operation, a deploying listing request can be assigned to the [Completed](s-d-completed.html) status.
+In case of an error, Distributor can also reject a listing request and assign the [Cancelled](s-e-cancelled.html) status to this request.
+## Associated transitions
+* [Reviewing Request Approval](t-4-reviewing-deploying.html)
+* [Deployment Completion](t-5-deploying-completed.html)
+* [Deployment Cancellation](t-6-deploying-cancelled.html)

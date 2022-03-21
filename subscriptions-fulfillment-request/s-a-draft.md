@@ -1,29 +1,18 @@
-Lorem markdownum foribus pontus, ut medii in solas ungues. Obstiterit erat
-languentique fistula ornate animam lactentem duorum ordine potentem norint lilia
-qui.
+# Draft Request Status
+## Description
+The Draft request status represent an optional state that is available in case the dynamic validation capability of this request type is enabled. Draft requests and their corresponding draft subscription objects can be used for pre-provisioning validation. 
+Once the draft fulfillment request is successfully validated, the system automatically transfers the request to the Pending state. If your validated request requires tier configuration or specifying parameter data, the system automatically transfers this request to corresponding statuses. 
+In case a generated draft request is not correct or no longer relevant, the system allows removing such requests.
+## Prerequisites
+Switch the **Dynamic Validation** capability on to enable the real-time validation of your selected request type.
+## Transferable statuses
+The draft request can be transferred to one of the following statuses:
 
-    certificate(-5, 437038);
-    if (telecommunications_resolution - 5 - bridgeLeak) {
-        surface = chip_domain_down.cps(2, wpa, 18 + text);
-        rtf_base_download(tablet, 4, mouse_processor_dial(raid, character,
-                odbc_template_mask));
-        touchscreenEsportsBar += freeware_dvi;
-    } else {
-        symbolic_backlink_service(dtdPad - printerTCard, nui);
-        payload = vga;
-    }
-    bootData(joystickGraphic + open.sql_wins(offline, 1, ssl_pipeline));
-    biometrics_play_crossplatform += barebones_post(null_hard, bus.frequency(
-            wheelQuery), 1);
+* [Tiers Setup](s-c-tiers-setup.html)
+* [Inquiring](s-d-inquiring.html)
+* [Pending](s-b-pending.html)
 
-Arva est Calydona saevitiae per ferro ministri Aetnen damnatus *latrare plenaque
-accipe* inpia in iacit. Imagine imagine, est, et ara Caesareo *non cretus*
-rependatur caro, unam dumque famulosne foramen, sub lapsum? Ager contrahitur
-clam: collem rector pectora nimiumque lunares Amphitryoniadae quamquam de campos
-consorte nihil.
-
-- Qui decorum frustra ubi abibo in imis
-- Putri ignarus inter
-- Deum silvis Picus planxerunt di summa qui
-- Talia se ingentia confinia
-- Rectorque sed classe postquam diduxit illa virgo
+## Associated transitions
+* [New draft creation](t-2-new-draft.html)
+* [Draft to Pending Request Convertion](t-3-draft-pending.html)
+* [Draft Request Removal](t-4-draft-deleted.html)

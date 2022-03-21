@@ -1,0 +1,187 @@
+{
+    "name": "Usage Records",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-uploaded",
+                "name": "Uploaded",
+                "mapping": {
+                    "left": "12.04%",
+                    "top": "42.91%",
+                    "width": "9.89%",
+                    "height": "15.93%"
+                }
+            },
+            {
+                "id": "s-b-validated",
+                "name": "Validated",
+                "mapping": {
+                    "left": "30.38%",
+                    "top": "42.95%",
+                    "width": "9.99%",
+                    "height": "15.23%"
+                }
+            },
+            {
+                "id": "s-c-invalid",
+                "name": "Invalid",
+                "mapping": {
+                    "left": "13.25%",
+                    "top": "81.74%",
+                    "width": "6.97%",
+                    "height": "14.33%"
+                }
+            },
+            {
+                "id": "s-d-pending",
+                "name": "Pending",
+                "mapping": {
+                    "left": "50.42%",
+                    "top": "42.8%",
+                    "width": "8.38%",
+                    "height": "16.63%"
+                }
+            },
+            {
+                "id": "s-e-rejected",
+                "name": "Rejected",
+                "mapping": {
+                    "left": "30.62%",
+                    "top": "1.95%",
+                    "width": "9.27%",
+                    "height": "15.89%"
+                }
+            },
+            {
+                "id": "s-f-accepted",
+                "name": "Accepted",
+                "mapping": {
+                    "left": "69.74%",
+                    "top": "42.72%",
+                    "width": "10.06%",
+                    "height": "16.55%"
+                }
+            },
+            {
+                "id": "s-g-closed",
+                "name": "Closed",
+                "mapping": {
+                    "left": "91.43%",
+                    "top": "42.76%",
+                    "width": "7.21%",
+                    "height": "15.89%"
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-uploaded",
+                "from": "New",
+                "to": "Uploaded",
+                "name": "1. New Record Creation",
+                "mapping": {
+                    "left": "6.28%",
+                    "top": "43.77%",
+                    "width": "3.6%",
+                    "height": "4.13%"
+                }
+            },
+            {
+                "id": "t-2-upl-validated",
+                "from": "Uploaded",
+                "to": "Validated",
+                "name": "2. Record Validation",
+                "mapping": {
+                    "left": "24.32%",
+                    "top": "43.61%",
+                    "width": "3.77%",
+                    "height": "4.17%"
+                }
+            },
+            {
+                "id": "t-3-upl-invalid",
+                "from": "Uploaded",
+                "to": "Invalid",
+                "name": "3. Failed Record Processing",
+                "mapping": {
+                    "left": "18.91%",
+                    "top": "67.06%",
+                    "width": "4.34%",
+                    "height": "3.86%"
+                }
+            },
+            {
+                "id": "t-4-inv-uploaded",
+                "from": "Invalid",
+                "to": "Uploaded",
+                "name": "4. Record Reuploading",
+                "mapping": {
+                    "left": "10.2%",
+                    "top": "67.02%",
+                    "width": "4.04%",
+                    "height": "4.13%"
+                }
+            },
+            {
+                "id": "t-5-val-pending",
+                "from": "Validated",
+                "to": "Pending",
+                "name": "5. Record is Submitted",
+                "mapping": {
+                    "left": "41.67%",
+                    "top": "43.65%",
+                    "width": "6.43%",
+                    "height": "4.13%"
+                }
+            },
+            {
+                "id": "t-6-pend-rejected",
+                "from": "Pending",
+                "to": "Rejected",
+                "name": "6. Record is Rejected",
+                "mapping": {
+                    "left": "53.05%",
+                    "top": "5.69%",
+                    "width": "3.11%",
+                    "height": "4.32%"
+                }
+            },
+            {
+                "id": "t-7-rej-uploaded",
+                "from": "Rejected",
+                "to": "Uploaded",
+                "name": "7. Rejected Record Reuploading",
+                "mapping": {
+                    "left": "13.97%",
+                    "top": "5.65%",
+                    "width": "6.09%",
+                    "height": "4.32%"
+                }
+            },
+            {
+                "id": "t-8-pend-accepted",
+                "from": "Pending",
+                "to": "Accepted",
+                "name": "8. Record Acceptance",
+                "mapping": {
+                    "left": "62.22%",
+                    "top": "43.77%",
+                    "width": "3.32%",
+                    "height": "4.24%"
+                }
+            },
+            {
+                "id": "t-9-acc-closed",
+                "from": "Accepted",
+                "to": "Closed",
+                "name": "9. Record Closure",
+                "mapping": {
+                    "left": "83.09%",
+                    "top": "43.73%",
+                    "width": "3.1%",
+                    "height": "3.93%"
+                }
+            }
+        ]
+    }

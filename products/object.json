@@ -1,0 +1,100 @@
+{
+    "name": "Products",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-draft",
+                "name": "Draft",
+                "mapping": {
+                    "left": "20.23%",
+                    "top": "32.18%",
+                    "width": "8.02%",
+                    "height": "24.82%"
+                }
+            },
+            {
+                "id": "s-b-published",
+                "name": "Published",
+                "mapping": {
+                    "left": "46.36%",
+                    "top": "31.46%",
+                    "width": "15.36%",
+                    "height": "25.54%"
+                }
+            },
+            {
+                "id":"s-c-endsale",
+                "name": "End of Sale",
+                "mapping": {
+                    "left": "80.17%",
+                    "top": "31.75%",
+                    "width": "17.77%",
+                    "height": "25.54%"
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-draft",
+                "from": "New",
+                "to": "Draft",
+                "name": "1. Draft Creation",
+                "mapping": {
+                    "left": "7.05%",
+                    "top": "31.75%",
+                    "width": "9.74%",
+                    "height": "6.78%"
+                }
+            },
+            {
+                "id": "t-2-draft-pub",
+                "from": "Draft",
+                "to": "Published",
+                "name": "2. Product Version Assignment",
+                "mapping": {
+                    "left": "32.89%",
+                    "top": "31.6%",
+                    "width": "10.77%",
+                    "height": "6.64%"
+                }
+            },
+            {
+                "id": "t-3-draft-del",
+                "from": "Draft",
+                "to": "Deleted",
+                "name": "3. Distributor rejects the listing request",
+                "mapping": {
+                    "left": "17.59%",
+                    "top": "71.57%",
+                    "width": "13.3%",
+                    "height": "3.17%"
+                }
+            },
+            {
+                "id": "t-4-pub-end",
+                "from": "Published",
+                "to": "End of Sale",
+                "name": "4. End of Sale Confirmation",
+                "mapping": {
+                    "left": "64.7%",
+                    "top": "31.6%",
+                    "width": "13.64%",
+                    "height": "7.22%"
+                }
+            },
+            {
+                "id": "t-5-end-pub",
+                "from": "End of Sale",
+                "to": "Published",
+                "name": "5. Product Restoration",
+                "mapping": {
+                    "left": "66.02%",
+                    "top": "2.16%",
+                    "width": "11.06%",
+                    "height": "7.22%"
+                }
+            }
+        ]
+    }
+    

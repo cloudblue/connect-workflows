@@ -1,0 +1,111 @@
+{
+    "name": "Tier Configs",
+    "image": "object.png",
+    "readme": "object.md",
+    "statuses": [
+        {
+            "id": "s-a-draft",
+            "name": "Draft",
+            "mapping": {
+                "left": "26.09%",
+                "top": "36.38%",
+                "width": "8.78%",
+                "height": "21.3%"
+            }
+        },
+        {
+            "id": "s-b-processing",
+            "name": "Processing",
+            "mapping": {
+                "left": "49.12%",
+                "top": "36.15%",
+                "width": "19.16%",
+                "height": "22.81%"
+            }
+        },
+        {
+            "id": "s-c-active",
+            "name": "Active",
+            "mapping": {
+                "left": "86.16%",
+                "top": "36.04%",
+                "width": "11.31%",
+                "height": "22.09%"
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-processing",
+            "from": "New",
+            "to": "Processing",
+            "name": "1. New Config Creation",
+            "mapping": {
+                "left": "24.3%",
+                "top": "1.68%",
+                "width": "12.19%",
+                "height": "5.61%"
+            }
+        },
+        {
+            "id": "t-2-new-draft",
+            "from": "New",
+            "to": "Draft",
+            "name": "2. Draft Creation",
+            "mapping": {
+                "left": "8.24%",
+                "top": "35.82%",
+                "width": "11.91%",
+                "height": "5.61%"
+            }
+        },
+        {
+            "id": "t-3-draft-processing",
+            "from": "Draft",
+            "to": "Processing",
+            "name": "3. Draft Validation",
+            "mapping": {
+                "left": "38.89%",
+                "top": "37.39%",
+                "width": "11.28%",
+                "height": "2.58%"
+            }
+        },
+        {
+            "id": "t-4-draft-deleted",
+            "from": "Draft",
+            "to": "Deleted",
+            "name": "4. Draft Removal",
+            "mapping": {
+                "left": "18.19%",
+                "top": "70.85%",
+                "width": "11.23%",
+                "height": "2.58%"
+            }
+        },
+        {
+            "id": "t-5-pro-active",
+            "from": "Processing",
+            "to": "Active",
+            "name": "5. Config Activation",
+            "mapping": {
+                "left": "70.04%",
+                "top": "35.76%",
+                "width": "10.4%",
+                "height": "6.05%"
+            }
+        },
+        {
+            "id": "t-6-act-processing",
+            "from": "Active",
+            "to": "Processing",
+            "name": "6. Config Update",
+            "mapping": {
+                "left": "68.39%",
+                "top": "87.33%",
+                "width": "10.57%",
+                "height": "5.61%"
+            }
+        }
+    ]
+}

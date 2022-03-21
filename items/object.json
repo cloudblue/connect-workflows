@@ -1,0 +1,99 @@
+{
+    "name": "Items",
+    "image": "object.png",
+    "readme": "object.md",
+    "statuses": [
+        {
+            "id": "s-a-draft",
+            "name": "Draft",
+            "mapping": {
+                "left": "25.08%",
+                "top": "5.81%",
+                "width": "8.51%",
+                "height": "31.37%"
+            }
+        },
+        {
+            "id": "s-b-published",
+            "name": "Published",
+            "mapping": {
+                "left": "48.39%",
+                "top": "5.06%",
+                "width": "16.22%",
+                "height": "32.28%"
+            }
+        },
+        {
+            "id": "s-c-endsale",
+            "name": "End of Sale",
+            "mapping": {
+                "left": "78.88%",
+                "top": "4.65%",
+                "width": "18.98%",
+                "height": "33.2%"
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-draft",
+            "from": "New",
+            "to": "Draft",
+            "name": "1. Item Creation",
+            "mapping": {
+                "left": "9.74%",
+                "top": "5.06%",
+                "width": "7.96%",
+                "height": "8.13%"
+            }
+        },
+        {
+            "id": "t-2-draft-published",
+            "from": "Draft",
+            "to": "Published",
+            "name": "2. Item Publication",
+            "mapping": {
+                "left": "38.68%",
+                "top": "4.98%",
+                "width": "8.32%",
+                "height": "8.8%"
+            }
+        },
+        {
+            "id": "t-3-draft-deleted",
+            "from": "Draft",
+            "to": "Deleted",
+            "name": "3. Draft Removal",
+            "mapping": {
+                "left": "17.53%",
+                "top": "56.76%",
+                "width": "10.75%",
+                "height": "3.82%"
+            }
+        },
+        {
+            "id": "t-4-published-endsale",
+            "from": "Published",
+            "to": "End of Sale",
+            "name": "4. End of Sale Assignment",
+            "mapping": {
+                "left": "67.26%",
+                "top": "4.9%",
+                "width": "10.23%",
+                "height": "8.38%"
+            }
+        },
+        {
+            "id": "t-5-endsale-published",
+            "from": "End of Sale",
+            "to": "Published",
+            "name": "5. Item Restoration",
+            "mapping": {
+                "left": "65.81%",
+                "top": "83.57%",
+                "width": "10.15%",
+                "height": "3.57%"
+            }
+        }
+    ]
+}

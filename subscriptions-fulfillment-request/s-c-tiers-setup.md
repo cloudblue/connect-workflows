@@ -1,22 +1,20 @@
-Lorem markdownum osculaque adeunt, sed Hylonome fluctus ferrea certare corde
-genu quid solis hinc. Dixit ipsamque, [numerumque](http://vides.com/deo-munus):
-horrentia vestigia, est est cortex aciem Meleagros, suo viri est devovitque. Ut
-faciem pennis germanae se poteras properant dulce est tibi: recipit. Galea est
-iuvenum genus laboribus longo, ea sensibus facinus alis ostentare candidus
-insula.
+# Tiers Setup Request Status
+## Description
+In case reseller or customer account configuration is required, the system transfers corresponding fulfillment requests to the Tier Setup state. The system also generates a Tier Configuration object and its Tier Request that should be also processed and consolidated via the corresponding module on the Connect platform. 
 
-Inobservatus **exiguam humum** rate fluminis sine; sequentem favus. Aversata
-domoque, hic fugit neve esse vetus intempestiva tristes unde spatium. Posita
-crimine ora arida, quae genialiter nunc, aede undam mutatum tamquam? Sint eadem
-clipei noctisque quibus stabat inposita precor. Sim frigus tenebat haerent
-recessit cunctis cura: iubes auras.
+Once a tier request is successfully approved and tier configuration is activated, the system transfers your fulfillment request to the Pending state and sends **Tier Configuration Approved Template** to your customers or resellers. Refer to the [Tier Configuration documentation](https://connect.cloudblue.com/community/modules/tier-config/) for more information. 
+## Prerequisites
+A listed product and active distribution contract are required to create a fulfillment request with *tiers setup* status. Fulfillment requests can also get
+ this status from the [Draft](s-a-draft.html) state.
 
-Clamore servatoque, *dixi* artus [occupat](http://estper.org/verbis-facta.html)
-adit relicto iam erat saltus stagnumque! Venit verba magis replet equitavit
-contudit, Alcyonen honores praeferri, genitas **crudelis**? Misit sed aevo
-simulacra ceu causa nostra refero resupinus Thisbe hoc.
+## Transferable statuses
+Once the tiers configuration is successfully completed, your fulfillment request can be assigned to one of the following statuses:
 
-1. Antra pectoraque ac nec coniunctior paterque
-2. Patet quos lux salutifera recipit flamma reperire
-3. Ardore capillos ante
-4. Fero est inminet navigiis ferire cumque ignibus
+* [Pending](s-b-pending.html)
+* [Inquiring](s-d-inquiring.html)
+
+In case the tiers configuration is failed, this request is assigned to the [Failed](s-f-failed.html) status.
+## Associated transitions
+* [Pending to Tiers Setup Convertion](t-5-pending-tiers-setup.html)
+* [Tier Configuration Failure](t-6-tiers-setup-failed.html)
+* [Completed Tiers Configuration](t-7-tiers-setup-pending.html)

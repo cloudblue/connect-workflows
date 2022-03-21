@@ -1,0 +1,109 @@
+{
+    "name": "Program Contracts",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-pending",
+                "name": "Pending",
+                "mapping": {
+                    "left": "28.4%",
+                    "top": "36.75%",
+                    "width": "19.19%",
+                    "height": "18.49%"
+                }
+            },
+            {
+                "id": "s-b-active",
+                "name": "Active",
+                "mapping": {
+                    "left": "75.24%",
+                    "top": "36.57%",
+                    "width": "15.72%",
+                    "height": "17.81%"
+                }
+            },
+            {
+                "id": "s-c-rejected",
+                "name": "Rejected",
+                "mapping": {
+                    "left": "72.47%",
+                    "top": "78.03%",
+                    "width": "21.37%",
+                    "height": "18.31%"
+                }
+            },
+            {
+                "id": "s-d-terminated",
+                "name": "Terminated",
+                "mapping": {
+                    "left": "69.19%",
+                    "top": "2.35%",
+                    "width": "27.61%",
+                    "height": "18.49%"
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-pending",
+                "from": "New",
+                "to": "Pending",
+                "name": "1. Contract Creation",
+                "mapping": {
+                    "left": "13.19%",
+                    "top": "36.66%",
+                    "width": "14.93%",
+                    "height": "4.52%"
+                }
+            },
+            {
+                "id": "t-2-pend-active",
+                "from": "Pending",
+                "to": "Active",
+                "name": "2. Contract Activation",
+                "mapping": {
+                    "left": "51.42%",
+                    "top": "36.71%",
+                    "width": "15.68%",
+                    "height": "4.52%"
+                }
+            },
+            {
+                "id": "t-3-pend-rejected",
+                "from": "Pending",
+                "to": "Rejected",
+                "name": "3. Contract Rejection",
+                "mapping": {
+                    "left": "31.04%",
+                    "top": "82.05%",
+                    "width": "13.9%",
+                    "height": "4.52%"
+                }
+            },
+            {
+                "id": "t-4-pend-deleted",
+                "from": "Pending",
+                "to": "Deleted",
+                "name": "4. Contract Removal",
+                "mapping": {
+                    "left": "32.42%",
+                    "top": "26.36%",
+                    "width": "11.06%",
+                    "height": "4.52%"
+                }
+            },
+            {
+                "id": "t-5-act-terminated",
+                "from": "Active",
+                "to": "Terminated",
+                "name": "6. Contract Termination",
+                "mapping": {
+                    "left": "86.22%",
+                    "top": "26.36%",
+                    "width": "10.94%",
+                    "height": "4.52%"
+                }
+            }
+        ]
+    }

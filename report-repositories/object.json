@@ -1,0 +1,111 @@
+{
+    "name": "Report Repositories",
+    "image": "object.png",
+    "readme": "object.md",
+    "statuses": [
+        {
+            "id": "s-a-configuring",
+            "name": "Configuring",
+            "mapping": {
+                "left": "30.9%",
+                "top": "24.47%",
+                "width": "26.28%",
+                "height": "18.07%"
+            }
+        },
+        {
+            "id": "s-b-ready",
+            "name": "Ready",
+            "mapping": {
+                "left": "82.94%",
+                "top": "24.56%",
+                "width": "14.25%",
+                "height": "18.07%"
+            }
+        },
+        {
+            "id": "s-c-failed",
+            "name": "Failed",
+            "mapping": {
+                "left": "37.2%",
+                "top": "78.46%",
+                "width": "13.91%",
+                "height": "17.01%"
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-configuring",
+            "from": "New",
+            "to": "Configuring",
+            "name": "1. New Repository Object Creation",
+            "mapping": {
+                "left": "14.21%",
+                "top": "25.27%",
+                "width": "14.1%",
+                "height": "4.44%"
+            }
+        },
+        {
+            "id": "t-2-conf-ready",
+            "from": "Configuring",
+            "to": "Ready",
+            "name": "2. Successful Repository Configuration",
+            "mapping": {
+                "left": "61.57%",
+                "top": "25.44%",
+                "width": "10.39%",
+                "height": "4.71%"
+            }
+        },
+        {
+            "id": "t-3-conf-failed",
+            "from": "Configuring",
+            "to": "Failed",
+            "name": "3. Repository Processing Failure",
+            "mapping": {
+                "left": "29.55%",
+                "top": "57.5%",
+                "width": "10.42%",
+                "height": "6.93%"
+            }
+        },
+        {
+            "id": "t-4-fail-configuring",
+            "from": "Failed",
+            "to": "Configuring",
+            "name": "4. Repository Details Edit",
+            "mapping": {
+                "left": "47.77%",
+                "top": "57.55%",
+                "width": "10.42%",
+                "height": "6.93%"
+            }
+        },
+        {
+            "id": "t-5-fail-deleted",
+            "from": "Failed",
+            "to": "Deleted",
+            "name": "5. Repository Removal",
+            "mapping": {
+                "left": "61.15%",
+                "top": "79.22%",
+                "width": "10.42%",
+                "height": "4.44%"
+            }
+        },
+        {
+            "id": "t-6-ready-configuring",
+            "from": "Ready",
+            "to": "Configuring",
+            "name": "6. Repository Update",
+            "mapping": {
+                "left": "61.57%",
+                "top": "1.78%",
+                "width": "10.42%",
+                "height": "4.88%"
+            }
+        }
+    ]
+}

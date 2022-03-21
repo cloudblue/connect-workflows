@@ -1,0 +1,19 @@
+<h1>Active Status</h1>
+<h2>Description</h2>
+<p>This subscription status indicates that a Vendor successfully approved a fulfillment request. Therefore, a Vendor provides required data (like product activation keys or URLs) to a consumer and the system assigns the <em>Active</em> status to the subscription.
+An active subscription can be cancelled; thus, the system assigns the <em>Terminating</em> status to this subscription.
+Once a subscription is activated, consumers might also create a change request to adjust items or item quantity.<br />
+Furthermore, an active subscription can be suspended in case a corresponding capability is enabled.</p>
+<h2>Prerequisites</h2>
+<p>A subscription with the <a href="s-a-processing.html">Processing</a> status and an approved fulfillment request.</p>
+<h2>Transferable statuses</h2>
+<p>In case a cancel request is created, the active subscription is transferred to the <a href="s-c-terminating.html">Terminating</a> state.
+It is also possible to transfer active subscriptions to the <a href="s-e-suspended.html">Suspended</a> state in case <strong>Administrative Hold</strong> capability is enabled.</p>
+<h2>Associated transitions</h2>
+<ul>
+<li><a href="t-6-change-request.html">Change Request Creation</a></li>
+<li><a href="t-7-change-approval.html">Change Request Approval</a></li>
+<li><a href="t-8-suspend.html">Subscription Suspension</a></li>
+<li><a href="t-9-resume.html">Subscription Resumption</a></li>
+<li><a href="t-4-active-terminating.html">Subscription Cancellation</a></li>
+</ul>

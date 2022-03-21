@@ -1,0 +1,13 @@
+<h1>Terminated Status</h1>
+<h2>Description</h2>
+<p>The <em>Terminated</em> subscription status is displayed in case a Vendor rejects a fulfillment request. Therefore, this request is failed and an associated subscription is terminated.
+Terminated subscription status can also indicate that a Vendor approved a cancel request. Buyers create such requests in case they want to cancel their subscription. Furthermore, cancel requests could be created from the Distributor or Vendor portals.
+Note that the <em>Terminated</em> status represents a terminal state. No further actions with this subscriptions are required or available. </p>
+<h2>Prerequisites</h2>
+<p>A subscription can be transferred to the <em>Terminated</em> state in case Vendors rejected a fulfillment request and this subscription is assigned to the <a href="s-a-processing.html">Processing</a> state.
+Furthermore, Vendors can approve a cancel request and transfer <a href="s-c-terminating.html">Terminating</a> subscriptions to the <em>Terminated</em> state. </p>
+<h2>Associated transitions</h2>
+<ul>
+<li><a href="t-3-pro-terminated.html">Subscription Rejection</a></li>
+<li><a href="t-5-terminating-terminated.html">Cancellation Approval</a></li>
+</ul>

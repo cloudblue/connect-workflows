@@ -1,0 +1,53 @@
+{
+    "name": "Tier Accounts",
+    "image": "object.png",
+    "readme": "object.md",
+    "statuses": [
+        {
+            "id": "s-a-active",
+            "name": "Active",
+            "mapping": {
+                "left": "33.79%",
+                "top": "43.83%",
+                "width": "12.07%",
+                "height": "16.62%"
+            }
+        },
+        {
+            "id": "s-b-decom",
+            "name": "Decommissioned",
+            "mapping": {
+                "left": "66.29%",
+                "top": "43.73%",
+                "width": "31.21%",
+                "height": "16.62%"
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-active",
+            "from": "New",
+            "to": "Active",
+            "name": "1. Tier Account Creation",
+            "mapping": {
+                "left": "17.29%",
+                "top": "44.95%",
+                "width": "11.14%",
+                "height": "4.28%"
+            }
+        },
+        {
+            "id": "t-2-act-decom",
+            "from": "Active",
+            "to": "Decommissioned",
+            "name": "2. Tier Account Removal",
+            "mapping": {
+                "left": "55.86%",
+                "top": "44.95%",
+                "width": "8.07%",
+                "height": "4.28%"
+            }
+        }
+    ]
+}

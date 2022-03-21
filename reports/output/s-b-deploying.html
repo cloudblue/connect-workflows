@@ -1,0 +1,14 @@
+<h1>Deploying Status</h1>
+<h2>Description</h2>
+<p>The <em>Deploying</em> report status indicates that a new report is being deployed on the Connect platform. From this particular state, the system decides if a report file is generated successfully. Thereafter, in case the report creation is successful, the system assigns the <em>Ready</em> status to this report. Otherwise, the report creation is failed and the system assigns the corresponding status to it.</p>
+<h2>Prerequisites</h2>
+<p>A new generating report with the <a href="s-a-pending.html">Pending</a> status.</p>
+<h2>Transferable statuses</h2>
+<p>Once a report is successfully created, it is transferred to the <a href="s-c-ready.html">Ready</a> state.
+In case of an error, this report is converted to the <a href="s-d-failed.html">Failed</a> state.</p>
+<h2>Associated transitions</h2>
+<ul>
+<li><a href="t-2-pen-deploying.html">New Report Deployment</a></li>
+<li><a href="t-3-dep-ready.html">Report Creation Success</a></li>
+<li><a href="t-4-dep-failed.html">Report Creation Failure</a></li>
+</ul>

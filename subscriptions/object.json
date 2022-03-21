@@ -1,0 +1,213 @@
+{
+    "name": "Subscriptions",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-processing",
+                "name": "Processing",
+                "mapping": {
+                    "left": "26.32%",
+                    "top": "43.27%",
+                    "width": "18.1%",
+                    "height": "16.53%"
+                }
+            },
+            {
+                "id": "s-b-active",
+                "name": "Active",
+                "mapping": {
+                    "left": "78.89%",
+                    "top": "43.1%",
+                    "width": "10.7%",
+                    "height": "15.92%"
+                }
+            },
+            {
+                "id": "s-c-terminating",
+                "name": "Terminating",
+                "mapping": {
+                    "left": "41.99%",
+                    "top": "69.31%",
+                    "width": "19.75%",
+                    "height": "15.66%"
+                }
+            },
+            {
+                "id": "s-d-teminated",
+                "name": "Terminated",
+                "mapping": {
+                    "left": "74.81%",
+                    "top": "80.65%",
+                    "width": "18.63%",
+                    "height": "15.3%"
+                }
+            },
+            {
+                "id": "s-e-suspended",
+                "name": "Suspended",
+                "mapping": {
+                    "left": "75.28%",
+                    "top": "1.32%",
+                    "width": "18.04%",
+                    "height": "15.3%"
+                }
+            },
+            {
+                "id": "s-f-draft",
+                "name": "Draft",
+                "mapping": {
+                    "left": "19.69%",
+                    "top": "21.9%",
+                    "width": "8.34%",
+                    "height": "15.22%"
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-subscription",
+                "from": "New",
+                "to": "Processing",
+                "name": "1. Subscription Creation",
+                "mapping": {
+                    "left": "16.85%",
+                    "top": "43.27%",
+                    "width": "10.94%",
+                    "height": "4.05%"
+                }
+            },
+            {
+                "id": "t-2-pro-active",
+                "from": "Processing",
+                "to": "Active",
+                "name": "2. Subscription Approval",
+                "mapping": {
+                    "left": "52.57%",
+                    "top": "43.27%",
+                    "width": "11.06%",
+                    "height": "4.31%"
+                }
+            },
+            {
+                "id": "t-3-pro-terminated",
+                "from": "Processing",
+                "to": "Terminated",
+                "name": "3. Subscription Rejection",
+                "mapping": {
+                    "left": "22.95%",
+                    "top": "70.8%",
+                    "width": "9.52%",
+                    "height": "4.31%"
+                }
+            },
+            {
+                "id": "t-4-active-terminating",
+                "from": "Active",
+                "to": "Terminating",
+                "name": "4. Subscription Cancellation",
+                "mapping": {
+                    "left": "46.3%",
+                    "top": "61.04%",
+                    "width": "11.12%",
+                    "height": "4.05%"
+                }
+            },
+            {
+                "id": "t-5-terminating-terminated",
+                "from": "Terminating",
+                "to": "Terminated",
+                "name": "5. Cancellation Approval",
+                "mapping": {
+                    "left": "65.82%",
+                    "top": "79.33%",
+                    "width": "11%",
+                    "height": "4.05%"
+                }
+            },
+            {
+                "id": "t-6-change-request",
+                "from": "Active",
+                "to": "Active",
+                "name": "6. Change Request Creation",
+                "mapping": {
+                    "left": "69.13%",
+                    "top": "70.89%",
+                    "width": "11.18%",
+                    "height": "4.05%"
+                }
+            },
+            {
+                "id": "t-7-change-approval",
+                "from": "Active",
+                "to": "Active",
+                "name": "7. Change Request Approval",
+                "mapping": {
+                    "left": "87.64%",
+                    "top": "70.89%",
+                    "width": "10.64%",
+                    "height": "4.4%"
+                }
+            },
+            {
+                "id": "t-8-suspend",
+                "from": "Active",
+                "to": "Suspended",
+                "name": "8. Subscription Suspension",
+                "mapping": {
+                    "left": "72.68%",
+                    "top": "29.99%",
+                    "width": "6.62%",
+                    "height": "2.02%"
+                }
+            },
+            {
+                "id": "t-9-resume",
+                "from": "Suspended",
+                "to": "Active",
+                "name": "9. Subscription Resumption",
+                "mapping": {
+                    "left": "89.83%",
+                    "top": "29.99%",
+                    "width": "6.27%",
+                    "height": "2.02%"
+                }
+            },
+            {
+                "id": "t-10-draft",
+                "from": "New",
+                "to": "Draft",
+                "name": "10. Draft Creation",
+                "mapping": {
+                    "left": "1.18%",
+                    "top": "26.65%",
+                    "width": "11.77%",
+                    "height": "4.13%"
+                }
+            },
+            {
+                "id": "t-11-draft-removal",
+                "from": "Draft",
+                "to": "Deleted",
+                "name": "11. Draft Removal",
+                "mapping": {
+                    "left": "25.78%",
+                    "top": "13.98%",
+                    "width": "10.53%",
+                    "height": "1.85%"
+                }
+            },
+            {
+                "id": "t-12-draft-processing",
+                "from": "Draft",
+                "to": "Processing",
+                "name": "12. Draft to Processing Convertion",
+                "mapping": {
+                    "left": "36.96%",
+                    "top": "26.65%",
+                    "width": "12.12%",
+                    "height": "4.49%"
+                }
+            }
+        ]
+    }

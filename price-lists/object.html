@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+</style>
+<meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type='text/javascript' src='http://davidlynch.org/projects/maphilight/jquery.maphilight.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.map').maphilight({ alwaysOn: true });
+            // uncomment this line for normal hover highlighting
+            // $('.map').maphilight();
+        });   
+    </script>
+</head>
+<body>
+
+<!-- Edit with https://summerstyle.github.io/summer/ below -->
+
+<img class="map" src="object.png" alt="" usemap="#map" />
+<map name="map">
+    <area shape="rect" coords="1335, 7, 1686, 236" href="s-d-teminated" />
+    <area shape="rect" coords="1410, 286, 1688, 376" href="t-6-active-terminated" />
+    <area shape="rect" coords="1359, 431, 1654, 675" href="s-c-active" />
+    <area shape="rect" coords="1101, 452, 1326, 588" href="t-4-schedule-active" />
+    <area shape="rect" coords="761, 746, 1020, 898" href="t-5-draft-active" />
+    <area shape="rect" coords="24, 738, 390, 918" href="t-7-draft-deleted" />
+    <area shape="rect" coords="764, 420, 1068, 667" href="s-b-scheduled" />
+    <area shape="rect" coords="562, 459, 732, 577" href="t-2-draft-scheduled" />
+    <area shape="rect" coords="563, 260, 778, 384" href="t-3-schedule-draft" />
+    <area shape="rect" coords="27, 443, 304, 619" href="t-1-new-draft" />
+    <area shape="rect" coords="325, 450, 509, 672" href="s-a-draft" />
+</map>
+
+<!-- Edit with https://summerstyle.github.io/summer/ above -->
+
+</body>
+</html>

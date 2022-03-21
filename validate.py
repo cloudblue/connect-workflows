@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import os
+import re
 import json
 import requests
 import markdown
@@ -29,6 +30,25 @@ def get_material_icon_names():
 
     return ret
 
+
+def validate_mapping(mapping):
+    left = mapping['left']
+    top = mapping['top']
+    width = mapping['width']
+    height = mapping['height']
+    
+    pattern = r"^\d+\.?\d*\%$"
+    pat = re.compile(pattern)
+
+    if not re.fullmatch(pat, left):
+        error("left coordinates are invalid: " + left)
+    if not re.fullmatch(pat, top):
+        error("top coordinates are invalid: " + top)
+    if not re.fullmatch(pat, width):
+        error("top coordinates are invalid: " + width)
+    if not re.fullmatch(pat, height):
+        error("top coordinates are invalid: " + height)
+        
 
 def validate_transition(transition, known_statuses, output_dir, working_dir, default_image):
 
@@ -66,6 +86,8 @@ def validate_transition(transition, known_statuses, output_dir, working_dir, def
     if transition_image.size != default_image.size:
         error('Different image sizes wihin the same object')
 
+    validate_mapping(transition['mapping'])
+
 
 def validate_status(status, output_dir, working_dir, default_image):
     
@@ -92,7 +114,12 @@ def validate_status(status, output_dir, working_dir, default_image):
     status_image = PIL.Image.open( os.path.join(working_dir, image) )
     img_width, img_height = status_image.size
     if status_image.size != default_image.size:
+        print( 'status image validation failed: ' + status['name'] )
+        print( 'status_image.size = ' + str(status_image.size) )
+        print( 'default_image.size = ' + str(default_image.size) )
         error('Different image sizes wihin the same object')
+
+    validate_mapping(status['mapping'])
 
 
 def validate_object(obj_file):
@@ -130,6 +157,32 @@ def validate_object(obj_file):
     for transition in object['transitions']:
         validate_transition(transition, known_statuses, output_dir, working_dir, default_image)
 
+
+def validate_no_orphant_folders(modules):
+
+    print('checking orphanted folders...')
+
+    object_folders = []
+
+    for m in modules:
+        if not 'objects' in modules[m]:
+            continue
+        
+        for o in modules[m]['objects']:
+            folder = os.path.split(o)[0]
+            object_folders.append(folder)
+
+    ignored_folders = [ '.env', '.git', '.github' ]
+    directory_contents = os.listdir('.')
+    for item in directory_contents:
+        if not os.path.isdir(item):
+            continue
+        if item in ignored_folders:
+            continue
+        if item not in object_folders:
+            error('orphant folder detected: ' + item)
+
+
 def main():
 
     icons = get_material_icon_names()
@@ -141,6 +194,9 @@ def main():
 
     counter = 1
     modules = data["modules"]
+
+    validate_no_orphant_folders(modules)
+
     for module_name in modules:
 
         m = modules[module_name]

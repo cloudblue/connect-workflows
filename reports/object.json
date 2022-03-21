@@ -1,0 +1,109 @@
+{
+    "name": "Reports",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-pending",
+                "name": "Pending",
+                "mapping": {
+                    "left": "16.19%",
+                    "top": "42.44%",
+                    "width": "12.21%",
+                    "height": "18.24%"
+                }
+            },
+            {
+                "id": "s-b-deploying",
+                "name": "Deploying",
+                "mapping": {
+                    "left": "41.77%",
+                    "top": "42.44%",
+                    "width": "15.03%",
+                    "height": "18.24%"
+                }
+            },
+            {
+                "id": "s-c-ready",
+                "name": "Ready",
+                "mapping": {
+                    "left": "71.44%",
+                    "top": "2.63%",
+                    "width": "9.5%",
+                    "height": "18.54%"
+                }
+            },
+            {
+                "id": "s-d-failed",
+                "name": "Failed",
+                "mapping": {
+                    "left": "71.44%",
+                    "top": "78.24%",
+                    "width": "9.34%",
+                    "height": "17.37%"
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-pending",
+                "from": "New",
+                "to": "Pending",
+                "name": "1. Export Request Creation",
+                "mapping": {
+                    "left": "4.03%",
+                    "top": "43.12%",
+                    "width": "11.38%",
+                    "height": "4.59%"
+                }
+            },
+            {
+                "id": "t-2-pen-deploying",
+                "from": "Pending",
+                "to": "Deploying",
+                "name": "2. New Report Deployment",
+                "mapping": {
+                    "left": "29.45%",
+                    "top": "43.51%",
+                    "width": "11.77%",
+                    "height": "4.49%"
+                }
+            },
+            {
+                "id": "t-3-dep-ready",
+                "from": "Deploying",
+                "to": "Ready",
+                "name": "3. Report Creation Success",
+                "mapping": {
+                    "left": "52.6%",
+                    "top": "24.98%",
+                    "width": "9.06%",
+                    "height": "4.49%"
+                }
+            },
+            {
+                "id": "t-4-dep-failed",
+                "from": "Deploying",
+                "to": "Failed",
+                "name": "4. Report Creation Failure",
+                "mapping": {
+                    "left": "52.49%",
+                    "top": "66.93%",
+                    "width": "9.17%",
+                    "height": "4.59%"
+                }
+            },
+            {
+                "id": "t-5-ready-remove",
+                "from": "Ready",
+                "to": "Deleted",
+                "name": "5. Report Removal",
+                "mapping": {
+                    "left": "83.2%",
+                    "top": "4%",
+                    "width": "10.11%",
+                    "height": "2.44%"
+                }
+            }
+        ]
+    }

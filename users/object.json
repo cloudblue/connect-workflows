@@ -1,0 +1,99 @@
+{
+    "name": "Users",
+    "image": "object.png",
+    "readme": "object.md",
+    "statuses": [
+        {
+            "id": "s-a-invited",
+            "name": "Invited",
+            "mapping": {
+                "left": "36.34%",
+                "top": "33.9%",
+                "width": "16.96%",
+                "height": "16.71%"
+            }
+        },
+        {
+            "id": "s-b-joined",
+            "name": "Joined",
+            "mapping": {
+                "left": "79.91%",
+                "top": "34.09%",
+                "width": "16.79%",
+                "height": "16.43%"
+            }
+        },
+        {
+            "id": "s-c-expired",
+            "name": "Expired",
+            "mapping": {
+                "left": "35.45%",
+                "top": "79.13%",
+                "width": "18.75%",
+                "height": "17.19%"
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-invited",
+            "from": "New",
+            "to": "Invited",
+            "name": "1. User Invitation",
+            "mapping": {
+                "left": "15.98%",
+                "top": "35.03%",
+                "width": "12.05%",
+                "height": "4.25%"
+            }
+        },
+        {
+            "id": "t-2-inv-joined",
+            "from": "Invited",
+            "to": "Joined",
+            "name": "2. Invitation Activation",
+            "mapping": {
+                "left": "59.2%",
+                "top": "34.94%",
+                "width": "11.79%",
+                "height": "4.72%"
+            }
+        },
+        {
+            "id": "t-3-inv-expired",
+            "from": "Invited",
+            "to": "Expired",
+            "name": "3. Invitation Revocation",
+            "mapping": {
+                "left": "26.88%",
+                "top": "63.83%",
+                "width": "11.79%",
+                "height": "4.34%"
+            }
+        },
+        {
+            "id": "t-4-exp-invited",
+            "from": "Expired",
+            "to": "Invited",
+            "name": "4. Invitation Resent",
+            "mapping": {
+                "left": "50.63%",
+                "top": "63.83%",
+                "width": "11.79%",
+                "height": "4.34%"
+            }
+        },
+        {
+            "id": "t-5-joined-deleted",
+            "from": "Joined",
+            "to": "Deleted",
+            "name": "5. User Removal",
+            "mapping": {
+                "left": "80.89%",
+                "top": "21.44%",
+                "width": "14.82%",
+                "height": "2.17%"
+            }
+        }
+    ]
+}

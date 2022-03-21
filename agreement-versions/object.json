@@ -1,0 +1,101 @@
+{
+    "name": "Agreement Versions",
+    "image": "object.png",
+    "readme": "object.md",
+    "statuses": [
+        {
+            "id": "s-a-active",
+            "name": "Active",
+            "mapping": {
+                "left": "35.21%",
+                "top": "25%",
+                "width": "14.79%",
+                "height": "20.68%"
+            }
+        },
+        {
+            "id": "s-b-inactive",
+            "name": "Inactive",
+            "mapping": {
+                "left": "78.86%",
+                "top": "25.21%",
+                "width": "18.29%",
+                "height": "20.58%"
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-active",
+            "from": "New",
+            "to": "Active",
+            "name": "1. New Active Agreement Version Creation",
+            "mapping": {
+                "left": "16.36%",
+                "top": "26.23%",
+                "width": "12.64%",
+                "height": "5.35%"
+            }
+        },
+        {
+            "id": "t-2-new-inactive",
+            "from": "New",
+            "to": "Inactive",
+            "name": "2. New Inactive Agreement Version Creation",
+            "mapping": {
+                "left": "39.21%",
+                "top": "1.65%",
+                "width": "13.93%",
+                "height": "5.35%"
+            }
+        },
+        {
+            "id": "t-3-act-inactive",
+            "from": "Active",
+            "to": "Inactive",
+            "name": "3. Agreement Version Deactivation",
+            "mapping": {
+                "left": "60.57%",
+                "top": "26.23%",
+                "width": "9.64%",
+                "height": "5.35%"
+            }
+        },
+        {
+            "id": "t-4-inact-active",
+            "from": "Inactive",
+            "to": "Active",
+            "name": "4. Agreement Version Reactivation",
+            "mapping": {
+                "left": "60.43%",
+                "top": "64.71%",
+                "width": "9.64%",
+                "height": "5.35%"
+            }
+        },
+        {
+            "id": "t-5-act-deleted",
+            "from": "Active",
+            "to": "Deleted",
+            "name": "5. Active Agreement Version Removal",
+            "mapping": {
+                "left": "33.57%",
+                "top": "87.24%",
+                "width": "12.57%",
+                "height": "5.35%"
+            }
+        },
+        {
+            "id": "t-6-inact-deleted",
+            "from": "Inactive",
+            "to": "Deleted",
+            "name": "6. Inactive Agreement Version Removal",
+            "mapping": {
+                "left": "83.93%",
+                "top": "87.24%",
+                "width": "13.93%",
+                "height": "5.35%"
+            }
+        }
+    ]
+}
