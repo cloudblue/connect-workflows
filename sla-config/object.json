@@ -1,0 +1,28 @@
+{
+    "name": "SLA Settings",
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-disabled",
+            "name": "Disabled"
+        },
+        {
+            "id": "s-b-enabled",
+            "name": "Enabled"
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-dis-enabled",
+            "from": "Disabled",
+            "to": "Enabled",
+            "name": "1. SLM Config Activation"
+        },
+        {
+            "id": "t-2-enab-disabled",
+            "from": "Enabled",
+            "to": "Disabled",
+            "name": "2. SLM Config Deactivation"
+        }
+    ]
+}
