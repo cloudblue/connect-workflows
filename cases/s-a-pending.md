@@ -11,7 +11,7 @@ The system also allows transfering Inquiring Cases to the Pending state once all
 
 ## Transferable statuses
 Once the issue or problem is fixed, the system assigns the [Resolved](s-c-resolved.html) status to Pending Cases. 
-In case more information from reporters is required, the system assigns the [Inquiring](s-b-inquiring.html) status to such Cases.
+If more information from reporters is required, the system assigns the [Inquiring](s-b-inquiring.html) status to such Cases.
 
 ## Associated transitions
 * [New Case Creation](t-1-new-pending.html)
