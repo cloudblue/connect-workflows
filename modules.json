@@ -127,6 +127,13 @@
                 "subscriptions-fulfillment-request/object.json"
             ]
         },
+        "SLA Settings": {
+            "description": "SLM functionality configuration for your selected Connect objects",
+            "icon": "autorenew",
+            "objects": [
+                "sla-config/object.json",
+            ]
+        },
         "Usage": {
             "description": "Manage reporting for the pay-as-you-go products with the Usage Management module.",
             "icon": "assessment",
