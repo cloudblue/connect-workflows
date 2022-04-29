@@ -131,7 +131,7 @@
             "description": "SLM functionality configuration for your selected Connect objects",
             "icon": "autorenew",
             "objects": [
-                "sla-config/object.json",
+                "sla-config/object.json"
             ]
         },
         "Usage": {
