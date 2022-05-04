@@ -5,4 +5,4 @@ Your usage record workflow is interconnected with the workflow of your provided 
 Once Vendors submit their usage file to Distributors or Resellers, the system assigns the *Pending* status to the usage file object and each provided usage record object. Distributors or Resellers can accept or reject usage file and consequently assigns corresponding statuses to all usage records. In case usage record is rejected, Vendors can fix the identified issues and reupload usage file with required records once again. In case usage records are accepted, Distributors or Resellers can use this record for their subsequent billing operations. Once all billing operations are accomplished, the system allows Distributors or Resellers close the provided usage file and its usage records. 
 
 ## Additional Information
-Please refer to the [Usage Management Module](https://connect.cloudblue.com/community/modules/usage-module/) documentation for more information.
+Please refer to the [Usage Management Module](https://connect.cloudblue.com/community/modules/usage/) documentation for more information.
