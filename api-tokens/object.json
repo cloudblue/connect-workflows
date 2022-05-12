@@ -5,19 +5,40 @@
         "statuses": [
             {
                 "id": "s-a-pending",
-                "name": "Pending"
+                "name": "Pending",
+                "mapping": {
+                    "left": "21.87%",
+                    "top": "20.14%",
+                    "width": "15.18%",
+                    "height": "24.75%"
+            }
             },
             {
                 "id": "s-b-active",
-                "name": "Active"
+                "name": "Active",
+                "mapping": {
+                    "left": "51.65%",
+                    "top": "19.71%",
+                    "width": "15.18%",
+                    "height": "24.75%"
             },
             {
                 "id": "s-c-inactive",
-                "name": "Failed"
+                "name": "Failed",
+                "mapping": {
+                    "left": "82.86%",
+                    "top": "19.6%",
+                    "width": "15.18%",
+                    "height": "24.75%"
             },
             {
                 "id": "s-d-deleted",
-                "name": "Deleted"
+                "name": "Deleted",
+                "mapping": {
+                    "left": "51.85%",
+                    "top": "71.34%",
+                    "width": "15.18%",
+                    "height": "24.75%"
             }
         ],
         "transitions": [
@@ -25,31 +46,56 @@
                 "id": "t-1-new-pending",
                 "from": "New",
                 "to": "Pending",
-                "name": "1. Token Creation"
+                "name": "1. Token Creation",
+                "mapping": {
+                    "left": "11.4%%",
+                    "top": "21.69%",
+                    "width": "8.86%",
+                    "height": "8.62%"
             },
             {
                 "id": "t-2-pen-active",
                 "from": "Pending",
                 "to": "Active",
-                "name": "2. Token Activation"
+                "name": "2. Token Activation",
+                "mapping": {
+                    "left": "39.97%",
+                    "top": "21.69%",
+                    "width": "8.86%",
+                    "height": "8.62%"
             },
             {
                 "id": "t-3-act-inactive",
                 "from": "Active",
                 "to": "Inactive",
-                "name": "3. Token Deactivation"
+                "name": "3. Token Deactivation",
+                "mapping": {
+                    "left": "70.76%",
+                    "top": "22.44%",
+                    "width": "8.86%",
+                    "height": "8.62%"
             },
             {
                 "id": "t-4-in-active",
                 "from": "Inactive",
                 "to": "Active",
-                "name": "4. Token Reactivation"
+                "name": "4. Token Reactivation",
+                "mapping": {
+                    "left": "70.59%",
+                    "top": "0.32%",
+                    "width": "8.86%",
+                    "height": "8.62%"
             },
             {
                 "id": "t-5-token-deleted",
                 "from": "Pending, Active, Inactive",
                 "to": "Deleted",
-                "name": "5. Token Removal"
+                "name": "5. Token Removal",
+                "mapping": {
+                    "left": "53.26%",
+                    "top": "54.31%",
+                    "width": "11.77%",
+                    "height": "9.27%"
             }
         ]
     }
