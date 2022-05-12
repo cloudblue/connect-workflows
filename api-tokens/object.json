@@ -25,7 +25,7 @@
             },
             {
                 "id": "s-c-inactive",
-                "name": "Failed",
+                "name": "Inactive",
                 "mapping": {
                     "left": "82.86%",
                     "top": "19.6%",
