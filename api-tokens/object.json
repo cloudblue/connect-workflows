@@ -1,0 +1,55 @@
+{
+    "name": "API Tokens",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-pending",
+                "name": "Pending"
+            },
+            {
+                "id": "s-b-active",
+                "name": "Active"
+            },
+            {
+                "id": "s-c-inactive",
+                "name": "Failed"
+            },
+            {
+                "id": "s-d-deleted",
+                "name": "Deleted"
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-pending",
+                "from": "New",
+                "to": "Pending",
+                "name": "1. Token Creation"
+            },
+            {
+                "id": "t-2-pen-active",
+                "from": "Pending",
+                "to": "Active",
+                "name": "2. Token Activation"
+            },
+            {
+                "id": "t-3-act-inactive",
+                "from": "Active",
+                "to": "Inactive",
+                "name": "3. Token Deactivation"
+            },
+            {
+                "id": "t-4-in-active",
+                "from": "Inactive",
+                "to": "Active",
+                "name": "4. Token Reactivation"
+            },
+            {
+                "id": "t-5-token-deleted",
+                "from": "Pending, Active, Inactive",
+                "to": "Deleted",
+                "name": "5. Token Removal"
+            }
+        ]
+    }
