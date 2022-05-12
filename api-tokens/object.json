@@ -95,7 +95,7 @@
             },
             {
                 "id": "t-5-token-deleted",
-                "from": "Pending, Active, Inactive",
+                "from": "Pending",
                 "to": "Deleted",
                 "name": "5. Token Removal",
                 "mapping": {
