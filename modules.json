@@ -44,8 +44,11 @@
             ]
         },
         "Integrations": {
-            "description": "Create and manage API tokens, access information, and other integrations with the Extensions  Management module.",
-            "icon": "power"
+            "description": "Create and manage access tokens, define webhooks, and learn more about extensions with the Integrations Management module.",
+            "icon": "power",
+            "objects":[
+                "api-tokens/object.json"
+            ]
         },
         "Hubs": {
             "description": "Register and manage instances of your Commerce Management systems with the Hubs Management module.",
