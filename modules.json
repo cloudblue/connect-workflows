@@ -4,7 +4,8 @@
             "description": "Manage users, groups, permissions, and account settings of your organization with the Account Management module.",
             "icon": "business",
             "objects": [
-                "users/object.json"
+                "users/object.json",
+                "sla-config/object.json"
             ]
         },
         "Agreements": {
