@@ -10,8 +10,8 @@ A new created Case on the CloudBlue Connect platform.
 The system also allows transfering Inquiring Cases to the Pending state once all required data is presented.
 
 ## Transferable statuses
-Once the issue or problem is fixed, the system assigns the [Resolved](s-c-resolved.html) status to Pending Cases.
-If more information or details required, the system assigns the [Inquiring](s-b-inquiring.html status to your Cases.
+Once the issue or problem is fixed, the system assigns the [Resolved](s-c-resolved.html) status to Pending Cases. 
+If more information from reporters is required, the system assigns the [Inquiring](s-b-inquiring.html) status to such Cases.
 
 ## Associated transitions
 * [New Case Creation](t-1-new-pending.html)
