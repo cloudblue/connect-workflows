@@ -1,0 +1,52 @@
+{
+    "name": "SLA Settings",
+    "image": "object.png",
+    "statuses": [
+        {
+            "id": "s-a-disabled",
+            "name": "Disabled",
+            "mapping": {
+                "left": "3.57%",
+                "top": "42.97%",
+                "width": "26.92%",
+                "height": "17.83%"
+            }
+        },
+        {
+            "id": "s-b-enabled",
+            "name": "Enabled",
+            "mapping": {
+                "left": "71.18%",
+                "top": "43.05%",
+                "width": "26.92%",
+                "height": "17.83%"
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-dis-enabled",
+            "from": "Disabled",
+            "to": "Enabled",
+            "name": "1. SLM Config Activation",
+            "mapping": {
+                "left": "41.52%",
+                "top": "43.23%",
+                "width": "18.56%",
+                "height": "8.74%"
+            }
+        },
+        {
+            "id": "t-2-enab-disabled",
+            "from": "Enabled",
+            "to": "Disabled",
+            "name": "2. SLM Config Deactivation",
+            "mapping": {
+                "left": "41.38%",
+                "top": "68.15%",
+                "width": "18.56%",
+                "height": "8.74%"
+            }
+        }
+    ]
+}
