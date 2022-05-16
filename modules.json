@@ -73,6 +73,12 @@
             "description": "Define and control assignment of Hubs and Accounts to the Marketplaces with the Marketplaces Management module.",
             "icon": "shopping_cart"
         },
+        "News": {
+            "description": "Publish and manage your announcements, updates, or any other special messages on the Connect platform.",
+            "icon": "public",
+            "objects": [
+            ]
+        },
         "Offers": {
             "description": "Set, manage and update the offers of your products with Offers Management module.",
             "icon": "local_offer",
