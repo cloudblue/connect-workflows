@@ -4,4 +4,4 @@ This transition implies that your created draft is being deleted from the system
 ## Prerequisites
 A post object in the [Draft](s-a-draft.html) state is required for this transition.
 ## Operation results
-A removed draft object.
+A removed draft post object.
