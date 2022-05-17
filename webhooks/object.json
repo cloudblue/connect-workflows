@@ -1,0 +1,101 @@
+{
+    "name": "Webhooks",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-disabled",
+                "name": "Disabled",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-b-enabled",
+                "name": "Enabled",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-disabled",
+                "from": "New",
+                "to": "Disabled",
+                "name": "1. Webhook Creation",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-2-dis-enabled",
+                "from": "Disabled",
+                "to": "Enabled",
+                "name": "2. Webhook Activation",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-3-enab-disabled",
+                "from": "Enabled",
+                "to": "Disabled",
+                "name": "3. Webhook Deactivation",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-4-new-enabled",
+                "from": "New",
+                "to": "Enabled",
+                "name": "4. Enabled Webhook Creation",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-5-dis-deleted",
+                "from": "Disabled",
+                "to": "Deleted",
+                "name": "5. Disabled Webhook Removal",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-6-enab-deleted",
+                "from": "Enabled",
+                "to": "Deleted",
+                "name": "6. Enabled Webhook Removal",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            }
+        ]
+    }
