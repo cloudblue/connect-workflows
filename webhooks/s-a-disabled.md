@@ -4,7 +4,7 @@ The *Disabled* status implies that your webhook is switched off and it will not 
 Disabled webhooks can be enabled or removed if necessary
 ## Prerequisites 
 A new webhook object with the selected **Disabled** option.  
-A webhook object in the [Enabled](s-b-enabled.html) state that should be deactivated.
+Alternatively, a webhook object in the [Enabled](s-b-enabled.html) state that should be deactivated.
 ## Transferable statuses
 Once your webhook is successfully activated, it is assigned to the [Enabled](s-b-enabled.html) state.
 ## Associated transitions
