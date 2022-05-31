@@ -6,7 +6,7 @@ Disabled webhooks can be enabled or removed if necessary
 A new webhook object with the selected **Disabled** option.
 A webhook object in the [Enabled](s-b-enabled.html) state that should be deactivated.
 ## Transferable statuses
-Once your webhook is enabled, it is assigned to the [Enabled](s-b-enabled.html) state.
+Once your webhook is successfully activated, it is assigned to the [Enabled](s-b-enabled.html) state.
 ## Associated transitions
 * [Webhook Creation](t-1-new-disabled.html)
 * [Webhook Activation](t-2-dis-enabled.html)
