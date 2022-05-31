@@ -7,20 +7,20 @@
                 "id": "s-a-disabled",
                 "name": "Disabled",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "32.14%",
+                    "top": "43.52%",
+                    "width": "21.17%",
+                    "height": "25.34%"
                 }
             },
             {
                 "id": "s-b-enabled",
                 "name": "Enabled",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "75.87%",
+                    "top": "43.86%",
+                    "width": "21.17%",
+                    "height": "25.34%"
                 }
             }
         ],
