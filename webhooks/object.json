@@ -31,10 +31,10 @@
                 "to": "Disabled",
                 "name": "1. Webhook Creation",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "13.48%",
+                    "top": "45.24%",
+                    "width": "18.17%",
+                    "height": "10.32%"
                 }
             },
             {
@@ -43,10 +43,10 @@
                 "to": "Enabled",
                 "name": "2. Webhook Activation",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "58.53%",
+                    "top": "45.3%",
+                    "width": "12.86%",
+                    "height": "10.32%"
                 }
             },
             {
@@ -55,10 +55,10 @@
                 "to": "Disabled",
                 "name": "3. Webhook Deactivation",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "58.12%",
+                    "top": "19.84%",
+                    "width": "12.86%",
+                    "height": "10.32%"
                 }
             },
             {
@@ -67,10 +67,10 @@
                 "to": "Enabled",
                 "name": "4. Enabled Webhook Creation",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "36.29%;",
+                    "top": "0.17%",
+                    "width": "17.88%",
+                    "height": "10.32%"
                 }
             },
             {
@@ -79,10 +79,10 @@
                 "to": "Deleted",
                 "name": "5. Disabled Webhook Removal",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "36.42%",
+                    "top": "83.37%",
+                    "width": "12.86%",
+                    "height": "10.32%"
                 }
             },
             {
@@ -91,10 +91,10 @@
                 "to": "Deleted",
                 "name": "6. Enabled Webhook Removal",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "80.56%",
+                    "top": "83.54%",
+                    "width": "11.8%",
+                    "height": "10.32%"
                 }
             }
         ]
