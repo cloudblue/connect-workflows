@@ -48,7 +48,7 @@
             "description": "Create and manage access tokens, define webhooks, and learn more about extensions with the Integrations Management module.",
             "icon": "power",
             "objects":[
-                "api-tokens/object.json"
+                "api-tokens/object.json",
                 "webhooks/object.json"
             ]
         },
