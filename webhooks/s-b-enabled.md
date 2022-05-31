@@ -4,12 +4,11 @@ The *Enabled* status indicates that your webhook is switched on. Therefore, your
 Enabled webhooks can be deactivated or deleted if necessary.
 ## Prerequisites 
 A new webhook object with the selected **Enabled** option.  
-Alternatively, a webhook object in the [Enabled](s-b-enabled.html) state that should be deactivated.
+Alternatively, a webhook object in the [Disabled](s-a-disabled.html) state that should be activated.
 ## Transferable statuses
-Once your webhook is successfully activated, it is assigned to the [Enabled](s-b-enabled.html) state.
+In case your webhook is deactivated, the system assigns it the [Disabled](s-a-disabled.html) state.
 ## Associated transitions
-* [Webhook Creation](t-1-new-disabled.html)
 * [Webhook Activation](t-2-dis-enabled.html)
 * [Webhook Deactivation](t-3-enab-disabled.html)
-* [Disabled Webhook Removal](t-5-dis-deleted.html)
-
+* [Enabled Webhook Creation](t-4-new-enabled.html)
+* [Enabled Webhook Removal](t-6-dis-deleted.html)
