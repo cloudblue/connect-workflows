@@ -49,6 +49,7 @@
             "icon": "power",
             "objects":[
                 "api-tokens/object.json"
+                "webhooks/object.json"
             ]
         },
         "Hubs": {
