@@ -1,4 +1,4 @@
-# Webhook Objects
+# Webhooks
 ## Overview
 Webhooks represent objects on CloudBlue Connect that allow platform users to define HTTP callbacks. Such callbacks are triggered by your selected event within the system. Namely, your defined webhook can be triggered if your request or usage file queue is changed, in case your draft or inquiring requests require validation, and so on. Once your specified event is occurred, the webhook sends corresponding *GET* or *POST* request to your provided endpoint URL. Therefore, webhooks can drastically facilitate the communication between the Connect platform and any web application that can accept HTTP requests.
 
