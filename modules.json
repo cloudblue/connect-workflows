@@ -69,6 +69,13 @@
                 "listings-request/object.json"
             ]
         },
+        "Localization": {
+            "description": "Create and manage your translations and translation attributes within the CloudBlue Connect system.",
+            "icon": "translate",
+            "objects": [
+                "translations/object.json"
+            ]
+        },
         "Marketplaces": {
             "description": "Define and control assignment of Hubs and Accounts to the Marketplaces with the Marketplaces Management module.",
             "icon": "shopping_cart"
