@@ -1,0 +1,77 @@
+{
+    "name": "Translations",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-inactive",
+                "name": "Inactive",
+                "mapping": {
+                    "left": "32.69%",
+                    "top": "25.17%",
+                    "width": "22.05%",
+                    "height": "28.18%"
+                }
+            },
+            {
+                "id": "s-b-active",
+                "name": "Active",
+                "mapping": {
+                    "left": "78.08%",
+                    "top": "26.21%",
+                    "width": "19.21%",
+                    "height": "26.46%"
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-inactive",
+                "from": "New",
+                "to": "Inactive",
+                "name": "1. Translation Creation",
+                "mapping": {
+                    "left": "16.37%",
+                    "top": "27.5%",
+                    "width": "13.49%",
+                    "height": "11.05%"
+                }
+            },
+            {
+                "id": "t-2-in-active",
+                "from": "Inactive",
+                "to": "Active",
+                "name": "2. Translation Activation",
+                "mapping": {
+                    "left": "59.42%",
+                    "top": "27.69%",
+                    "width": "13.49%",
+                    "height": "11.05%"
+                }
+            },
+            {
+                "id": "t-3-act-inactive",
+                "from": "Active",
+                "to": "Inactive",
+                "name": "3. Translation Deactivation",
+                "mapping": {
+                    "left": "58.96%",
+                    "top": "0.43%",
+                    "width": "13.49%",
+                    "height": "11.05%"
+                }
+            },
+            {
+                "id": "t-4-in-deleted",
+                "from": "Inactive",
+                "to": "Deleted",
+                "name": "4. Translation Removal",
+                "mapping": {
+                    "left": "36.62%",
+                    "top": "63.47%",
+                    "width": "13.49%",
+                    "height": "11.05%"
+                }
+            }
+        ]
+    }

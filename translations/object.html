@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+</style>
+<meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type='text/javascript' src='http://davidlynch.org/projects/maphilight/jquery.maphilight.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.map').maphilight({ alwaysOn: true });
+            // uncomment this line for normal hover highlighting
+            // $('.map').maphilight();
+        });   
+    </script>
+</head>
+<body>
+
+<!-- Edit with https://summerstyle.github.io/summer/ below -->
+
+<img class="map" src="object.png" alt="" usemap="#map" />
+<map name="map">
+    <area shape="rect" coords="1386, 5, 1779, 169" href="t-3-act-inactive" />
+    <area shape="rect" coords="1424, 462, 1729, 619" href="t-2-in-active" />
+    <area shape="rect" coords="1879, 431, 2313, 862" href="s-b-active" />
+    <area shape="rect" coords="868, 1058, 1208, 1191" href="t-4-in-deleted" />
+    <area shape="rect" coords="768, 412, 1297, 861" href="s-a-inactive" />
+    <area shape="rect" coords="388, 469, 700, 615" href="t-1-new-inactive" />
+</map>
+
+<!-- Edit with https://summerstyle.github.io/summer/ above -->
+
+</body>
+</html>
