@@ -1,0 +1,101 @@
+{
+    "name": "Webhooks",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-disabled",
+                "name": "Disabled",
+                "mapping": {
+                    "left": "32.14%",
+                    "top": "43.52%",
+                    "width": "21.17%",
+                    "height": "25.34%"
+                }
+            },
+            {
+                "id": "s-b-enabled",
+                "name": "Enabled",
+                "mapping": {
+                    "left": "75.87%",
+                    "top": "43.86%",
+                    "width": "21.17%",
+                    "height": "25.34%"
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-disabled",
+                "from": "New",
+                "to": "Disabled",
+                "name": "1. Webhook Creation",
+                "mapping": {
+                    "left": "13.48%",
+                    "top": "45.24%",
+                    "width": "18.17%",
+                    "height": "10.32%"
+                }
+            },
+            {
+                "id": "t-2-dis-enabled",
+                "from": "Disabled",
+                "to": "Enabled",
+                "name": "2. Webhook Activation",
+                "mapping": {
+                    "left": "58.53%",
+                    "top": "45.3%",
+                    "width": "12.86%",
+                    "height": "10.32%"
+                }
+            },
+            {
+                "id": "t-3-enab-disabled",
+                "from": "Enabled",
+                "to": "Disabled",
+                "name": "3. Webhook Deactivation",
+                "mapping": {
+                    "left": "58.12%",
+                    "top": "19.84%",
+                    "width": "12.86%",
+                    "height": "10.32%"
+                }
+            },
+            {
+                "id": "t-4-new-enabled",
+                "from": "New",
+                "to": "Enabled",
+                "name": "4. Enabled Webhook Creation",
+                "mapping": {
+                    "left": "36.29%",
+                    "top": "0.17%",
+                    "width": "17.88%",
+                    "height": "10.32%"
+                }
+            },
+            {
+                "id": "t-5-dis-deleted",
+                "from": "Disabled",
+                "to": "Deleted",
+                "name": "5. Disabled Webhook Removal",
+                "mapping": {
+                    "left": "36.42%",
+                    "top": "83.37%",
+                    "width": "12.86%",
+                    "height": "10.32%"
+                }
+            },
+            {
+                "id": "t-6-enab-deleted",
+                "from": "Enabled",
+                "to": "Deleted",
+                "name": "6. Enabled Webhook Removal",
+                "mapping": {
+                    "left": "80.56%",
+                    "top": "83.54%",
+                    "width": "11.8%",
+                    "height": "10.32%"
+                }
+            }
+        ]
+    }
