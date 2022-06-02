@@ -1,0 +1,77 @@
+{
+    "name": "Translations",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-inactive",
+                "name": "Inactive",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-b-active",
+                "name": "Active",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-inactive",
+                "from": "New",
+                "to": "Inactive",
+                "name": "1. Translation Creation",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-2-in-active",
+                "from": "Inactive",
+                "to": "Active",
+                "name": "2. Translation Activation",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-3-act-inactive",
+                "from": "Active",
+                "to": "Inactive",
+                "name": "3. Translation Deactivation",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-4-in-deleted",
+                "from": "Inactive",
+                "to": "Deleted",
+                "name": "4. Translation Removal",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            }
+        ]
+    }
