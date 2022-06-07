@@ -1,0 +1,145 @@
+{
+    "name": "Domains",
+    "image": "object.png",
+    "readme": "object.md",
+    "statuses": [
+        {
+            "id": "s-a-verifying",
+            "name": "Verifying",
+            "mapping": {
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            }
+        },
+        {
+            "id": "s-b-verified",
+            "name": "Verified",
+            "mapping": {
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            }
+        },
+        {
+            "id": "s-c-rejected",
+            "name": "Rejected",
+            "mapping": {
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            }
+        },
+        {
+            "id": "s-d-failed",
+            "name": "Failed",
+            "mapping": {
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "id": "t-1-new-verifying",
+            "from": "New",
+            "to": "Verifying",
+            "name": "1. Domain Addition",
+            "mapping": {
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            }
+        },
+        {
+            "id": "t-2-ver-verified",
+            "from": "Verifying",
+            "to": "Verified",
+            "name": "2. Domain Verification",
+            "mapping": {
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            }
+        },
+        {
+            "id": "t-3-ver-verifying",
+            "from": "Verified",
+            "to": "Verifying",
+            "name": "3. Verified Domain Reverification",
+            "mapping": {
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            }
+        },
+        {
+            "id": "t-4-ver-rejected",
+            "from": "Verifying",
+            "to": "Rejected",
+            "name": "4. Verification Rejection",
+            "mapping": {
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            }
+        },
+        {
+            "id": "t-5-rejected-verifying",
+            "from": "Rejected",
+            "to": "Verifying",
+            "name": "5. Rejected Domain Reverification",
+            "mapping": {
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            }
+        },
+        {
+            "id": "t-6-ver-failed",
+            "from": "Verified",
+            "to": "Failed",
+            "name": "6. Verification Failure",
+            "mapping": {
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            }
+        },
+        {
+            "id": "t-7-failed-verifying",
+            "from": "Failed",
+            "to": "Verifying",
+            "name": "7. Domain Reverification",
+            "mapping": {
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            }
+        },
+        {
+            "id": "t-8-domain-deleted",
+            "from": "Verifying",
+            "to": "Deleted",
+            "name": "8. Domain Removal",
+            "mapping": {
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            }
+        }
+    ]
+}
