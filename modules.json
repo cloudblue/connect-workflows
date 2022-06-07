@@ -5,7 +5,7 @@
             "icon": "business",
             "objects": [
                 "users/object.json",
-                "sla-config/object.json"
+                "sla-config/object.json",
                 "domains/object.json"
             ]
         },
