@@ -6,6 +6,7 @@
             "objects": [
                 "users/object.json",
                 "sla-config/object.json"
+                "domains/object.json"
             ]
         },
         "Agreements": {
