@@ -7,40 +7,40 @@
             "id": "s-a-verifying",
             "name": "Verifying",
             "mapping": {
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
+                "left": "34.71%",
+                "top": "35.69%",
+                "width": "19.9%",
+                "height": "18.77%"
             }
         },
         {
             "id": "s-b-verified",
             "name": "Verified",
             "mapping": {
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
+                "left": "79.42%",
+                "top": "35.3%",
+                "width": "19.9%",
+                "height": "18.77%"
             }
         },
         {
             "id": "s-c-rejected",
             "name": "Rejected",
             "mapping": {
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
+                "left": "31.71%;",
+                "top": "0.51%;",
+                "width": "24.47%",
+                "height": "23.24%"
             }
         },
         {
             "id": "s-d-failed",
             "name": "Failed",
             "mapping": {
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
+                "left": "31.81%",
+                "top": "73.56%",
+                "width": "24.47%",
+                "height": "23.24%"
             }
         }
     ],
@@ -51,10 +51,10 @@
             "to": "Verifying",
             "name": "1. Domain Addition",
             "mapping": {
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
+                "left": "12.8%",
+                "top": "37.91%",
+                "width": "16.25%",
+                "height": "6.44%"
             }
         },
         {
@@ -63,10 +63,10 @@
             "to": "Verified",
             "name": "2. Domain Verification",
             "mapping": {
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
+                "left": "59.66%",
+                "top": "38.02%",
+                "width": "16.25%",
+                "height": "6.44%"
             }
         },
         {
@@ -75,10 +75,10 @@
             "to": "Verifying",
             "name": "3. Verified Domain Reverification",
             "mapping": {
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
+                "left": "59.79%",
+                "top": "57.59%",
+                "width": "16.25%",
+                "height": "6.44%"
             }
         },
         {
@@ -87,10 +87,10 @@
             "to": "Rejected",
             "name": "4. Verification Rejection",
             "mapping": {
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
+                "left": "12.66%",
+                "top": "15.49%",
+                "width": "16.25%",
+                "height": "6.44%"
             }
         },
         {
@@ -99,10 +99,10 @@
             "to": "Verifying",
             "name": "5. Rejected Domain Reverification",
             "mapping": {
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
+                "left": "60.14%",
+                "top": "15.69%",
+                "width": "16.25%",
+                "height": "6.44%"
             }
         },
         {
@@ -111,10 +111,10 @@
             "to": "Failed",
             "name": "6. Verification Failure",
             "mapping": {
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
+                "left": "40.17%",
+                "top": "61.46%",
+                "width": "11.67%",
+                "height": "6.44%"
             }
         },
         {
@@ -123,10 +123,10 @@
             "to": "Verifying",
             "name": "7. Domain Reverification",
             "mapping": {
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
+                "left": "26.28%",
+                "top": "61.66%",
+                "width": "11.67%",
+                "height": "6.44%"
             }
         },
         {
@@ -135,10 +135,10 @@
             "to": "Deleted",
             "name": "8. Domain Removal",
             "mapping": {
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
+                "left": "84.71%",
+                "top": "76.25%",
+                "width": "11.67%",
+                "height": "6.44%"
             }
         }
     ]
