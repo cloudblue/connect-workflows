@@ -8,7 +8,7 @@ It is also important to note that one Connect account can also include several v
 ## Prerequisites
 A domain object with the [Verifying](s-a-verifying.html) status.
 ## Transferable statuses
-In case your domain should be reverified, the system transfers the domain object back to the [Verifying](s-a-verifying.html) state.
+In case your domain should be reverified, the system transfers the domain object back to the [Verifying](s-a-verifying.html) state.  
 Verified domain objects can also be removed if necessary.
 ## Associated transitions
 * [Domain Verification](t-2-pend-inquiring.html)
