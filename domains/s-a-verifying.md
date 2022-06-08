@@ -10,12 +10,11 @@ Your added domain on the CloudBlue Connect platform.
 The system also allows reverifying domains and transfer such objects to the *Verifying* state again if necessary.
 
 ## Transferable statuses
-Once your domain is verified successfully, the system assigns the domain object to the [Verified](s-b-verified.html) state. 
-If the system cannot find required DNS record, your domain object is assigned to the [Verification Failed](s-d-failed.html) status.
+Once your domain is verified successfully, the system assigns the domain object to the [Verified](s-b-verified.html) state.  
+If the system cannot find required DNS record, your domain object is assigned to the [Verification Failed](s-d-failed.html) status.  
 In case your specified domain name fails to asnwer the system's query, your domain object is assigned to
-the [Verification Rejected](s-c-rejected.html) state.
+the [Verification Rejected](s-c-rejected.html) state.  
 Note that verifying domain objects can be removed if necessary.
-
 ## Associated transitions
 * [Domain Addition](t-1-new-pending.html)
 * [Domain Verification](t-2-pend-inquiring.html)
