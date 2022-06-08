@@ -6,7 +6,7 @@ In case of this error, please make sure that your specified domain name is corre
 ## Prerequisites
 A domain object with the [Verifying](s-a-verifying.html) status.
 ## Transferable statuses
-In case your domain should be reverified, the system transfers the domain object back to the [Verifying](s-a-verifying.html) state.
+In case your domain should be reverified, the system transfers the domain object back to the [Verifying](s-a-verifying.html) state.  
 Domain objects in this status can also be deleted if it is necessary.
 ## Associated transitions
 * [Verification Rejection](t-4-pend-resolved.html)
