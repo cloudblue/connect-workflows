@@ -7,30 +7,30 @@
                 "id": "s-a-enabled",
                 "name": "Enabled",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "26.63%",
+                    "top": "61.17%",
+                    "width": "16.4%",
+                    "height": "20.57%"
                 }
             },
             {
                 "id": "s-b-disabled",
                 "name": "Disabled",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "59.74%",
+                    "top": "61.53%",
+                    "width": "16.4%",
+                    "height": "20.57%"
                 }
             },
             {
                 "id": "s-c-blocked",
                 "name": "Blocked",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "56.69%",
+                    "top": "1%",
+                    "width": "16.31%",
+                    "height": "19.66%"
                 }
             }
         ],
@@ -41,10 +41,10 @@
                 "to": "Enabled",
                 "name": "1. New Template Addition",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "12.6%",
+                    "top": "63.89%",
+                    "width": "11.04%",
+                    "height": "6.71%"
                 }
             },
             {
@@ -53,10 +53,10 @@
                 "to": "Disabled",
                 "name": "2. Template Deactivation",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "46.8%",
+                    "top": "63.71%",
+                    "width": "8.36%",
+                    "height": "6.71%"
                 }
             },
             {
@@ -65,10 +65,10 @@
                 "to": "Enabled",
                 "name": "3. Template Reactivation",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "46.71%",
+                    "top": "92.71%",
+                    "width": "8.98%",
+                    "height": "6.71%"
                 }
             },
             {
@@ -77,10 +77,10 @@
                 "to": "Blocked",
                 "name": "4. Template is Blocked",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "46.46%",
+                    "top": "39.96%",
+                    "width": "8.98%",
+                    "height": "6.71%"
                 }
             },
             {
@@ -89,10 +89,10 @@
                 "to": "Blocked",
                 "name": "5. Disabled Template is Blocked",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "60.9%",
+                    "top": "39.92%",
+                    "width": "13.53%",
+                    "height": "6.71%"
                 }
             },
             {
@@ -101,10 +101,10 @@
                 "to": "Enabled",
                 "name": "6. Template is Unblocked",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "27.88%",
+                    "top": "40.14%",
+                    "width": "9.11%",
+                    "height": "6.71%"
                 }
             },
             {
@@ -113,10 +113,10 @@
                 "to": "Deleted",
                 "name": "7. Template Removal",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "76.3%",
+                    "top": "2.45%",
+                    "width": "9.11%",
+                    "height": "6.71%"
                 }
             }
         ]
