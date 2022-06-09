@@ -1,0 +1,123 @@
+{
+    "name": "Report Templates",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-enabled",
+                "name": "Enabled",
+                "mapping": {
+                    "left": "26.63%",
+                    "top": "61.17%",
+                    "width": "16.4%",
+                    "height": "20.57%"
+                }
+            },
+            {
+                "id": "s-b-disabled",
+                "name": "Disabled",
+                "mapping": {
+                    "left": "59.74%",
+                    "top": "61.53%",
+                    "width": "16.4%",
+                    "height": "20.57%"
+                }
+            },
+            {
+                "id": "s-c-blocked",
+                "name": "Blocked",
+                "mapping": {
+                    "left": "56.69%",
+                    "top": "1%",
+                    "width": "16.31%",
+                    "height": "19.66%"
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-enabled",
+                "from": "New",
+                "to": "Enabled",
+                "name": "1. New Template Addition",
+                "mapping": {
+                    "left": "12.6%",
+                    "top": "63.89%",
+                    "width": "11.04%",
+                    "height": "6.71%"
+                }
+            },
+            {
+                "id": "t-2-enabled-disabled",
+                "from": "Enabled",
+                "to": "Disabled",
+                "name": "2. Template Deactivation",
+                "mapping": {
+                    "left": "46.8%",
+                    "top": "63.71%",
+                    "width": "8.36%",
+                    "height": "6.71%"
+                }
+            },
+            {
+                "id": "t-3-disabled-enabled",
+                "from": "Disabled",
+                "to": "Enabled",
+                "name": "3. Template Reactivation",
+                "mapping": {
+                    "left": "46.71%",
+                    "top": "92.71%",
+                    "width": "8.98%",
+                    "height": "6.71%"
+                }
+            },
+            {
+                "id": "t-4-enabled-blocked",
+                "from": "Enabled",
+                "to": "Blocked",
+                "name": "4. Template is Blocked",
+                "mapping": {
+                    "left": "46.46%",
+                    "top": "39.96%",
+                    "width": "8.98%",
+                    "height": "6.71%"
+                }
+            },
+            {
+                "id": "t-5-disabled-blocked",
+                "from": "Disabled",
+                "to": "Blocked",
+                "name": "5. Disabled Template is Blocked",
+                "mapping": {
+                    "left": "60.9%",
+                    "top": "39.92%",
+                    "width": "13.53%",
+                    "height": "6.71%"
+                }
+            },
+            {
+                "id": "t-6-blocked-enabled",
+                "from": "Blocked",
+                "to": "Enabled",
+                "name": "6. Template is Unblocked",
+                "mapping": {
+                    "left": "27.88%",
+                    "top": "40.14%",
+                    "width": "9.11%",
+                    "height": "6.71%"
+                }
+            },
+            {
+                "id": "t-7-blocked-deleted",
+                "from": "Blocked",
+                "to": "Deleted",
+                "name": "7. Template Removal",
+                "mapping": {
+                    "left": "76.3%",
+                    "top": "2.45%",
+                    "width": "9.11%",
+                    "height": "6.71%"
+                }
+            }
+        ]
+    }
