@@ -4,7 +4,7 @@ The *Enabled* report template state indicates that your template is available fo
 
 Enabled report templates can be disabled and consequently be hidden from users. In addition, note that the system blocks enabled report templates in case their associated report repository is assigned to the *Failed* status.
 ## Prerequisites
-An added report repository that includes your report template is required to assign this template to the *Enabled* state.
+An added report repository that includes your report template is required to assign this template to the *Enabled* state.  
 Moreover, the system transfers your reactivated templates to this state from the [Disabled](s-b-disabled.html) and [Blocked](s-c-blocked.html) statuses.
 ## Transferable statuses
 Enabled report templates can be assigned to the [Disabled](s-b-disabled.html) status.  
