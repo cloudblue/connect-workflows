@@ -7,40 +7,40 @@
                 "id": "s-a-draft",
                 "name": "Draft",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "26.16%",
+                    "top": "2.51%",
+                    "width": "10.08%",
+                    "height": "27.59%"
                 }
             },
             {
                 "id": "s-b-ready",
                 "name": "Ready",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "56.26%",
+                    "top": "1.52%",
+                    "width": "10.81%",
+                    "height": "30.43%"
                 }
             },
             {
                 "id": "s-c-closed",
                 "name": "Closed",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "86.56%",
+                    "top": "1.38%",
+                    "width": "11.51%",
+                    "height": "28.51%"
                 }
             },
             {
                 "id": "s-d-failed",
                 "name": "Failed",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "26.37%%",
+                    "top": "66.2%",
+                    "width": "10.4%",
+                    "height": "27.59%"
                 }
             }
         ],
@@ -51,10 +51,10 @@
                 "to": "Draft",
                 "name": "1. Draft Creation",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "12.93%",
+                    "top": "4.29%",
+                    "width": "7.63%",
+                    "height": "9.83%"
                 }
             },
             {
@@ -63,10 +63,10 @@
                 "to": "Ready",
                 "name": "2. Successful Chunk Processing",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "41.4%",
+                    "top": "4.75%",
+                    "width": "10.4%",
+                    "height": "7.72%"
                 }
             },
             {
@@ -75,10 +75,10 @@
                 "to": "Closed",
                 "name": "3. Usage File Chunk Closure",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "71.4%",
+                    "top": "4.15%",
+                    "width": "10.81%",
+                    "height": "10.5%"
                 }
             },
             {
@@ -87,10 +87,10 @@
                 "to": "Failed",
                 "name": "4. Chunk Creation Failure",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "26.4%",
+                    "top": "44.09%",
+                    "width": "10.4%",
+                    "height": "7.72%"
                 }
             }
         ]
