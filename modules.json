@@ -136,6 +136,7 @@
             "icon": "assessment",
             "objects": [
                 "usage-files/object.json",
+                "usage-chunks/object.json",
                 "usage-records/object.json"
             ]
         }
