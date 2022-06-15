@@ -92,7 +92,7 @@
             "icon": "attach_money",
             "objects": [
                 "price-lists/object.json",
-                "price-list-versions/object.json
+                "price-list-versions/object.json"
             ]
         },
         "Products": {
