@@ -91,7 +91,8 @@
             "description": "Set, manage, and update the pricing of your products and items with the Pricing Management module.",
             "icon": "attach_money",
             "objects": [
-                "price-lists/object.json"
+                "price-lists/object.json",
+                "price-list-versions/object.json"
             ]
         },
         "Products": {

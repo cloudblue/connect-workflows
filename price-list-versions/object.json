@@ -1,0 +1,156 @@
+{
+    "name": "Price List Versions",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-pending",
+                "name": "Pending",
+                "mapping": {
+                    "left": "24.56%",
+                    "top": "41.34%",
+                    "width": "14.22%",
+                    "height": "18.06%"
+                }
+            },
+            {
+                "id": "s-b-draft",
+                "name": "Draft",
+                "mapping": {
+                    "left": "54.84%",
+                    "top": "40.95%",
+                    "width": "12.27%",
+                    "height": "18.06%"
+                }
+            },
+            {
+                "id": "s-c-active",
+                "name": "Active",
+                "mapping": {
+                    "left": "84.87%",
+                    "top": "40.99%",
+                    "width": "12.27%",
+                    "height": "18.06%"
+                }
+            },
+            {
+                "id": "s-d-scheduled",
+                "name": "Scheduled",
+                "mapping": {
+                    "left": "52.41%",
+                    "top": "0%",
+                    "width": "18.33%",
+                    "height": "18.06%"
+                }
+            },
+            {
+                "id": "s-e-expired",
+                "name": "Expired",
+                "mapping": {
+                    "left": "84.5%",
+                    "top": "79.2%",
+                    "width": "13.23%",
+                    "height": "18.06%"
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-pending",
+                "from": "New",
+                "to": "Pending",
+                "name": "1. Version Creation",
+                "mapping": {
+                    "left": "11.7%",
+                    "top": "42.88%",
+                    "width": "9.86%",
+                    "height": "6.96%"
+                }
+            },
+            {
+                "id": "t-2-pend-draft",
+                "from": "Pending",
+                "to": "Draft",
+                "name": "2. Draft Processing",
+                "mapping": {
+                    "left": "40.96%",
+                    "top": "42.73%",
+                    "width": "9.86%",
+                    "height": "6.96%"
+                }
+            },
+            {
+                "id": "t-3-draft-active",
+                "from": "Draft",
+                "to": "Active",
+                "name": "3. Version Activation",
+                "mapping": {
+                    "left": "71.25%",
+                    "top": "42.61%",
+                    "width": "9.86%",
+                    "height": "6.96%"
+                }
+            },
+            {
+                "id": "t-4-draft-scheduled",
+                "from": "Draft",
+                "to": "Scheduled",
+                "name": "4. Activation is Scheduled",
+                "mapping": {
+                    "left": "48.44%",
+                    "top": "26.76%",
+                    "width": "9.86%",
+                    "height": "6.96%"
+                }
+            },
+            {
+                "id": "t-5-scheduled-draft",
+                "from": "Scheduled",
+                "to": "Draft",
+                "name": "5. Activation is Unscheduled",
+                "mapping": {
+                    "left": "64.36%",
+                    "top": "26.95%",
+                    "width": "9.86%",
+                    "height": "6.96%"
+                }
+            },
+            {
+                "id": "t-6-scheduled-active",
+                "from": "Scheduled",
+                "to": "Active",
+                "name": "6. Scheduled Version Activation",
+                "mapping": {
+                    "left": "86.01%",
+                    "top": "4.79%",
+                    "width": "9.86%",
+                    "height": "6.96%"
+                }
+            },
+            {
+                "id": "t-7-active-expired",
+                "from": "Draft",
+                "to": "Deleted",
+                "name": "7. Version Expiration",
+                "mapping": {
+                    "left": "86.26%",
+                    "top": "66.4%",
+                    "width": "9.86%",
+                    "height": "6.96%"
+                }
+            },
+            {
+                "id": "t-8-draft-deleted",
+                "from": "Draft",
+                "to": "Deleted",
+                "name": "8. Draft Removal",
+                "mapping": {
+                    "left": "56.46%",
+                    "top": "66.55%",
+                    "width": "9.86%",
+                    "height": "6.96%"
+                }
+            }
+        ]
+    }
+    
