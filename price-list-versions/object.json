@@ -1,0 +1,156 @@
+{
+    "name": "Price List Versions",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-pending",
+                "name": "Pending",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-b-draft",
+                "name": "Draft",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-c-active",
+                "name": "Active",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-d-scheduled",
+                "name": "Scheduled",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-e-expired",
+                "name": "Expired",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-pending",
+                "from": "New",
+                "to": "Pending",
+                "name": "1. Version Creation",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-2-pend-draft",
+                "from": "Pending",
+                "to": "Draft",
+                "name": "2. Draft Processing",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-3-draft-active",
+                "from": "Draft",
+                "to": "Active",
+                "name": "3. Version Activation",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-4-draft-scheduled",
+                "from": "Draft",
+                "to": "Scheduled",
+                "name": "4. Activation is Scheduled",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-5-scheduled-draft",
+                "from": "Scheduled",
+                "to": "Draft",
+                "name": "5. Activation is Unscheduled",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-6-scheduled-active",
+                "from": "Scheduled",
+                "to": "Active",
+                "name": "6. Scheduled Version Activation",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-7-active-expired",
+                "from": "Draft",
+                "to": "Deleted",
+                "name": "7. Version Expiration",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-8-draft-deleted",
+                "from": "Draft",
+                "to": "Deleted",
+                "name": "8. Draft Removal",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            }
+        ]
+    }
+    
