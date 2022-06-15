@@ -7,50 +7,50 @@
                 "id": "s-a-pending",
                 "name": "Pending",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "24.56%",
+                    "top": "41.34%",
+                    "width": "14.22%",
+                    "height": "18.06%"
                 }
             },
             {
                 "id": "s-b-draft",
                 "name": "Draft",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "54.84%",
+                    "top": "40.95%",
+                    "width": "12.27%",
+                    "height": "18.06%"
                 }
             },
             {
                 "id": "s-c-active",
                 "name": "Active",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "84.87%",
+                    "top": "40.99%",
+                    "width": "12.27%",
+                    "height": "18.06%"
                 }
             },
             {
                 "id": "s-d-scheduled",
                 "name": "Scheduled",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "52.41%",
+                    "top": "0%",
+                    "width": "18.33%",
+                    "height": "18.06%"
                 }
             },
             {
                 "id": "s-e-expired",
                 "name": "Expired",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "84.5%",
+                    "top": "79.2%",
+                    "width": "13.23%",
+                    "height": "18.06%"
                 }
             }
         ],
@@ -61,10 +61,10 @@
                 "to": "Pending",
                 "name": "1. Version Creation",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "11.7%",
+                    "top": "42.88%",
+                    "width": "9.86%",
+                    "height": "6.96%"
                 }
             },
             {
@@ -73,10 +73,10 @@
                 "to": "Draft",
                 "name": "2. Draft Processing",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "40.96%",
+                    "top": "42.73%",
+                    "width": "9.86%",
+                    "height": "6.96%"
                 }
             },
             {
@@ -85,10 +85,10 @@
                 "to": "Active",
                 "name": "3. Version Activation",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "71.25%",
+                    "top": "42.61%",
+                    "width": "9.86%",
+                    "height": "6.96%"
                 }
             },
             {
@@ -97,10 +97,10 @@
                 "to": "Scheduled",
                 "name": "4. Activation is Scheduled",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "48.44%",
+                    "top": "26.76%",
+                    "width": "9.86%",
+                    "height": "6.96%"
                 }
             },
             {
@@ -109,10 +109,10 @@
                 "to": "Draft",
                 "name": "5. Activation is Unscheduled",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "64.36%",
+                    "top": "26.95%",
+                    "width": "9.86%",
+                    "height": "6.96%"
                 }
             },
             {
@@ -121,10 +121,10 @@
                 "to": "Active",
                 "name": "6. Scheduled Version Activation",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "86.01%",
+                    "top": "4.79%",
+                    "width": "9.86%",
+                    "height": "6.96%"
                 }
             },
             {
@@ -133,10 +133,10 @@
                 "to": "Deleted",
                 "name": "7. Version Expiration",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "86.26%",
+                    "top": "66.4%",
+                    "width": "9.86%",
+                    "height": "6.96%"
                 }
             },
             {
@@ -145,10 +145,10 @@
                 "to": "Deleted",
                 "name": "8. Draft Removal",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "56.46%",
+                    "top": "66.55%",
+                    "width": "9.86%",
+                    "height": "6.96%"
                 }
             }
         ]
