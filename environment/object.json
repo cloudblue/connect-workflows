@@ -7,80 +7,80 @@
                 "id": "s-a-uninitialized",
                 "name": "Uninitialized",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "17.59%",
+                    "top": "38.54%",
+                    "width": "16.82%",
+                    "height": "14.21%"
                 }
             },
             {
                 "id": "s-b-deploying",
                 "name": "Deploying",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "45.25%",
+                    "top": "38.23%",
+                    "width": "13.79%",
+                    "height": "14.66%"
                 }
             },
             {
                 "id": "s-c-running",
                 "name": "Running",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "72%",
+                    "top": "38.54%",
+                    "width": "11.92%",
+                    "height": "14.52%"
                 }
             },
             {
                 "id": "s-d-stopping",
                 "name": "Stopping",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "71.64%",
+                    "top": "4.07%",
+                    "width": "12.74%",
+                    "height": "15.42%"
                 }
             },
             {
                 "id": "s-e-stopped",
                 "name": "Stopped",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "46.26%",
+                    "top": "3.97%",
+                    "width": "11.75%",
+                    "height": "15.6%"
                 }
             },
             {
                 "id": "s-f-connected",
                 "name": "Connected",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "44.1%",
+                    "top": "71.76%",
+                    "width": "15.55%",
+                    "height": "14.87%"
                 }
             },
             {
                 "id": "s-g-disconnected",
                 "name": "Disconnected",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "69.04%",
+                    "top": "72.25%",
+                    "width": "18.12%",
+                    "height": "14.66%"
                 }
             },
             {
                 "id": "s-h-errored",
                 "name": "Errored",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "19.83%",
+                    "top": "72.18%",
+                    "width": "11.66%",
+                    "height": "13.93%"
                 }
             }
         ],
@@ -91,10 +91,10 @@
                 "to": "Uninitialized",
                 "name": "1. Environment Creation",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "9.61%",
+                    "top": "39.52%",
+                    "width": "7.76%",
+                    "height": "4.94%"
                 }
             },
             {
@@ -103,10 +103,10 @@
                 "to": "Deploying",
                 "name": "2. Environment Deployment",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "34.66%",
+                    "top": "38.82%",
+                    "width": "7.62%",
+                    "height": "6.27%"
                 }
             },
             {
@@ -115,10 +115,10 @@
                 "to": "Running",
                 "name": "3. Cloud Environment Launch",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "59.36%",
+                    "top": "39.24%",
+                    "width": "10.89%",
+                    "height": "5.15%"
                 }
             },
             {
@@ -127,10 +127,10 @@
                 "to": "Stopping",
                 "name": "4. Stopping Cloud Environment",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "74.21%",
+                    "top": "27.19%",
+                    "width": "7.59%",
+                    "height": "5.26%"
                 }
             },
             {
@@ -139,10 +139,10 @@
                 "to": "Stopped",
                 "name": "5. Cloud Environment is Stopped",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "60.58%",
+                    "top": "6.37%",
+                    "width": "8%",
+                    "height": "5.33%"
                 }
             },
             {
@@ -151,10 +151,10 @@
                 "to": "Deploying",
                 "name": "6. Cloud Environment Restart",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "47.58%",
+                    "top": "27.19%",
+                    "width": "7.69%",
+                    "height": "4.91%"
                 }
             },
             {
@@ -163,10 +163,10 @@
                 "to": "Connected",
                 "name": "7. Local Environment Connection",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "45.28%",
+                    "top": "61.1%",
+                    "width": "12.21%",
+                    "height": "5.15%"
                 }
             },
             {
@@ -175,10 +175,10 @@
                 "to": "Disconnected",
                 "name": "8. Local Environment Disconnection",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "60.42%",
+                    "top": "72.77%",
+                    "width": "8.29%",
+                    "height": "6.27%"
                 }
             },
             {
@@ -187,10 +187,10 @@
                 "to": "Deploying",
                 "name": "9. Local Environment Reconnection",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "60.78%",
+                    "top": "61.31%",
+                    "width": "9.25%",
+                    "height": "4.87%"
                 }
             },
             {
@@ -199,10 +199,10 @@
                 "to": "Deploying",
                 "name": "10. Local Environment Switch",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "74.4%",
+                    "top": "61.35%",
+                    "width": "10.6%",
+                    "height": "4.84%"
                 }
             },
             {
@@ -211,10 +211,10 @@
                 "to": "Errored",
                 "name": "11. Environment Launch Error",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "32.2%",
+                    "top": "60.65%",
+                    "width": "8.82%",
+                    "height": "5.26%"
                 }
             },
             {
@@ -223,10 +223,10 @@
                 "to": "Deploying",
                 "name": "12. Environment Relaunch",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "19.37%",
+                    "top": "60.58%",
+                    "width": "8.48%",
+                    "height": "5.29%"
                 }
             },
             {
@@ -235,10 +235,10 @@
                 "to": "Disconnected",
                 "name": "13. Errored Environment Switch",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "48.23%",
+                    "top": "92.76%",
+                    "width": "7.07%",
+                    "height": "6.27%"
                 }
             },
             {
@@ -247,10 +247,10 @@
                 "to": "Disconnected",
                 "name": "14. Cloud Environment Switch",
                 "mapping": {
-                    "left": "",
-                    "top": "",
-                    "width": "",
-                    "height": ""
+                    "left": "90.87%",
+                    "top": "40.81%",
+                    "width": "6.49%",
+                    "height": "6.27%"
                 }
             }
         ]
