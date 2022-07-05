@@ -2,7 +2,7 @@
 ## Description
 Once your environment is successfully deployed in the *Cloud* mode, the system assigns the *Running* status to this environment. In general, it is required to specify a git repository with your extension and a version tag for deploying such environments. Therefore, your extension will be available and will be running in the Cloud. 
 
-The system will display performance stats (CPU, memory, and network) and task metrics (timing, processing, and total) for your *cloud* environment. Environment variables, tasks queues, and schedules can also be managed once this environment is assigned to the *Running* state,
+The system will display performance stats (CPU, memory, and network) and task metrics (timing, processing, and total) for your *cloud* environment. Environment variables, tasks queues, and schedules can also be managed once this environment is assigned to the *Running* state.
 
 Note that the system doesn't allow removing extensions on the CloudBlue Connect platform in case at least one of your environments has this status.
 
