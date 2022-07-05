@@ -1,0 +1,257 @@
+{
+    "name": "Environments",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-uninitialized",
+                "name": "Uninitialized",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-b-deploying",
+                "name": "Deploying",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-c-running",
+                "name": "Running",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-d-stopping",
+                "name": "Stopping",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-e-stopped",
+                "name": "Stopped",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-f-connected",
+                "name": "Connected",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-g-disconnected",
+                "name": "Disconnected",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "s-h-errored",
+                "name": "Errored",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-uninitialized",
+                "from": "New",
+                "to": "Uninitialized",
+                "name": "1. Environment Creation",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-2-uninit-deploying",
+                "from": "Uninitialized",
+                "to": "Deploying",
+                "name": "2. Environment Deployment",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-3-deploy-running",
+                "from": "Deploying",
+                "to": "Running",
+                "name": "3. Cloud Environment Launch",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-4-running-stopping",
+                "from": "Running",
+                "to": "Stopping",
+                "name": "4. Stopping Cloud Environment",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-5-stopping-stopped",
+                "from": "Stopping",
+                "to": "Stopped",
+                "name": "5. Cloud Environment is Stopped",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-6-stopped-deploying",
+                "from": "Stopped",
+                "to": "Deploying",
+                "name": "6. Cloud Environment Restart",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-7-deploy-connected",
+                "from": "Deploying",
+                "to": "Connected",
+                "name": "7. Local Environment Connection",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-8-connected-disconnected",
+                "from": "Connected",
+                "to": "Disconnected",
+                "name": "8. Local Environment Disconnection",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-9-disco-deploying",
+                "from": "Disconnected",
+                "to": "Deploying",
+                "name": "9. Local Environment Reconnection",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-10-disco-deploying",
+                "from": "Disconnected",
+                "to": "Deploying",
+                "name": "10. Local Environment Switch",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-11-deploy-errored",
+                "from": "Deploying",
+                "to": "Errored",
+                "name": "11. Environment Launch Error",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-12-error-deploying",
+                "from": "Errored",
+                "to": "Deploying",
+                "name": "12. Environment Relaunch",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-13-error-disconnected",
+                "from": "Errored",
+                "to": "Disconnected",
+                "name": "13. Errored Environment Switch",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            },
+            {
+                "id": "t-14-stopped-disconnected",
+                "from": "Stopped",
+                "to": "Disconnected",
+                "name": "14. Cloud Environment Switch",
+                "mapping": {
+                    "left": "",
+                    "top": "",
+                    "width": "",
+                    "height": ""
+                }
+            }
+        ]
+    }

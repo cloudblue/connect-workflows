@@ -1,0 +1,49 @@
+<html>
+<head>
+<style>
+</style>
+<meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type='text/javascript' src='http://davidlynch.org/projects/maphilight/jquery.maphilight.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.map').maphilight({ alwaysOn: true });
+            // uncomment this line for normal hover highlighting
+            // $('.map').maphilight();
+        });   
+    </script>
+</head>
+<body>
+
+<!-- Edit with https://summerstyle.github.io/summer/ below -->
+
+<img class="map" src="object.png" alt="" usemap="#map" />
+<map name="map">
+    <area shape="rect" coords="3752, 1078, 4085, 1409" href="t-14-stopped-disconnected" />
+    <area shape="rect" coords="3089, 761, 3394, 917" href="t-4-running-stopping" />
+    <area shape="rect" coords="2955, 61, 3502, 577" href="s-d-stopping" />
+    <area shape="rect" coords="2525, 154, 2912, 320" href="t-5-stopping-stopped" />
+    <area shape="rect" coords="1865, 92, 2432, 589" href="s-e-stopped" />
+    <area shape="rect" coords="1966, 756, 2338, 939" href="t-6-stopped-deploying" />
+    <area shape="rect" coords="745, 2041, 1376, 2489" href="s-h-errored" />
+    <area shape="rect" coords="1894, 2595, 2401, 2825" href="t-13-error-disconnected" />
+    <area shape="rect" coords="2873, 1990, 3663, 2485" href="s-g-disconnected" />
+    <area shape="rect" coords="2523, 2043, 2861, 2266" href="t-8-connected-disconnected" />
+    <area shape="rect" coords="1781, 2043, 2480, 2499" href="s-f-connected" />
+    <area shape="rect" coords="3068, 1719, 3538, 1899" href="t-10-disco-deploying" />
+    <area shape="rect" coords="2523, 1741, 2993, 1894" href="t-9-disco-deploying" />
+    <area shape="rect" coords="1897, 1729, 2432, 1889" href="t-7-deploy-connected" />
+    <area shape="rect" coords="1304, 1748, 1729, 1911" href="t-11-deploy-errored" />
+    <area shape="rect" coords="752, 1743, 1201, 1894" href="t-12-error-deploying" />
+    <area shape="rect" coords="2945, 1078, 3553, 1529" href="s-c-running" />
+    <area shape="rect" coords="2463, 1085, 2931, 1342" href="t-3-deploy-running" />
+    <area shape="rect" coords="1856, 1071, 2453, 1558" href="s-b-deploying" />
+    <area shape="rect" coords="1441, 1121, 1786, 1307" href="t-2-uninit-deploying" />
+    <area shape="rect" coords="721, 1090, 1431, 1535" href="s-a-uninitialized" />
+    <area shape="rect" coords="370, 1137, 729, 1292" href="t-1-new-uninitialized" />
+</map>
+
+<!-- Edit with https://summerstyle.github.io/summer/ above -->
+
+</body>
+</html>
