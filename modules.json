@@ -37,6 +37,13 @@
                 "tier-account-requests/object.json"
             ]
         },
+        "DevOps": {
+            "description": "Automate operations and manage your extensions with the DevOps module.",
+            "icon": "electrical_services",
+            "objects": [
+                "environment/object.json"
+            ]
+        },
         "Helpdesk": {
             "description": "Resolve your issues faster.",
             "icon": "forum",
