@@ -7,7 +7,7 @@ Environment objects are generated for a specific extension that is added and man
 * __Production__: This environment represents end-user or client system.
 
 All environments can be deployed on the Connect-managed infrastructure (*Cloud mode*) or custom infrastructure (*Local mode*). The *Cloud* mode is used for your extension source code delivery and its version management. This mode requires to specify your Git repository with your extension.  
-The *Local* mode, as the name implies, is used to develop and deploy required middleware locally.
+The *Local* mode, as the name implies, is used to manage and deploy required middleware locally.
 
 ## Learn more
 For more information on the environment management, refer to the [DevOps module](https://connect.cloudblue.com/community/modules/devops/) documentation.
