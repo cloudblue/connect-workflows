@@ -1,6 +1,7 @@
 {
     "name": "SLA Settings",
     "image": "object.png",
+    "readme": "object.md",
     "statuses": [
         {
             "id": "s-a-disabled",
