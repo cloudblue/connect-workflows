@@ -1,0 +1,121 @@
+{
+    "name": "Billing Batches",
+    "image": "object.png",
+    "readme": "object.md",
+        "statuses": [
+            {
+                "id": "s-a-draft",
+                "name": "Draft",
+                "mapping": {
+                    "left": "25.59%",
+                    "top": "27.16%",
+                    "width": "10.52%",
+                    "height": "16.18%"
+                }
+            },
+            {
+                "id": "s-b-processing",
+                "name": "Processing",
+                "mapping": {
+                    "left": "51.43%",
+                    "top": "26.84%",
+                    "width": "17.97%",
+                    "height": "16.94%"
+                }
+            },
+            {
+                "id": "s-c-published",
+                "name": "Published",
+                "mapping": {
+                    "left": "81.2%",
+                    "top": "0.99%",
+                    "width": "17.97%",
+                    "height": "16.94%"
+                }
+            },
+            {
+                "id": "s-d-failed",
+                "name": "Failed",
+                "mapping": {
+                    "left": "80.79%",
+                    "top": "57.65%",
+                    "width": "17.97%",
+                    "height": "16.94%"
+                }
+            }
+        ],
+        "transitions": [
+            {
+                "id": "t-1-new-draft",
+                "from": "New",
+                "to": "Draft",
+                "name": "1. Batch Creation",
+                "mapping": {
+                    "left": "9.58%",
+                    "top": "28.3%",
+                    "width": "9.59%",
+                    "height": "7.24%"
+                }
+            },
+            {
+                "id": "t-2-draft-proc",
+                "from": "Draft",
+                "to": "Processing",
+                "name": "2. Batch Processing",
+                "mapping": {
+                    "left": "38.97%",
+                    "top": "28.78%",
+                    "width": "11.12%",
+                    "height": "7.24%"
+                }
+            },
+            {
+                "id": "t-3-proc-pub",
+                "from": "Processing",
+                "to": "Published",
+                "name": "3. Batch Publication",
+                "mapping": {
+                    "left": "55.3%",
+                    "top": "4.37%",
+                    "width": "11.12%",
+                    "height": "7.24%"
+                }
+            },
+            {
+                "id": "t-4-proc-failed",
+                "from": "Processing",
+                "to": "Failed",
+                "name": "4. Batch Publication Failure",
+                "mapping": {
+                    "left": "55.3%",
+                    "top": "61.06%",
+                    "width": "11.12%",
+                    "height": "7.24%"
+                }
+            },
+            {
+                "id": "t-5-draft-fail-deleted",
+                "from": "Draft",
+                "to": "Deleted",
+                "name": "5. Batch Removal",
+                "mapping": {
+                    "left": "25.36%",
+                    "top": "75.22%",
+                    "width": "11.12%",
+                    "height": "7.24%"
+                }
+            },
+            {
+                "id": "t-6-fail-proc",
+                "from": "Failed",
+                "to": "Processig",
+                "name": "6. Batch Reprocessing",
+                "mapping": {
+                    "left": "84.04%",
+                    "top": "30.68%",
+                    "width": "11.12%",
+                    "height": "7.24%"
+                }
+            }
+        ]
+    }
