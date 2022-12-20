@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+</style>
+<meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type='text/javascript' src='http://davidlynch.org/projects/maphilight/jquery.maphilight.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.map').maphilight({ alwaysOn: true });
+            // uncomment this line for normal hover highlighting
+            // $('.map').maphilight();
+        });   
+    </script>
+</head>
+<body>
+
+<!-- Edit with https://summerstyle.github.io/summer/ below -->
+
+<img class="map" src="object.png" alt="" usemap="#map" />
+<map name="map">
+    <area shape="rect" coords="3109, 779, 3442, 960" href="t-6-fail-proc" />
+    <area shape="rect" coords="2938, 14, 3600, 479" href="s-c-published" />
+    <area shape="rect" coords="2040, 107, 2406, 289" href="t-3-proc-pub" />
+    <area shape="rect" coords="1445, 698, 1821, 884" href="t-2-draft-proc" />
+    <area shape="rect" coords="1892, 677, 2539, 1123" href="s-b-processing" />
+    <area shape="rect" coords="2020, 1510, 2441, 1714" href="t-4-proc-failed" />
+    <area shape="rect" coords="3041, 1447, 3495, 1877" href="s-d-failed" />
+    <area shape="rect" coords="964, 1866, 1304, 2090" href="t-5-draft-fail-deleted" />
+    <area shape="rect" coords="872, 671, 1330, 1139" href="s-a-draft" />
+    <area shape="rect" coords="332, 720, 718, 879" href="t-1-new-draft" />
+    </map>
+
+<!-- Edit with https://summerstyle.github.io/summer/ above -->
+
+</body>
+</html>

@@ -19,6 +19,13 @@
             "description": "View, enroll, test and manage the portfolio of products with the Catalog Management module",
             "icon": "import_contacts"
         },
+        "Commerce": {
+            "description": "Access and manage billing streams, price lists and other data streams.",
+            "icon": "point_of_sale",
+            "objects": [
+                "billing-batches/object.json"
+                ]
+        },
         "Contracts": {
             "description": "Create and manage contracts with your partners with the Contracts Management module.",
             "icon": "business_center",
